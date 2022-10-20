@@ -296,6 +296,43 @@ class Database:
 
 
 
+    def getAllCitiesInfo(self):
+        """
+        create table if not exists Cities(
+            Id integer,
+            CityCode text,
+            CountryId integer,
+            DescriptionES text,
+            DescriptionEN text,
+            DescriptionPT text,
+            Latitude double,
+            Longitude double,
+            ProvinceId text,
+            IsSearchable integer,
+            IsSearchableBus integer,
+            TimeZone text
+        """
+        total = []
+        try:
+            self.conexion = self.getConect()
+            cursor = self.conexion.execute("select * from Cities")
+            fila=cursor.fetchall()
+            for i in fila:
+                Id = i[0]
+                CityCode = i[1]
+                CountryId = i[2]
+                Latitude = i[6]
+                Longitude = i[7]
+                json = {"Id":Id,"CityCode":CityCode,"CountryId":CountryId,"Latitude":Latitude,"Longitude":Longitude}
+                total.append(json)
+            cursor.close()
+        except:
+            pass
+
+        return total
+
+
+
 
 
 

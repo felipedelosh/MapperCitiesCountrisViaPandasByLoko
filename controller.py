@@ -31,6 +31,9 @@ class Controller:
         self.saveMetadata("READ/turismoi.txt", self.dataTurimoi.metadataReading)
 
     def saveFiles(self):
+        # Save a countries info:
+        data = self.database.getAllCitiesInfo()
+        self.saveArrayJson("OUTPUT/DATABASE/cities.txt", data)
         # Save a turismoi database info:
         data = self.database.getAllTurismoiInfo()
         self.saveArrayJson("OUTPUT/DATABASE/turismoi.txt", data)
