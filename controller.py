@@ -6,10 +6,10 @@ FelipedelosH
 """
 import os
 from os import scandir
+from Database import *
 
 class Controller:
     def __init__(self) -> None:
-        print("Gretting from Controller")
         pass
 
     def rtnArcheveInfo(self, path):
