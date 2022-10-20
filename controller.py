@@ -8,6 +8,7 @@ import os
 from os import scandir
 from Database import *
 from Turismoi import *
+from Geography import *
 
 class Controller:
     def __init__(self) -> None:
@@ -15,10 +16,15 @@ class Controller:
         self.database.initDatabase()
         self.saveMetadata("DATABASE/dbCreate.txt", self.database.metadata)
         self.dataTurimoi = TurismoiDATA()
+        self.geography = Geografy()
         self.consoleTXT = ""
 
     def loadFiles(self):
-        total_data_turismoi = self.database.getTotalRowsOfTableX("turismoi")
+        data_cities  = self.rtnArcheveInfo("RESOURCES/Cities.csv")
+        self.geography.insertInfoCities(data_cities)
+        self.saveMetadata("DATABASE/dbInsertCities.txt", self.geography.metadata)
+
+
         data_turismoi = self.rtnArcheveInfo("DATA/turismoi.csv")
         self.dataTurimoi.chargeInfoInDatabase(data_turismoi)
         self.saveMetadata("DATABASE/dbInsertTurismoi.txt", self.dataTurimoi.metadata)

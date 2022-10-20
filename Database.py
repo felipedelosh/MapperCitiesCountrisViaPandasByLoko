@@ -18,6 +18,30 @@ class Database:
     def initDatabase(self):
         try:
             sql = """
+            create table if not exists Cities(
+                Id integer,
+                CityCode text,
+                CountryId integer,
+                DescriptionES text,
+                DescriptionEN text,
+                DescriptionPT text,
+                Latitude double,
+                Longitude double,
+                ProvinceId text,
+                IsSearchable integer,
+                IsSearchableBus integer,
+                TimeZone text
+            )
+            """
+            con = self.getConect()
+            con.execute(sql)
+            con.close()
+            self.metadata[str(self.counter)] = "Create Table: Cities"
+        except:
+            self.metadata[str(self.counter)] = "Error creating Table: Cities"
+        self.counter = self.counter + 1
+        try:
+            sql = """
             create table if not exists turismoi(
                 id text primary key,
                 ID_country text,
@@ -47,6 +71,80 @@ class Database:
         except:
             self.metadata[str(self.counter)] = "Error creating Table: turismoi"
         self.counter = self.counter + 1
+
+
+    def insertInfoCities(self, txt):
+        """
+        Id integer,
+        CityCode text,
+        CountryId integer,
+        DescriptionES text,
+        DescriptionEN text,
+        DescriptionPT text,
+        Latitude double,
+        Longitude double,
+        ProvinceId text,
+        textIsSearchable integer,
+        IsSearchableBus integer,
+        TimeZone text
+        """
+        self.conexion = self.getConect()
+        count_insert_ok = 0
+        count_insert_fail = 0
+        for i in txt.split("\n")[1:-1]:
+            try:
+                data = i.split("|")
+                Id = data[0]
+                Id = int(Id)
+                CityCode = data[1]
+                CityCode = str(CityCode).replace("\"", "")
+                CountryId = data[2]
+                CountryId = int(CountryId)
+                DescriptionES = data[3]
+                DescriptionEN = data[4]
+                DescriptionPT = data[5]
+                Latitude = data[6]
+                Latitude = float(Latitude)
+                Longitude = data[7]
+                Longitude = float(Longitude)
+                ProvinceId = data[8]
+                IsSearchable = data[9]
+                IsSearchable = int(IsSearchable)
+                IsSearchableBus = data[10]
+                IsSearchableBus = int(IsSearchableBus)
+                TimeZone = data[11]
+                
+                self.conexion.execute("insert into Cities (Id,CityCode,CountryId,DescriptionES,DescriptionEN,DescriptionPT,Latitude,Longitude,ProvinceId,IsSearchable,IsSearchableBus,TimeZone) values (?,?,?,?,?,?,?,?,?,?,?,?)",(Id,CityCode,CountryId,DescriptionES,DescriptionEN,DescriptionPT,Latitude,Longitude,ProvinceId,IsSearchable,IsSearchableBus,TimeZone))
+                self.metadata[str(self.counter)] = "Insert info in Cities:" + str(data[0])
+                count_insert_ok = count_insert_ok + 1
+            except:
+                self.metadata[str(self.counter)] = "Error in info in Cities:" + str(data[0])
+                count_insert_fail = count_insert_fail + 1
+            self.counter = self.counter + 1
+        self.metadata["TOTAL_INSERTED:"] = str(count_insert_ok)
+        self.metadata["TOTAL_ERR:"] = str(count_insert_fail)
+        self.conexion.commit()
+        self.conexion.close()
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

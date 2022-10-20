@@ -1,1 +1,2 @@
-0 >> Create Table: turismoi
+0 >> Create Table: Cities
+1 >> Create Table: turismoi
