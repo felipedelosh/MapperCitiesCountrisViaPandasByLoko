@@ -22,6 +22,14 @@ This file play with Turismoi DB info:
 16 > longitude
 17 > country_host_id_place
 """
+from Database import *
 class TurismoiDATA:
     def __init__(self) -> None:
+        pass
+
+    def chargeInfoInDatabase(self, txt):
+        """
+        Enter a info of : DATA/turismoi.csv
+        Annd save in table turismoi
+        """
         pass

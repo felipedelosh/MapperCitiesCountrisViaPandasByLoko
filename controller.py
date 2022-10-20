@@ -10,6 +10,10 @@ from Database import *
 
 class Controller:
     def __init__(self) -> None:
+        self.database = Database()
+        self.database.initDatabase()
+
+    def loadFiles(self):
         pass
 
     def rtnArcheveInfo(self, path):
