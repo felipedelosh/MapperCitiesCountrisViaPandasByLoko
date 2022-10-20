@@ -12,6 +12,7 @@ class Controller:
     def __init__(self) -> None:
         self.database = Database()
         self.database.initDatabase()
+        self.saveMetadata("DATABASE/db.txt", self.database.metadata)
 
     def loadFiles(self):
         pass
@@ -41,3 +42,17 @@ class Controller:
             return filesNames
         except:
             return None
+
+
+    def saveMetadata(self, filename, information):
+        try:
+            data = ""
+            for i in information:
+                data = data + str(i) + " >> " +  information[i] + "\n"
+
+            f = open("METADATA/"+filename, "w", encoding="UTF-8")
+            f.write(data)
+            f.close()
+        except:
+            self.appendTextInConsoleText("Error write metadata >> " + filename)
+

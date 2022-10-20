@@ -37,7 +37,7 @@ class Database:
                 group_slug_place text,
                 latitude double,
                 longitude double,
-                country_host_id_place text,
+                country_host_id_place text
             )
             """
             con = self.getConect()
