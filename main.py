@@ -2,7 +2,6 @@
 FelipedelosH
 
 """
-import re
 from tkinter import *
 from controller import *
 
@@ -11,10 +10,10 @@ class Software:
         self.controller = Controller()
         self.screem = Tk()
         self.canvas = Canvas(self.screem)
-        self.lblBannerProgram = Label(self.canvas, text="This is a main banner")
+        self.lblBannerProgram = Label(self.canvas, text="Program to MAPPING turismoi")
         self.lblFooterProgram = Label(self.canvas, text="FelipedelosH")
-        self.btnLoadFiles = Button(self.canvas, text="LOAD FILES")
-
+        self.btnLoadFiles = Button(self.canvas, text="LOAD FILES", command=self.loadFiles)
+        self.btnSaveFiles = Button(self.canvas, text="SAVE FILES", command=self.saveFiles)
 
         self.vizualizedAndRun()
 
@@ -29,9 +28,16 @@ class Software:
         self.lblBannerProgram.place(x=20, y=20)
         self.lblFooterProgram.place(x=300, y=450)
 
-
+        self.btnLoadFiles.place(x=20, y=80)
+        self.btnSaveFiles.place(x=20, y=120)
 
         self.screem.mainloop()
+
+    def loadFiles(self):
+        self.controller.loadFiles()
+
+    def saveFiles(self):
+        self.controller.saveFiles()
 
 
 

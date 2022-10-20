@@ -25,11 +25,94 @@ This file play with Turismoi DB info:
 from Database import *
 class TurismoiDATA:
     def __init__(self) -> None:
-        pass
+        self.data = {} # {iso_country.lower().LRstrip() + ":" + city_name.lower().LRstrip()}
+        self.metadata = {}
+        self.metadataReading = {}
+
+
+        self.count = 0
+        self.database = Database()
 
     def chargeInfoInDatabase(self, txt):
         """
         Enter a info of : DATA/turismoi.csv
-        Annd save in table turismoi
+        And save in table turismoi
         """
-        pass
+        for i in txt.split("\n")[1:-1]:
+            data = i.split("|")
+
+            iso_country = str(data[1]).lower().strip()
+            name_city = str(data[11])
+            key = iso_country + ":" + name_city.lower().lstrip().rstrip().replace('-', ' ')
+            
+            # Save in memory:
+            if key in self.data.keys():
+                self.metadataReading["Err:Duplicate:"+str(self.count)] = " >> " + key
+                self.count = self.count + 1
+            else:
+                self.data[key] = i
+
+
+
+
+            # Info to send a database:
+            id = key
+            ID_country = data[0]
+            ISO_country = data[1]
+            NAME_country = data[2]
+            NAME_PRINT_country = data[3]
+            ISO3_country = data[4]
+            CODE_country = data[5]
+            NAME_ESP_country = data[6]
+            id_city  = data[7]
+            region_id = data[8]
+            name_place  = data[9]
+            short_name_place = data[10]
+            slug_place = data[11]
+            group_id_place = data[12]
+            province_id_place = data[13]
+            group_slug_place = data[14]
+            latitude = data[15]
+            try:
+                latitude = float(latitude)
+            except:
+                latitude = None
+            longitude = data[16]
+            try:
+                longitude = float(longitude)
+            except:
+                longitude = None
+            country_host_id_place = data[17]
+
+            info = (id,
+            ID_country,
+            ISO_country,
+            NAME_country,
+            NAME_PRINT_country,
+            ISO3_country,
+            CODE_country,
+            NAME_ESP_country,
+            id_city,
+            region_id,
+            name_place,
+            short_name_place,
+            slug_place,
+            group_id_place,
+            province_id_place,
+            group_slug_place,
+            latitude,
+            longitude,
+            country_host_id_place
+            )
+
+            self.database.insertInfoInTurismoi(info)
+
+        self.metadata = self.database.metadata
+
+
+
+
+
+
+
+

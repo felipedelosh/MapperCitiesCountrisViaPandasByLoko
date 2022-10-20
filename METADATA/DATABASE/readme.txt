@@ -1,3 +1,3 @@
 FelipedelosH
 
-Here you save a database logs
+Here you save the logs
