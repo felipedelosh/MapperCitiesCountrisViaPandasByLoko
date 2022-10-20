@@ -11,6 +11,7 @@ from Database import *
 
 class Geografy:
     def __init__(self) -> None:
+        self.data = {}
         self.database = Database()
         self.metadata = {}
 
@@ -19,5 +20,12 @@ class Geografy:
         Insert info: RESOURCES/Cities.csv
         """
         self.database.insertInfoCities(txt)
+        self.metadata = self.database.metadata
+
+    def insertInfoCountries(self, txt):
+        """
+        RESOURCES/Countries.csv
+        """
+        self.database.inserInfoCopuntries(txt)
         self.metadata = self.database.metadata
         

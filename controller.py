@@ -24,6 +24,9 @@ class Controller:
         self.geography.insertInfoCities(data_cities)
         self.saveMetadata("DATABASE/dbInsertCities.txt", self.geography.metadata)
 
+        data_countries = self.rtnArcheveInfo("RESOURCES/Countries.csv")
+        self.geography.insertInfoCountries(data_countries)
+        self.saveMetadata("DATABASE/dbInsertCountries.txt", self.geography.metadata)
 
         data_turismoi = self.rtnArcheveInfo("DATA/turismoi.csv")
         self.dataTurimoi.chargeInfoInDatabase(data_turismoi)
@@ -31,12 +34,29 @@ class Controller:
         self.saveMetadata("READ/turismoi.txt", self.dataTurimoi.metadataReading)
 
     def saveFiles(self):
+        self._saveDatabase()
+        self._saveRAMfiles()
+
+
+    def _saveDatabase(self):
         # Save a countries info:
         data = self.database.getAllCitiesInfo()
         self.saveArrayJson("OUTPUT/DATABASE/cities.txt", data)
+
+        # Save a countries
+        data = self.database.getAllCountries()
+        self.saveArrayJson("OUTPUT/DATABASE/countries.txt", data)
+
         # Save a turismoi database info:
         data = self.database.getAllTurismoiInfo()
         self.saveArrayJson("OUTPUT/DATABASE/turismoi.txt", data)
+
+
+
+    def _saveRAMfiles(self):
+        self.saveRAMData("OUTPUT/RAM/turismoi.txt", self.dataTurimoi.data)
+
+
         
 
     def rtnArcheveInfo(self, path):
@@ -76,7 +96,20 @@ class Controller:
             f.write(data)
             f.close()
         except:
-            self.appendTextInConsoleText("Error write metadata >> " + filename)
+            pass
+
+    def saveRAMData(self, filename, information):
+        try:
+            data = ""
+            for i in information:
+                data = data + str(i) + " >> " +  information[i] + "\n"
+
+            f = open(filename, "w", encoding="UTF-8")
+            f.write(data)
+            f.close()
+            print("Archivo creado: ", filename)
+        except:
+            print("Error creando:", filename)
 
 
     def saveArrayJson(self, title, data):

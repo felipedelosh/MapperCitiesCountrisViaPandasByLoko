@@ -42,6 +42,26 @@ class Database:
         self.counter = self.counter + 1
         try:
             sql = """
+            create table if not exists Countries(
+                Id integer,
+                CountryCode text,
+                IsRegional intger,
+                DescriptionES text,
+                DescriptionEN text,
+                DescriptionPT text,
+                CountryCodeIso3Dig text,
+                PhonePrefix text
+            )
+            """
+            con = self.getConect()
+            con.execute(sql)
+            con.close()
+            self.metadata[str(self.counter)] = "Create Table: Countries"
+        except:
+            self.metadata[str(self.counter)] = "Error creating Table: Countries"
+        self.counter = self.counter + 1
+        try:
+            sql = """
             create table if not exists turismoi(
                 id text primary key,
                 ID_country text,
@@ -120,6 +140,52 @@ class Database:
             except:
                 self.metadata[str(self.counter)] = "Error in info in Cities:" + str(data[0])
                 count_insert_fail = count_insert_fail + 1
+            self.counter = self.counter + 1
+        self.metadata["TOTAL_INSERTED:"] = str(count_insert_ok)
+        self.metadata["TOTAL_ERR:"] = str(count_insert_fail)
+        self.conexion.commit()
+        self.conexion.close()
+
+
+    def inserInfoCopuntries(self, txt):
+        """
+        Id integer,
+        CountryCode text,
+        IsRegional intger,
+        DescriptionES text,
+        DescriptionEN text,
+        DescriptionPT text,
+        CountryCodeIso3Dig text,
+        PhonePrefix text
+        """
+        self.metadata = {}
+        self.counter = 0
+        count_insert_ok = 0
+        count_insert_fail = 0
+        self.conexion = self.getConect()
+        for i in txt.split("\n")[1:-1]:
+            try:
+                data = i.split("|")
+                Id = data[0]
+                Id = int(Id)
+                CountryCode = data[1]
+                IsRegional = data[2]
+                try:
+                    IsRegional = int(IsRegional)
+                except:
+                    IsRegional = 0
+                DescriptionES = data[3]
+                DescriptionEN = data[4]
+                DescriptionPT = data[5]
+                CountryCodeIso3Dig = data[6]
+                PhonePrefix = data[7]
+                PhonePrefix = str(PhonePrefix).replace("\"","")
+                self.conexion.execute("insert into Countries (Id,CountryCode,IsRegional,DescriptionES,DescriptionEN,DescriptionPT,CountryCodeIso3Dig,PhonePrefix) values (?,?,?,?,?,?,?,?)",(Id,CountryCode,IsRegional,DescriptionES,DescriptionEN,DescriptionPT,CountryCodeIso3Dig,PhonePrefix))
+                count_insert_ok = count_insert_ok + 1
+                self.metadata[str(self.counter)] = "Insert info in Countries:" + str(data[0])
+            except:
+                count_insert_fail = count_insert_fail + 1
+                self.metadata[str(self.counter)] = "Error in info in Countries:" + str(data[0])
             self.counter = self.counter + 1
         self.metadata["TOTAL_INSERTED:"] = str(count_insert_ok)
         self.metadata["TOTAL_ERR:"] = str(count_insert_fail)
@@ -330,6 +396,38 @@ class Database:
             pass
 
         return total
+
+
+    def getAllCountries(self):
+        """
+        create table if not exists Countries(
+            Id integer,
+            CountryCode text,
+            IsRegional intger,
+            DescriptionES text,
+            DescriptionEN text,
+            DescriptionPT text,
+            CountryCodeIso3Dig text,
+            PhonePrefix text
+        )
+        """
+        total = []
+        try:
+            self.conexion = self.getConect()
+            cursor = self.conexion.execute("select * from Countries")
+            fila=cursor.fetchall()
+            for i in fila:
+                Id = i[0]
+                CountryCode = i[1]
+                DescriptionES = i[3]
+                json = {"Id":Id,"CountryCode":CountryCode,"DescriptionES":DescriptionES}
+                total.append(json)
+            cursor.close()
+        except:
+            pass
+
+        return total
+
 
 
 

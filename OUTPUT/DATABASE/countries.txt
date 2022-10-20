@@ -1,0 +1,233 @@
+{'Id': 1, 'CountryCode': 'AD', 'DescriptionES': 'Andorra'}
+{'Id': 2, 'CountryCode': 'AE', 'DescriptionES': 'Emiratos Arabes'}
+{'Id': 3, 'CountryCode': 'AF', 'DescriptionES': 'Afghanistan'}
+{'Id': 4, 'CountryCode': 'AG', 'DescriptionES': 'Antigua y Barbuda'}
+{'Id': 5, 'CountryCode': 'AI', 'DescriptionES': 'Anguilla'}
+{'Id': 6, 'CountryCode': 'AL', 'DescriptionES': 'Albania'}
+{'Id': 7, 'CountryCode': 'AM', 'DescriptionES': 'Armenia'}
+{'Id': 8, 'CountryCode': 'AN', 'DescriptionES': 'Antillas Holandesas'}
+{'Id': 9, 'CountryCode': 'AO', 'DescriptionES': 'Angola'}
+{'Id': 10, 'CountryCode': 'AS', 'DescriptionES': 'Samoa Americana'}
+{'Id': 11, 'CountryCode': 'AT', 'DescriptionES': 'Austria'}
+{'Id': 12, 'CountryCode': 'AU', 'DescriptionES': 'Australia'}
+{'Id': 13, 'CountryCode': 'AZ', 'DescriptionES': 'Azerbaijan'}
+{'Id': 14, 'CountryCode': 'BA', 'DescriptionES': 'Bosnia Herzegovina'}
+{'Id': 15, 'CountryCode': 'BB', 'DescriptionES': 'Barbados'}
+{'Id': 16, 'CountryCode': 'BD', 'DescriptionES': 'Bangladesh'}
+{'Id': 17, 'CountryCode': 'BE', 'DescriptionES': 'Belgium'}
+{'Id': 18, 'CountryCode': 'BF', 'DescriptionES': 'Burkina Faso'}
+{'Id': 19, 'CountryCode': 'BG', 'DescriptionES': 'Bulgaria'}
+{'Id': 20, 'CountryCode': 'BH', 'DescriptionES': 'Bahrain'}
+{'Id': 21, 'CountryCode': 'BI', 'DescriptionES': 'Burundi'}
+{'Id': 22, 'CountryCode': 'BJ', 'DescriptionES': 'Benin'}
+{'Id': 23, 'CountryCode': 'BM', 'DescriptionES': 'Bermuda'}
+{'Id': 24, 'CountryCode': 'BN', 'DescriptionES': 'Brunei'}
+{'Id': 25, 'CountryCode': 'BO', 'DescriptionES': 'Bolivia'}
+{'Id': 26, 'CountryCode': 'BR', 'DescriptionES': 'Brasil'}
+{'Id': 27, 'CountryCode': 'BS', 'DescriptionES': 'Bahamas'}
+{'Id': 28, 'CountryCode': 'BT', 'DescriptionES': 'Bhutan'}
+{'Id': 29, 'CountryCode': 'BV', 'DescriptionES': 'Bouvet Island'}
+{'Id': 30, 'CountryCode': 'BW', 'DescriptionES': 'Botswana'}
+{'Id': 31, 'CountryCode': 'BY', 'DescriptionES': 'Bielorusia'}
+{'Id': 32, 'CountryCode': 'BZ', 'DescriptionES': 'Belize'}
+{'Id': 33, 'CountryCode': 'CA', 'DescriptionES': 'Canada'}
+{'Id': 34, 'CountryCode': 'CC', 'DescriptionES': 'Cocos Islands'}
+{'Id': 35, 'CountryCode': 'CD', 'DescriptionES': 'Congo RD'}
+{'Id': 36, 'CountryCode': 'CF', 'DescriptionES': 'Rep. Centroafricana'}
+{'Id': 37, 'CountryCode': 'CG', 'DescriptionES': 'Congo Rep'}
+{'Id': 38, 'CountryCode': 'CH', 'DescriptionES': 'Suiza'}
+{'Id': 39, 'CountryCode': 'CI', 'DescriptionES': 'Costa de Marfil'}
+{'Id': 40, 'CountryCode': 'CK', 'DescriptionES': 'Cook Islands'}
+{'Id': 41, 'CountryCode': 'CL', 'DescriptionES': 'Chile'}
+{'Id': 42, 'CountryCode': 'CM', 'DescriptionES': 'Camerún'}
+{'Id': 43, 'CountryCode': 'CN', 'DescriptionES': 'China'}
+{'Id': 44, 'CountryCode': 'CO', 'DescriptionES': 'Colombia'}
+{'Id': 45, 'CountryCode': 'CR', 'DescriptionES': 'Costa Rica'}
+{'Id': 46, 'CountryCode': 'CU', 'DescriptionES': 'Cuba'}
+{'Id': 47, 'CountryCode': 'CV', 'DescriptionES': 'Cabo Verde'}
+{'Id': 48, 'CountryCode': 'CX', 'DescriptionES': 'Christmas Island'}
+{'Id': 49, 'CountryCode': 'CY', 'DescriptionES': 'Chipre'}
+{'Id': 50, 'CountryCode': 'CZ', 'DescriptionES': 'Republica Checa'}
+{'Id': 51, 'CountryCode': 'DE', 'DescriptionES': 'Alemania'}
+{'Id': 52, 'CountryCode': 'DJ', 'DescriptionES': 'Djibouti'}
+{'Id': 53, 'CountryCode': 'DK', 'DescriptionES': 'Dinamarca'}
+{'Id': 54, 'CountryCode': 'DM', 'DescriptionES': 'Dominica'}
+{'Id': 55, 'CountryCode': 'DO', 'DescriptionES': 'Republica Dominicana'}
+{'Id': 56, 'CountryCode': 'DZ', 'DescriptionES': 'Algeria'}
+{'Id': 57, 'CountryCode': 'EC', 'DescriptionES': 'Ecuador'}
+{'Id': 58, 'CountryCode': 'EE', 'DescriptionES': 'Estonia'}
+{'Id': 59, 'CountryCode': 'EG', 'DescriptionES': 'Egypt'}
+{'Id': 60, 'CountryCode': 'EH', 'DescriptionES': 'Western Sahara'}
+{'Id': 61, 'CountryCode': 'ER', 'DescriptionES': 'Eritrea'}
+{'Id': 62, 'CountryCode': 'ES', 'DescriptionES': 'España'}
+{'Id': 63, 'CountryCode': 'ET', 'DescriptionES': 'Etiopía'}
+{'Id': 64, 'CountryCode': 'FI', 'DescriptionES': 'Finlandia'}
+{'Id': 65, 'CountryCode': 'FJ', 'DescriptionES': 'Fiji Islands'}
+{'Id': 66, 'CountryCode': 'FK', 'DescriptionES': 'Islas Malvinas'}
+{'Id': 67, 'CountryCode': 'FM', 'DescriptionES': 'Micronesia'}
+{'Id': 68, 'CountryCode': 'FO', 'DescriptionES': 'Faeroe Islands'}
+{'Id': 69, 'CountryCode': 'FR', 'DescriptionES': 'Francia'}
+{'Id': 70, 'CountryCode': 'GA', 'DescriptionES': 'Gabon'}
+{'Id': 71, 'CountryCode': 'GB', 'DescriptionES': 'Inglaterra'}
+{'Id': 72, 'CountryCode': 'GD', 'DescriptionES': 'Grenada'}
+{'Id': 73, 'CountryCode': 'GE', 'DescriptionES': 'Georgia'}
+{'Id': 74, 'CountryCode': 'GF', 'DescriptionES': 'French Guiana'}
+{'Id': 75, 'CountryCode': 'GH', 'DescriptionES': 'Ghana'}
+{'Id': 76, 'CountryCode': 'GI', 'DescriptionES': 'Gibraltar'}
+{'Id': 77, 'CountryCode': 'GL', 'DescriptionES': 'Groenlandia'}
+{'Id': 78, 'CountryCode': 'GM', 'DescriptionES': 'Gambia'}
+{'Id': 79, 'CountryCode': 'GN', 'DescriptionES': 'Guinea'}
+{'Id': 80, 'CountryCode': 'GP', 'DescriptionES': 'Guadeloupe'}
+{'Id': 81, 'CountryCode': 'GQ', 'DescriptionES': 'Guinea Ecuatorial'}
+{'Id': 82, 'CountryCode': 'GR', 'DescriptionES': 'Grecia'}
+{'Id': 83, 'CountryCode': 'GT', 'DescriptionES': 'Guatemala'}
+{'Id': 84, 'CountryCode': 'GU', 'DescriptionES': 'Guam'}
+{'Id': 85, 'CountryCode': 'GW', 'DescriptionES': 'Guinea Bissau'}
+{'Id': 86, 'CountryCode': 'GY', 'DescriptionES': 'Guyana'}
+{'Id': 87, 'CountryCode': 'HK', 'DescriptionES': 'Hong Kong'}
+{'Id': 88, 'CountryCode': 'HN', 'DescriptionES': 'Honduras'}
+{'Id': 89, 'CountryCode': 'HR', 'DescriptionES': 'Croacia'}
+{'Id': 90, 'CountryCode': 'HT', 'DescriptionES': 'Haiti'}
+{'Id': 91, 'CountryCode': 'HU', 'DescriptionES': 'Hungría'}
+{'Id': 92, 'CountryCode': 'ID', 'DescriptionES': 'Indonesia'}
+{'Id': 93, 'CountryCode': 'IE', 'DescriptionES': 'Irlanda'}
+{'Id': 94, 'CountryCode': 'IL', 'DescriptionES': 'Israel'}
+{'Id': 95, 'CountryCode': 'IN', 'DescriptionES': 'India'}
+{'Id': 96, 'CountryCode': 'IQ', 'DescriptionES': 'Irak'}
+{'Id': 97, 'CountryCode': 'IR', 'DescriptionES': 'Iran'}
+{'Id': 98, 'CountryCode': 'IS', 'DescriptionES': 'Islandia'}
+{'Id': 99, 'CountryCode': 'IT', 'DescriptionES': 'Italia'}
+{'Id': 100, 'CountryCode': 'JM', 'DescriptionES': 'Jamaica'}
+{'Id': 101, 'CountryCode': 'JO', 'DescriptionES': 'Jordan'}
+{'Id': 102, 'CountryCode': 'JP', 'DescriptionES': 'Japón'}
+{'Id': 103, 'CountryCode': 'KE', 'DescriptionES': 'Kenya'}
+{'Id': 104, 'CountryCode': 'KG', 'DescriptionES': 'Kyrgyzstan'}
+{'Id': 105, 'CountryCode': 'KH', 'DescriptionES': 'Cambodia'}
+{'Id': 106, 'CountryCode': 'KI', 'DescriptionES': 'Kiribati'}
+{'Id': 107, 'CountryCode': 'KM', 'DescriptionES': 'Comoros'}
+{'Id': 108, 'CountryCode': 'KN', 'DescriptionES': 'St. Kitts - Nevis'}
+{'Id': 109, 'CountryCode': 'KP', 'DescriptionES': 'Corea del Norte'}
+{'Id': 110, 'CountryCode': 'KR', 'DescriptionES': 'Corea del Sur'}
+{'Id': 111, 'CountryCode': 'KW', 'DescriptionES': 'Kuwait'}
+{'Id': 112, 'CountryCode': 'KY', 'DescriptionES': 'Islas Cayman'}
+{'Id': 113, 'CountryCode': 'KZ', 'DescriptionES': 'Kazakstan'}
+{'Id': 114, 'CountryCode': 'LA', 'DescriptionES': 'Rep. de Lao'}
+{'Id': 115, 'CountryCode': 'LB', 'DescriptionES': 'Líbano'}
+{'Id': 116, 'CountryCode': 'LC', 'DescriptionES': 'Saint Lucia'}
+{'Id': 117, 'CountryCode': 'LI', 'DescriptionES': 'Liechtenstein'}
+{'Id': 118, 'CountryCode': 'LK', 'DescriptionES': 'Sri Lanka'}
+{'Id': 119, 'CountryCode': 'LR', 'DescriptionES': 'Liberia'}
+{'Id': 120, 'CountryCode': 'LS', 'DescriptionES': 'Lesotho'}
+{'Id': 121, 'CountryCode': 'LT', 'DescriptionES': 'Lithuania'}
+{'Id': 122, 'CountryCode': 'LU', 'DescriptionES': 'Luxemburgo'}
+{'Id': 123, 'CountryCode': 'LV', 'DescriptionES': 'Latvia'}
+{'Id': 124, 'CountryCode': 'LY', 'DescriptionES': 'Libia'}
+{'Id': 125, 'CountryCode': 'MA', 'DescriptionES': 'Marruecos'}
+{'Id': 126, 'CountryCode': 'MC', 'DescriptionES': 'Monaco'}
+{'Id': 127, 'CountryCode': 'MD', 'DescriptionES': 'Moldova'}
+{'Id': 128, 'CountryCode': 'MG', 'DescriptionES': 'Madagascar'}
+{'Id': 129, 'CountryCode': 'MH', 'DescriptionES': 'Marshall Islands'}
+{'Id': 130, 'CountryCode': 'MK', 'DescriptionES': 'Macedonia'}
+{'Id': 131, 'CountryCode': 'ML', 'DescriptionES': 'Mali'}
+{'Id': 132, 'CountryCode': 'MM', 'DescriptionES': 'Myanmar'}
+{'Id': 133, 'CountryCode': 'MN', 'DescriptionES': 'Mongolia'}
+{'Id': 134, 'CountryCode': 'MO', 'DescriptionES': 'Macau'}
+{'Id': 135, 'CountryCode': 'MP', 'DescriptionES': 'Marianna Islands'}
+{'Id': 136, 'CountryCode': 'MQ', 'DescriptionES': 'Martinique'}
+{'Id': 137, 'CountryCode': 'MR', 'DescriptionES': 'Mauritania'}
+{'Id': 138, 'CountryCode': 'MS', 'DescriptionES': 'Montserrat'}
+{'Id': 139, 'CountryCode': 'MT', 'DescriptionES': 'Malta'}
+{'Id': 140, 'CountryCode': 'MU', 'DescriptionES': 'Mauritius'}
+{'Id': 141, 'CountryCode': 'MV', 'DescriptionES': 'Maldives'}
+{'Id': 142, 'CountryCode': 'MW', 'DescriptionES': 'Malawi'}
+{'Id': 143, 'CountryCode': 'MX', 'DescriptionES': 'Mexico'}
+{'Id': 144, 'CountryCode': 'MY', 'DescriptionES': 'Malasia'}
+{'Id': 145, 'CountryCode': 'MZ', 'DescriptionES': 'Mozambique'}
+{'Id': 146, 'CountryCode': 'NA', 'DescriptionES': 'Namibia'}
+{'Id': 147, 'CountryCode': 'NC', 'DescriptionES': 'New Caledonia'}
+{'Id': 148, 'CountryCode': 'NE', 'DescriptionES': 'Niger'}
+{'Id': 149, 'CountryCode': 'NF', 'DescriptionES': 'Norfolk Island'}
+{'Id': 150, 'CountryCode': 'NG', 'DescriptionES': 'Nigeria'}
+{'Id': 151, 'CountryCode': 'NI', 'DescriptionES': 'Nicaragua'}
+{'Id': 152, 'CountryCode': 'NL', 'DescriptionES': 'Holanda'}
+{'Id': 153, 'CountryCode': 'NO', 'DescriptionES': 'Noruega'}
+{'Id': 154, 'CountryCode': 'NP', 'DescriptionES': 'Nepal'}
+{'Id': 155, 'CountryCode': 'NR', 'DescriptionES': 'Nauru'}
+{'Id': 156, 'CountryCode': 'NU', 'DescriptionES': 'Niue'}
+{'Id': 157, 'CountryCode': 'NZ', 'DescriptionES': 'Nueva Zelanda'}
+{'Id': 158, 'CountryCode': 'OM', 'DescriptionES': 'Omán'}
+{'Id': 159, 'CountryCode': 'PA', 'DescriptionES': 'Panamá'}
+{'Id': 160, 'CountryCode': 'PE', 'DescriptionES': 'Peru'}
+{'Id': 161, 'CountryCode': 'PF', 'DescriptionES': 'French Polynesia'}
+{'Id': 162, 'CountryCode': 'PG', 'DescriptionES': 'Papua Nueva Guinea'}
+{'Id': 163, 'CountryCode': 'PH', 'DescriptionES': 'Filipinas'}
+{'Id': 164, 'CountryCode': 'PK', 'DescriptionES': 'Pakistan'}
+{'Id': 165, 'CountryCode': 'PL', 'DescriptionES': 'Polonia'}
+{'Id': 166, 'CountryCode': 'PM', 'DescriptionES': 'San Pedro y Miquelón'}
+{'Id': 167, 'CountryCode': 'PS', 'DescriptionES': 'Palestina'}
+{'Id': 168, 'CountryCode': 'PT', 'DescriptionES': 'Portugal'}
+{'Id': 169, 'CountryCode': 'PW', 'DescriptionES': 'Palau'}
+{'Id': 170, 'CountryCode': 'PY', 'DescriptionES': 'Paraguay'}
+{'Id': 171, 'CountryCode': 'QA', 'DescriptionES': 'Qatar'}
+{'Id': 172, 'CountryCode': 'RE', 'DescriptionES': 'Reunion'}
+{'Id': 173, 'CountryCode': 'RO', 'DescriptionES': 'Rumania'}
+{'Id': 174, 'CountryCode': 'RU', 'DescriptionES': 'Rusia'}
+{'Id': 175, 'CountryCode': 'RW', 'DescriptionES': 'Rwanda'}
+{'Id': 176, 'CountryCode': 'SA', 'DescriptionES': 'Saudi Arabia'}
+{'Id': 177, 'CountryCode': 'SB', 'DescriptionES': 'Solomon Islands'}
+{'Id': 178, 'CountryCode': 'SC', 'DescriptionES': 'Seychelles Islands'}
+{'Id': 179, 'CountryCode': 'SD', 'DescriptionES': 'Sudan'}
+{'Id': 180, 'CountryCode': 'SE', 'DescriptionES': 'Suecia'}
+{'Id': 181, 'CountryCode': 'SG', 'DescriptionES': 'Singapur'}
+{'Id': 182, 'CountryCode': 'SH', 'DescriptionES': 'Santa Helena'}
+{'Id': 183, 'CountryCode': 'SI', 'DescriptionES': 'Slovenia'}
+{'Id': 184, 'CountryCode': 'SJ', 'DescriptionES': 'Svalbard y Jan Mayen'}
+{'Id': 185, 'CountryCode': 'SK', 'DescriptionES': 'Slovakia'}
+{'Id': 186, 'CountryCode': 'SL', 'DescriptionES': 'Sierra Leone'}
+{'Id': 187, 'CountryCode': 'SM', 'DescriptionES': 'San Marino'}
+{'Id': 188, 'CountryCode': 'SN', 'DescriptionES': 'Senegal'}
+{'Id': 189, 'CountryCode': 'SO', 'DescriptionES': 'Somalia'}
+{'Id': 190, 'CountryCode': 'SR', 'DescriptionES': 'Suriname'}
+{'Id': 191, 'CountryCode': 'ST', 'DescriptionES': 'Santo Tomé'}
+{'Id': 192, 'CountryCode': 'SV', 'DescriptionES': 'El Salvador'}
+{'Id': 193, 'CountryCode': 'SY', 'DescriptionES': 'Siria'}
+{'Id': 194, 'CountryCode': 'SZ', 'DescriptionES': 'Swazilandia'}
+{'Id': 195, 'CountryCode': 'TC', 'DescriptionES': 'Turks y Caicos'}
+{'Id': 196, 'CountryCode': 'TD', 'DescriptionES': 'Chad'}
+{'Id': 197, 'CountryCode': 'TG', 'DescriptionES': 'Togo'}
+{'Id': 198, 'CountryCode': 'TH', 'DescriptionES': 'Tailandia'}
+{'Id': 199, 'CountryCode': 'TJ', 'DescriptionES': 'Tajikistan'}
+{'Id': 200, 'CountryCode': 'TM', 'DescriptionES': 'Turkmenistan'}
+{'Id': 201, 'CountryCode': 'TN', 'DescriptionES': 'Tunisia'}
+{'Id': 202, 'CountryCode': 'TO', 'DescriptionES': 'Tonga'}
+{'Id': 203, 'CountryCode': 'TP', 'DescriptionES': 'East Timor'}
+{'Id': 204, 'CountryCode': 'TR', 'DescriptionES': 'Turquía'}
+{'Id': 205, 'CountryCode': 'TT', 'DescriptionES': 'Trinidad & Tobago'}
+{'Id': 206, 'CountryCode': 'TV', 'DescriptionES': 'Tuvalu'}
+{'Id': 207, 'CountryCode': 'TW', 'DescriptionES': 'Taiwan'}
+{'Id': 208, 'CountryCode': 'TZ', 'DescriptionES': 'Tanzania'}
+{'Id': 209, 'CountryCode': 'UA', 'DescriptionES': 'Ucrania'}
+{'Id': 210, 'CountryCode': 'UG', 'DescriptionES': 'Uganda'}
+{'Id': 211, 'CountryCode': 'UM', 'DescriptionES': 'Islas de EEUU'}
+{'Id': 212, 'CountryCode': 'US', 'DescriptionES': 'Estados Unidos'}
+{'Id': 213, 'CountryCode': 'UY', 'DescriptionES': 'Uruguay'}
+{'Id': 214, 'CountryCode': 'UZ', 'DescriptionES': 'Uzbekistan Sum'}
+{'Id': 215, 'CountryCode': 'VA', 'DescriptionES': 'Vaticano'}
+{'Id': 216, 'CountryCode': 'VC', 'DescriptionES': 'San Vicente'}
+{'Id': 217, 'CountryCode': 'VE', 'DescriptionES': 'Venezuela'}
+{'Id': 218, 'CountryCode': 'VG', 'DescriptionES': 'Islas Vírgenes'}
+{'Id': 219, 'CountryCode': 'VN', 'DescriptionES': 'Vietnam'}
+{'Id': 220, 'CountryCode': 'VU', 'DescriptionES': 'Vanuatu'}
+{'Id': 221, 'CountryCode': 'WF', 'DescriptionES': 'Wallis y Futuna'}
+{'Id': 222, 'CountryCode': 'WS', 'DescriptionES': 'Samoa del oeste'}
+{'Id': 223, 'CountryCode': 'YE', 'DescriptionES': 'Yemen'}
+{'Id': 224, 'CountryCode': 'YT', 'DescriptionES': 'Mayotte'}
+{'Id': 225, 'CountryCode': 'RS', 'DescriptionES': 'Serbia'}
+{'Id': 226, 'CountryCode': 'ZA', 'DescriptionES': 'South Africa'}
+{'Id': 227, 'CountryCode': 'ZM', 'DescriptionES': 'Zambia'}
+{'Id': 228, 'CountryCode': 'ZW', 'DescriptionES': 'Zimbabwe'}
+{'Id': 229, 'CountryCode': 'PR', 'DescriptionES': 'Puerto Rico'}
+{'Id': 230, 'CountryCode': 'SP', 'DescriptionES': 'SAN PABLO'}
+{'Id': 232, 'CountryCode': 'AR', 'DescriptionES': 'Argentina'}
+{'Id': 234, 'CountryCode': 'AW', 'DescriptionES': 'Aruba'}
+{'Id': 238, 'CountryCode': 'CW', 'DescriptionES': 'Curazao'}
