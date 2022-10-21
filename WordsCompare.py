@@ -10,7 +10,7 @@ class WordsComparator:
 
     def compare(self, txtA, txtB):
         txtA = self.cleanWord(txtA)
-        txtB = self.cleanWord(txtA)
+        txtB = self.cleanWord(txtB)
         return txtA == txtB
 
     def cleanWord(self, txt):

@@ -124,6 +124,9 @@ class TurismoiDATA:
 
         return info
 
+    def updateGEOviaKeyDic(self, key, geo):
+        pass
+
 
 
 

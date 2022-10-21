@@ -93,11 +93,12 @@ class Geografy:
             seraching = allRegInfo.split(delimiter)
             for i in self.data:
                 # Only serach in country
+                name_es = self.data[i].split("|")[2]
+                name_en = self.data[i].split("|")[4]
                 if iso_code+":" in i and city_name != "null":
                     for j in vecPosToSearch:
                         txtA = seraching[j]
                         # Search 2 -> name_es
-                        name_es = self.data[i].split("|")[2]
                         if self.wordsComparer.compare(txtA, name_es):
                             # To Macth table
                             dataTurismoi = allRegInfo.split(delimiter)
@@ -105,16 +106,14 @@ class Geografy:
                             dataTurismoi = dataTurismoi[1] + "|" + dataTurismoi[7] + "|" + dataTurismoi[11]
                             # 1 -> country_code  0 -> id  2 -> name_es 
                             dataNetactica = self.data[i].split("|")
-                            dataNetactica = dataNetactica[1] + "|" + dataNetactica[0] + "|" + dataNetactica[2]
+                            dataNetactica = name_es
                             self.metadata["MACTNAMEES:"+str(self.count)] = dataTurismoi + "|" + dataNetactica
                             data = self._getGeoLatLngViaKeyDic(i)
                             self.count = self.count + 1
                             found = True
                             break
 
-
                         # Search 4 -> name_en 
-                        name_en = self.data[i].split("|")[4]
                         if self.wordsComparer.compare(txtA, name_en):
                             # To Macth table
                             dataTurismoi = allRegInfo.split(delimiter)
@@ -122,19 +121,19 @@ class Geografy:
                             dataTurismoi = dataTurismoi[1] + "|" + dataTurismoi[7] + "|" + dataTurismoi[11]
                             # 1 -> country_code  0 -> id  2 -> name_es 
                             dataNetactica = self.data[i].split("|")
-                            dataNetactica = dataNetactica[1] + "|" + dataNetactica[0] + "|" + dataNetactica[2]
+                            dataNetactica = name_en
                             self.metadata["MACTNAMEEN:"+str(self.count)] = dataTurismoi + "|" + dataNetactica
                             data = self._getGeoLatLngViaKeyDic(i)
                             self.count = self.count + 1
                             found = True
                             break
 
-
                     if found:
                         break
 
-                if found:
-                    break                        
+                # Break for anothers contries
+                if found: 
+                    break
 
 
         return data

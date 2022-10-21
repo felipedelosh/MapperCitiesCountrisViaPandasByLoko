@@ -85,6 +85,7 @@ class Controller:
         if len(self.dataTurimoi.data) > 0:
             print("Cargando datos Turismoi desde RAM....")
             # Only Update
+            count = 0
             for i in self.dataTurimoi.data:
                 GEO = self.dataTurimoi.getGeoLatLngViaKeyDic(i)
 
@@ -92,6 +93,11 @@ class Controller:
                     newGEO = self._addGeoLatLngViaNetactica(i)
                     if newGEO != "NULL|NULL":
                         self.updateGEOLatLngInTurismoi(i, newGEO)
+                        count = count + 1
+
+                        if count == 50:
+                            print("Rompido...")
+                            break
 
 
         total_reg_turismoi = self.database.getTotalRowsOfTableX("turismoi")
@@ -107,8 +113,8 @@ class Controller:
         return self.geography.getGeoLatLongViaName(iso_code,city_name,allRegInfo,delimiter,vecPosToSearch)
         
     def updateGEOLatLngInTurismoi(self, key, geo):
-        print("Actualizando...")
-        print(key, geo)
+        pass
+        #print("Actualizando... Turismoi >>", key, " : ", geo)
 
     def rtnArcheveInfo(self, path):
         info = None
