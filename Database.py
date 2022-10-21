@@ -91,6 +91,27 @@ class Database:
         except:
             self.metadata[str(self.counter)] = "Error creating Table: turismoi"
         self.counter = self.counter + 1
+        try:
+            sql = """
+            create table if not exists netactica(
+                id integer,
+                country_code text,
+                name_es text,
+                name_full_es text,
+                name_en text,
+                name_full_en text,
+                latitude double,
+                longitude double
+            )
+            """
+            con = self.getConect()
+            con.execute(sql)
+            con.close()
+            self.metadata[str(self.counter)] = "Create Table: netactica"
+        except:
+            self.metadata[str(self.counter)] = "Error creating Table: netactica"
+        self.counter = self.counter + 1
+
 
 
     def insertInfoCities(self, txt):

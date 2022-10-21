@@ -20,18 +20,41 @@ class Controller:
         self.consoleTXT = ""
 
     def loadFiles(self):
-        data_cities  = self.rtnArcheveInfo("RESOURCES/Cities.csv")
-        self.geography.insertInfoCities(data_cities)
-        self.saveMetadata("DATABASE/dbInsertCities.txt", self.geography.metadata)
+        total_cities = self.database.getTotalRowsOfTableX("Cities")
+        print("Total de ciudades en DB: ", str(total_cities))
+        if total_cities == 0:
+            data_cities  = self.rtnArcheveInfo("RESOURCES/Cities.csv")
+            print("Se ingresaran un total de Cities: ", str(len(str(data_cities).split("\n"))))
+            self.geography.insertInfoCities(data_cities)
+            self.saveMetadata("DATABASE/dbInsertCities.txt", self.geography.metadata)
 
-        data_countries = self.rtnArcheveInfo("RESOURCES/Countries.csv")
-        self.geography.insertInfoCountries(data_countries)
-        self.saveMetadata("DATABASE/dbInsertCountries.txt", self.geography.metadata)
+        total_countries = self.database.getTotalRowsOfTableX("Countries")
+        print("Total de Countries en DB: ", str(total_countries))
+        if total_countries == 0:
+            data_countries = self.rtnArcheveInfo("RESOURCES/Countries.csv")
+            print("Se ingresarán a la base de datos: ", str(len(str(data_countries).split("\n"))))
+            self.geography.insertInfoCountries(data_countries)
+            self.saveMetadata("DATABASE/dbInsertCountries.txt", self.geography.metadata)
 
-        data_turismoi = self.rtnArcheveInfo("DATA/turismoi.csv")
-        self.dataTurimoi.chargeInfoInDatabase(data_turismoi)
-        self.saveMetadata("DATABASE/dbInsertTurismoi.txt", self.dataTurimoi.metadata)
-        self.saveMetadata("READ/turismoi.txt", self.dataTurimoi.metadataReading)
+        total_turismoi = self.database.getTotalRowsOfTableX("turismoi")
+        print("Total datos de turismoi: ", str(total_turismoi))
+        if total_turismoi == 0:
+            data_turismoi = self.rtnArcheveInfo("DATA/turismoi.csv")
+            print("Se ingresará la Db turismoi: ", str(len(str(data_turismoi).split("\n"))))
+            self.dataTurimoi.chargeInfoInDatabase(data_turismoi)
+            self.saveMetadata("DATABASE/dbInsertTurismoi.txt", self.dataTurimoi.metadata)
+            self.saveMetadata("READ/turismoi.txt", self.dataTurimoi.metadataReading)
+
+        total_netactica = self.database.getTotalRowsOfTableX("netactica")
+        print("Total datos Netactica: ", str(total_netactica))
+        if total_netactica == 0:
+            data_netactica = self.rtnArcheveInfo("RESOURCES/netactica.csv")
+            print("Se ingresarán un total de datos de Netactica: ", str(len(str(data_netactica).split("\n"))))
+            self.geography.chargeNetacticaData(data_netactica)
+            self.saveMetadata("READ/netactica.txt", self.geography.metadata)
+
+
+        
 
     def saveFiles(self):
         self._saveDatabase()
