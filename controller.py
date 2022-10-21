@@ -81,6 +81,7 @@ class Controller:
 
     def addGeoLatLngViaNetactica(self):
         self.geography.resetMetadata()
+        self.dataTurimoi.resetMetadata()
         # If find in RAM:
         if len(self.dataTurimoi.data) > 0:
             print("Cargando datos Turismoi desde RAM....")
@@ -95,14 +96,11 @@ class Controller:
                         self.updateGEOLatLngInTurismoi(i, newGEO)
                         count = count + 1
 
-                        if count == 50:
-                            print("Rompido...")
-                            break
-
 
         total_reg_turismoi = self.database.getTotalRowsOfTableX("turismoi")
 
         self.saveMetadata("MACTH/turismoi.join.netactica.txt", self.geography.metadata)
+        self.saveMetadata("DATABASE/dbUpdateTurismoi.txt", self.dataTurimoi.metadata)
 
     def _addGeoLatLngViaNetactica(self, keyTurismoi):
         iso_code = keyTurismoi.split(":")[0]
@@ -113,8 +111,7 @@ class Controller:
         return self.geography.getGeoLatLongViaName(iso_code,city_name,allRegInfo,delimiter,vecPosToSearch)
         
     def updateGEOLatLngInTurismoi(self, key, geo):
-        pass
-        #print("Actualizando... Turismoi >>", key, " : ", geo)
+        self.dataTurimoi.updateGEOviaKeyDic(key, geo)
 
     def rtnArcheveInfo(self, path):
         info = None

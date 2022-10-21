@@ -22,6 +22,7 @@ This file play with Turismoi DB info:
 16 > longitude
 17 > country_host_id_place
 """
+from itertools import count
 from Database import *
 from LatLonValidator import *
 class TurismoiDATA:
@@ -111,6 +112,10 @@ class TurismoiDATA:
 
         self.metadata = self.database.metadata
 
+    def resetMetadata(self):
+        self.count = 0
+        self.metadata = {}
+
     def getGeoLatLngViaKeyDic(self, key):
         info = "NULL|NULL"
 
@@ -125,7 +130,28 @@ class TurismoiDATA:
         return info
 
     def updateGEOviaKeyDic(self, key, geo):
-        pass
+        if key in self.data.keys():
+            # Update in RAM
+            dataToEdit = self.data[key]
+            dataToEdit = dataToEdit.split("|")
+            new_latude = geo.split("|")[0]
+            new_longitude =  geo.split("|")[1]
+            dataToEdit[15] = new_latude
+            dataToEdit[16] = new_longitude
+            # ReStruct the data
+            final_data = ""
+            for i in dataToEdit:
+                final_data = final_data + i + "|"
+
+            final_data = final_data.replace('|||', '||')
+
+            # Update in DB
+            self.database.updateGEOLatLngInTurismoi(key, new_latude, new_longitude)
+
+            self.data[key] = final_data
+            self.metadata["dbUPDATE:"+str(count)] = "UPDATE GEO >> " + key + " : " + geo
+            self.count = self.count + 1    
+        
 
 
 

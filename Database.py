@@ -458,6 +458,20 @@ class Database:
 
 
 
+    def updateGEOLatLngInTurismoi(self, key, latitude, longitude):
+        try:
+            conexion = self.getConect()
+            cursor = conexion.cursor()
+            sql = "update turismoi set latitude = " + str(latitude) + ", longitude = " + str(longitude) + " where id = '" + key + "'"
+            cursor.execute(sql)
+            conexion.commit()
+            cursor.close()
+            #print("Actialiada...", key)
+        except:
+            print("Error actualizando turismoi:", key)
+
+
+
 
 
 
