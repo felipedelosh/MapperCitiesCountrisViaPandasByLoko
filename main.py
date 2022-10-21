@@ -14,6 +14,9 @@ class Software:
         self.lblFooterProgram = Label(self.canvas, text="FelipedelosH")
         self.btnLoadFiles = Button(self.canvas, text="LOAD FILES", command=self.loadFiles)
         self.btnSaveFiles = Button(self.canvas, text="SAVE FILES", command=self.saveFiles)
+        
+        self.lblAddGeoToTurismoi = Label(self.canvas, text="Agregar LAT LNG a Turismoi: ")
+        self.btnADDGeoLatLngViaNetactica = Button(self.canvas, text="ADD GEO to turismoi", command=self.addGeoLatLngViaNetactica)
 
         self.vizualizedAndRun()
 
@@ -31,6 +34,11 @@ class Software:
         self.btnLoadFiles.place(x=20, y=80)
         self.btnSaveFiles.place(x=20, y=120)
 
+        self.canvas.create_line(220, 50, 220, 160)
+
+        self.lblAddGeoToTurismoi.place(x=20, y=200)
+        self.btnADDGeoLatLngViaNetactica.place(x=20, y=230)
+
         self.screem.mainloop()
 
     def loadFiles(self):
@@ -38,6 +46,9 @@ class Software:
 
     def saveFiles(self):
         self.controller.saveFiles()
+
+    def addGeoLatLngViaNetactica(self):
+        self.controller.addGeoLatLngViaNetactica()
 
 
 

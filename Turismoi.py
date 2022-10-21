@@ -23,6 +23,7 @@ This file play with Turismoi DB info:
 17 > country_host_id_place
 """
 from Database import *
+from LatLonValidator import *
 class TurismoiDATA:
     def __init__(self) -> None:
         self.data = {} # {iso_country.lower().LRstrip() + ":" + city_name.lower().LRstrip()}
@@ -32,6 +33,7 @@ class TurismoiDATA:
 
         self.count = 0
         self.database = Database()
+        self.geoLatLngValidator = GeoLatLongValidator()
 
     def chargeInfoInDatabase(self, txt):
         """
@@ -108,6 +110,19 @@ class TurismoiDATA:
             self.database.insertInfoInTurismoi(info)
 
         self.metadata = self.database.metadata
+
+    def getGeoLatLngViaKeyDic(self, key):
+        info = "NULL|NULL"
+
+        if key in self.data:
+            data = self.data[key].split("|")
+            latitude = data[15]
+            longitude = data[16]
+
+            if self.geoLatLngValidator.validates(latitude, longitude):
+                info = latitude + "|" + longitude
+
+        return info
 
 
 

@@ -79,8 +79,36 @@ class Controller:
     def _saveRAMfiles(self):
         self.saveRAMData("OUTPUT/RAM/turismoi.txt", self.dataTurimoi.data)
 
+    def addGeoLatLngViaNetactica(self):
+        self.geography.resetMetadata()
+        # If find in RAM:
+        if len(self.dataTurimoi.data) > 0:
+            print("Cargando datos Turismoi desde RAM....")
+            # Only Update
+            for i in self.dataTurimoi.data:
+                GEO = self.dataTurimoi.getGeoLatLngViaKeyDic(i)
 
+                if GEO == "NULL|NULL":
+                    newGEO = self._addGeoLatLngViaNetactica(i)
+                    if newGEO != "NULL|NULL":
+                        self.updateGEOLatLngInTurismoi(i, newGEO)
+
+
+        total_reg_turismoi = self.database.getTotalRowsOfTableX("turismoi")
+
+        self.saveMetadata("MACTH/turismoi.join.netactica.txt", self.geography.metadata)
+
+    def _addGeoLatLngViaNetactica(self, keyTurismoi):
+        iso_code = keyTurismoi.split(":")[0]
+        city_name = keyTurismoi.split(":")[1]
+        allRegInfo = self.dataTurimoi.data[keyTurismoi]
+        delimiter = "|"
+        vecPosToSearch = [9,10,11]
+        return self.geography.getGeoLatLongViaName(iso_code,city_name,allRegInfo,delimiter,vecPosToSearch)
         
+    def updateGEOLatLngInTurismoi(self, key, geo):
+        print("Actualizando...")
+        print(key, geo)
 
     def rtnArcheveInfo(self, path):
         info = None

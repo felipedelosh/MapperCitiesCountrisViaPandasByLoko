@@ -30,6 +30,11 @@ Steps to macth:
 
 1 -> Load all info:
      * Turismoi
+     * Netactica
+     * Target
+     * RESOURCES FOLDER
+
+     
 
 
 
