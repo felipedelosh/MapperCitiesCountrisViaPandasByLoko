@@ -62,7 +62,12 @@ class Controller:
             print("Se ingresarán a la base de datos Geo ancestor: ", str(len(str(data_geo_ancestor).split("\n"))))
             self.database.insertInfoGeoAncestor(data_geo_ancestor)
 
-
+        total_geo_geography = self.database.getTotalRowsOfTableX("geo_geography")
+        print("Total datos en geo_geography: ", str(total_geo_geography))
+        if total_geo_geography == 0:
+            data_geo_geography = self.rtnArcheveInfo("RESOURCES/geo_geography.csv")
+            print("Se ingresarán a la base de datos geo_geography:", str(len(str(data_geo_geography).split("\n"))))
+            self.database.insertInfoGeoGeography(data_geo_geography)
 
         
 

@@ -128,6 +128,39 @@ class Database:
         except:
             self.metadata[str(self.counter)] = "Error creating Table: geo_ancestor"
         self.counter = self.counter + 1
+        try:
+            sql = """
+            create table if not exists geo_geography(
+                id integer,
+                altern_id text,
+                nearest_ns_cities_id integer,
+                kdtree_dist_ns_cities_id double,
+                nearest_iata_code text,
+                type text,
+                geo_class text,
+                name text,
+                name_full text,
+                ascii_name text,
+                country_code text,
+                latitude double,
+                longitude double,
+                time_zone text,
+                iata_code text,
+                icao_code text,
+                has_polygon boolean,
+                last_update_utc text,
+                validated_by text,
+                user_service text,
+                status integer
+            )
+            """
+            con = self.getConect()
+            con.execute(sql)
+            con.close()
+            self.metadata[str(self.counter)] = "Create Table: geo_geography"
+        except:
+            self.metadata[str(self.counter)] = "Error creating Table: geo_geography"
+        self.counter = self.counter + 1
 
 
 
@@ -268,7 +301,76 @@ class Database:
 
 
 
-
+    def insertInfoGeoGeography(self, txt):
+        """
+        id integer,
+        altern_id text,
+        nearest_ns_cities_id integer,
+        kdtree_dist_ns_cities_id double,
+        nearest_iata_code text,
+        type text,
+        geo_class text,
+        name text,
+        name_full text,
+        ascii_name text,
+        country_code text,
+        latitude double,
+        longitude double,
+        time_zone text,
+        iata_code text,
+        icao_code text,
+        has_polygon boolean,
+        last_update_utc text,
+        validated_by text,
+        user_service text,
+        status integer
+        """
+        count_insert_ok = 0
+        count_insert_fail = 0
+        self.conexion = self.getConect()
+        for i in txt.split("\n")[1:-1]:
+            try:
+                data = i.split("|")
+                id = data[0]
+                id = int(id)
+                altern_id = data[1]
+                nearest_ns_cities_id = data[2]
+                nearest_ns_cities_id = int(nearest_ns_cities_id)
+                kdtree_dist_ns_cities_id = data[3]
+                kdtree_dist_ns_cities_id = float(kdtree_dist_ns_cities_id)
+                nearest_iata_code = data[4]
+                type_t = data[5]
+                geo_class = data[6]
+                name = data[7]
+                name_full = data[8]
+                ascii_name = data[9]
+                country_code = data[10]
+                latitude = data[11]
+                latitude = float(latitude)
+                longitude = data[12]
+                longitude = float(longitude)
+                time_zone = data[13]
+                iata_code = data[14]
+                icao_code =  data[15]
+                has_polygon = data[16]
+                if has_polygon == "true":
+                    has_polygon = True
+                else:
+                    has_polygon = False
+                last_update_utc = data[17]
+                validated_by = data[18]
+                user_service = data[19]
+                status = data[20]
+                status = int(status)
+                self.conexion.execute("insert into geo_geography (id,altern_id,nearest_ns_cities_id,kdtree_dist_ns_cities_id,nearest_iata_code,type,geo_class,name,name_full,ascii_name,country_code,latitude,longitude,time_zone,iata_code,icao_code,has_polygon,last_update_utc,validated_by,user_service,status) values(?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?)", (id,altern_id,nearest_ns_cities_id,kdtree_dist_ns_cities_id,nearest_iata_code,type_t,geo_class,name,name_full,ascii_name,country_code,latitude,longitude,time_zone,iata_code,icao_code,has_polygon,last_update_utc,validated_by,user_service,status))
+                count_insert_ok = count_insert_ok + 1
+            except:
+                count_insert_fail = count_insert_fail + 1
+                #print("Error>>", i)
+        print("Total registros insertados: ", str(count_insert_ok))
+        print("Total registros con errores de insersiion: ", str(count_insert_fail))
+        self.conexion.commit()
+        self.conexion.close()
 
 
 
