@@ -54,6 +54,16 @@ class Controller:
             self.saveMetadata("READ/netactica.txt", self.geography.metadata)
 
 
+        # To kDtree tables
+        total_geo_ancestor = self.database.getTotalRowsOfTableX("geo_ancestor")
+        print("Total de datos geo_ancestor: ", str(total_geo_ancestor))
+        if total_geo_ancestor == 0:
+            data_geo_ancestor = self.rtnArcheveInfo("RESOURCES/geo_ancestor.csv")
+            print("Se ingresarán a la base de datos Geo ancestor: ", str(len(str(data_geo_ancestor).split("\n"))))
+            self.database.insertInfoGeoAncestor(data_geo_ancestor)
+
+
+
         
 
     def saveFiles(self):

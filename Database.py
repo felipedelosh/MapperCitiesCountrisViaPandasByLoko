@@ -111,6 +111,23 @@ class Database:
         except:
             self.metadata[str(self.counter)] = "Error creating Table: netactica"
         self.counter = self.counter + 1
+        try:
+            sql = """
+            create table if not exists geo_ancestor(
+                id integer,
+                type text,
+                order_t integer,
+                ancestor_altern_id text,
+                geo_id integer
+            )
+            """
+            con = self.getConect()
+            con.execute(sql)
+            con.close()
+            self.metadata[str(self.counter)] = "Create Table: geo_ancestor"
+        except:
+            self.metadata[str(self.counter)] = "Error creating Table: geo_ancestor"
+        self.counter = self.counter + 1
 
 
 
@@ -215,7 +232,39 @@ class Database:
 
 
 
+    def insertInfoGeoAncestor(self, txt):
+        """
+        id integer,
+        type text,
+        order_t integer,
+        ancestor_altern_id text,
+        geo_id integer
+        """
+        count_insert_ok = 0
+        count_insert_fail = 0
+        self.conexion = self.getConect()
+        for i in txt.split("\n")[1:-1]:
+            try:
+                data = i.split("|")
+                id = str(data[0]).replace("\"", '')
+                id = int(id)
+                type_t = str(data[1]).replace("\"", '')
+                order_t = str(data[2]).replace("\"", '')
+                order_t = int(order_t)
+                ancestor_altern_id = str(data[3]).replace("\"", '')
+                geo_id = str(data[4]).replace("\"", '')
+                geo_id = int(geo_id)
+                #print((id, type_t, order_t, ancestor_altern_id, geo_id))
+                self.conexion.execute("insert into geo_ancestor (id,type,order_t,ancestor_altern_id,geo_id) values(?,?,?,?,?)", (id, type_t, order_t, ancestor_altern_id, geo_id))
+                count_insert_ok = count_insert_ok + 1
+            except:
+                #print("Error>>",i)
+                count_insert_fail = count_insert_fail + 1
 
+        print("Total registros insertados: ", str(count_insert_ok))
+        print("Total registros con errores de insersiion: ", str(count_insert_fail))
+        self.conexion.commit()
+        self.conexion.close()
 
 
 

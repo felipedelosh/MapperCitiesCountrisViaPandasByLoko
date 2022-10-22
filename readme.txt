@@ -34,6 +34,11 @@ Steps to macth:
      * Target
      * RESOURCES FOLDER
 
+2 -> Add Geolocation Via Netactica:
+     * This process its slowly
+
+3 -> Macth Turismoi via KdTree
+
      
 
 

@@ -2,3 +2,4 @@
 1 >> Create Table: Countries
 2 >> Create Table: turismoi
 3 >> Create Table: netactica
+4 >> Create Table: geo_ancestor

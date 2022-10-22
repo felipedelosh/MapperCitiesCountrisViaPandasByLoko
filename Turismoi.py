@@ -149,7 +149,7 @@ class TurismoiDATA:
             self.database.updateGEOLatLngInTurismoi(key, new_latude, new_longitude)
 
             self.data[key] = final_data
-            self.metadata["dbUPDATE:"+str(count)] = "UPDATE GEO >> " + key + " : " + geo
+            self.metadata["dbUPDATE:"+str(self.count)] = "UPDATE GEO >> " + key + " : " + geo
             self.count = self.count + 1    
         
 

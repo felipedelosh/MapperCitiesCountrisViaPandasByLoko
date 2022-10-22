@@ -18,6 +18,8 @@ class Software:
         self.lblAddGeoToTurismoi = Label(self.canvas, text="Agregar LAT LNG a Turismoi: ")
         self.btnADDGeoLatLngViaNetactica = Button(self.canvas, text="ADD GEO to turismoi", command=self.addGeoLatLngViaNetactica)
 
+        self.btnCreateKDTreeBinFiles = Button(self.canvas, text="INIT KDTREE")
+
         self.vizualizedAndRun()
 
 
