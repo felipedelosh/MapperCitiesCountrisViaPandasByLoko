@@ -161,6 +161,51 @@ class Database:
         except:
             self.metadata[str(self.counter)] = "Error creating Table: geo_geography"
         self.counter = self.counter + 1
+        try:
+            sql = """
+            create table if not exists geo_latitude_longitude(
+                id integer,
+                latitude double,
+                longitude double
+            )
+            """
+            con = self.getConect()
+            con.execute(sql)
+            con.close()
+            self.metadata[str(self.counter)] = "Create Table: geo_latitude_longitude"
+        except:
+            self.metadata[str(self.counter)] = "Error creating Table: geo_latitude_longitude"
+        self.counter = self.counter + 1
+        try:
+            sql = """
+            create table if not exists geo_polygon_shape(
+                polygon_id integer,
+                latlng_id integer,
+                point_order integer
+            )
+            """
+            con = self.getConect()
+            con.execute(sql)
+            con.close()
+            self.metadata[str(self.counter)] = "Create Table: geo_polygon_shape"
+        except:
+            self.metadata[str(self.counter)] = "Error creating Table: geo_polygon_shape"
+        self.counter = self.counter + 1
+        try:
+            sql = """
+            create table if not exists geo_polygon(
+                id integer,
+                geo_id integer,
+                type text
+            )
+            """
+            con = self.getConect()
+            con.execute(sql)
+            con.close()
+            self.metadata[str(self.counter)] = "Create Table: geo_polygon_shape"
+        except:
+            self.metadata[str(self.counter)] = "Error creating Table: geo_polygon_shape"
+        self.counter = self.counter + 1
 
 
 
@@ -373,27 +418,100 @@ class Database:
         self.conexion.close()
 
 
+    def insertinfoGeoLatitudeLongitude(self, txt):
+        """
+        geo_latitude_longitude(
+            id integer,
+            latitude double,
+            longitude double
+        )
+        """
+        count_insert_ok = 0
+        count_insert_fail = 0
+        self.conexion = self.getConect()
+        for i in txt.split("\n")[1:-1]:
+            try:
+                data = i.split("|")
+                id = data[0]
+                id = int(id)
+                latitude = data[1]
+                latitude = float(latitude)
+                longitude = data[2]
+                longitude = float(longitude)
 
+                self.conexion.execute("insert into geo_latitude_longitude (id,latitude,longitude) values(?,?,?)",(id,latitude,longitude))
+                count_insert_ok = count_insert_ok + 1
+            except:
+                count_insert_fail = count_insert_fail + 1
 
+        print("Total registros insertados: ", str(count_insert_ok))
+        print("Total registros con errores de insersiion: ", str(count_insert_fail))
+        self.conexion.commit()
+        self.conexion.close()
 
+    def insertinfoGeoPolygonShape(self, txt):
+        """
+            create table if not exists geo_polygon_shape(
+                polygon_id integer,
+                latlng_id integer,
+                point_order integer
+            )
+        )
+        """
+        count_insert_ok = 0
+        count_insert_fail = 0
+        self.conexion = self.getConect()
+        for i in txt.split("\n")[1:-1]:
+            try:
+                data = i.split("|")
+                polygon_id = data[0]
+                polygon_id = int(polygon_id)
+                latlng_id = data[1]
+                latlng_id = int(latlng_id)
+                point_order = data[2]
+                point_order = int(point_order)
+                
 
+                self.conexion.execute("insert into geo_polygon_shape (polygon_id,latlng_id,point_order) values (?,?,?)",(polygon_id,latlng_id,point_order))
+                count_insert_ok = count_insert_ok + 1
+            except:
+                count_insert_fail = count_insert_fail + 1
 
+        print("Total registros insertados: ", str(count_insert_ok))
+        print("Total registros con errores de insersiion: ", str(count_insert_fail))
+        self.conexion.commit()
+        self.conexion.close()
 
+    def insertinfoGeoPolygon(self, txt):
+        """
+            create table if not exists geo_polygon(
+                id integer,
+                geo_id integer,
+                type text
+            )
+        """
+        count_insert_ok = 0
+        count_insert_fail = 0
+        self.conexion = self.getConect()
+        for i in txt.split("\n")[1:-1]:
+            try:
+                data = i.split("|")
+                id = data[0]
+                id = int(id)
+                geo_id = data[1]
+                geo_id = int(geo_id)
+                type_t = data[2] 
+                
 
+                self.conexion.execute("insert into geo_polygon (id,geo_id,type) values (?,?,?)",(id,geo_id,type_t))
+                count_insert_ok = count_insert_ok + 1
+            except:
+                count_insert_fail = count_insert_fail + 1
 
-
-
-
-
-
-
-
-
-
-
-
-
-
+        print("Total registros insertados: ", str(count_insert_ok))
+        print("Total registros con errores de insersiion: ", str(count_insert_fail))
+        self.conexion.commit()
+        self.conexion.close()
 
 
     def insertInfoInTurismoi(self, data):

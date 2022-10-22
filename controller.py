@@ -69,8 +69,25 @@ class Controller:
             print("Se ingresarán a la base de datos geo_geography:", str(len(str(data_geo_geography).split("\n"))))
             self.database.insertInfoGeoGeography(data_geo_geography)
         
-        # Loco
+        total_geo_lat_lng = self.database.getTotalRowsOfTableX("geo_latitude_longitude")
+        print("Total datos en geo_latitude_longitude: ", str(total_geo_lat_lng))
+        if total_geo_lat_lng == 0:
+            data_geo_lat_lng = self.rtnArcheveInfo("RESOURCES/geo_latitude_longitude.csv")
+            print("Se ingresarán a DB geo_latitude_longitude: ", str(len(str(data_geo_lat_lng).split("\n"))))
+            self.database.insertinfoGeoLatitudeLongitude(data_geo_lat_lng)
 
+        total_geo_polygon_shape = self.database.getTotalRowsOfTableX("geo_polygon_shape")
+        if total_geo_polygon_shape == 0:
+            data_geo_polygon_shape = self.rtnArcheveInfo("RESOURCES/geo_polygon_shape.csv")
+            print("Se ingresarán a Db geo_polygon_shape: ", str(len(str(data_geo_polygon_shape).split("\n"))))
+            self.database.insertinfoGeoPolygonShape(data_geo_polygon_shape)
+
+        total_geo_polygon = self.database.getTotalRowsOfTableX("geo_polygon")
+        print("Total datos en geo_polygon: ", str(total_geo_polygon))
+        if total_geo_polygon == 0:
+            data_geo_polygon = self.rtnArcheveInfo("RESOURCES/geo_polygon.csv")
+            print("Se ingresarán a la base de datos: ", str(len(str(data_geo_polygon).split("\n"))))
+            self.database.insertinfoGeoPolygon(data_geo_polygon)
         
 
     def saveFiles(self):

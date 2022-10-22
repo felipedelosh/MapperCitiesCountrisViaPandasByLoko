@@ -4,3 +4,6 @@
 3 >> Create Table: netactica
 4 >> Create Table: geo_ancestor
 5 >> Create Table: geo_geography
+6 >> Create Table: geo_latitude_longitude
+7 >> Create Table: geo_polygon_shape
+8 >> Create Table: geo_polygon_shape
