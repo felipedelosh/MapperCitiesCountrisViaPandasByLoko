@@ -18,11 +18,11 @@ Example: Turismoi > Netactica > Target.csv
 
 How to RUN:
 
-Install:
+Install this libraries:
 
-
-
-
+import pandas as pd
+from scipy import spatial
+import pickle
 
 
 
@@ -37,7 +37,9 @@ Steps to macth:
 2 -> Add Geolocation Via Netactica:
      * This process its slowly
 
-3 -> Macth Turismoi via KdTree
+3.0 -> Init Tree Files.
+
+3.1 -> Macth Turismoi via KdTree
 
      
 

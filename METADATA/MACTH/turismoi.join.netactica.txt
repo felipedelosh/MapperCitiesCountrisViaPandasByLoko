@@ -48,3 +48,1523 @@ MACTID:46 >> AR|23988|tandil|AR|284158|Tandil
 MACTID:47 >> AR|23989|temperley|AR|65939|Temperley
 MACTID:48 >> AR|23990|tres-arroyos|AR|238383|Tres Arroyos
 MACTNAMEES:49 >> AR|23992|vicente-lopez|Vicente López
+MACTNAMEES:50 >> AR|23994|villa-dominico|Villa Domínico
+MACTID:51 >> AR|23995|villa-luzuriaga|AR|41478|Villa Luzuriaga
+MACTID:52 >> AR|23998|virrey-del-pino|AR|41474|Virrey del Pino
+MACTNAMEES:53 >> AR|24001|zarate|Zárate
+MACTID:54 >> AR|24007|resistencia|AR|329587|Resistencia
+MACTID:55 >> AR|24009|comodoro-rivadavia|AR|328113|Comodoro Rivadavia
+MACTID:56 >> AR|24010|esquel|AR|328399|Esquel
+MACTID:57 >> AR|24011|puerto-madryn|AR|269380|Puerto Madryn
+MACTID:58 >> AR|24012|rawson|AR|392154|Rawson
+MACTID:59 >> AR|24013|trelew|AR|329590|Trelew
+MACTNAMEES:60 >> AR|24016|cordoba|Córdoba
+MACTNAMEES:61 >> AR|24017|rio-cuarto|Río Cuarto
+MACTID:62 >> AR|24018|san-francisco|AR|457447|San Francisco
+MACTID:63 >> AR|24019|villa-carlos-paz|AR|343147|Villa Carlos Paz
+MACTID:64 >> AR|24020|villa-dolores|AR|41463|Villa Dolores
+MACTNAMEES:65 >> AR|24021|villa-maria|Villa María
+MACTID:66 >> AR|24023|corrientes|AR|328137|Corrientes
+MACTID:67 >> AR|24024|goya|AR|457508|Goya
+MACTID:68 >> AR|24027|concordia|AR|328134|Concordia
+MACTNAMEES:69 >> AR|24028|gualeguaychu|Gualeguaychú
+MACTNAMEES:70 >> AR|24029|parana|Paraná
+MACTID:71 >> AR|24032|formosa|AR|328337|Formosa
+MACTNAMEES:72 >> AR|24034|palpala|Palpalá
+MACTID:73 >> AR|24035|san-pedro-de-jujuy|AR|445845|San Pedro de Jujuy
+MACTID:74 >> AR|24036|san-salvador-de-jujuy|AR|328807|San Salvador de Jujuy
+MACTID:75 >> AR|24038|general-pico|AR|457505|General Pico
+MACTID:76 >> AR|24039|santa-rosa|AR|327039|Santa Rosa
+MACTID:77 >> AR|24041|buenos-aires|AR|327860|Buenos Aires
+MACTID:78 >> AR|24043|la-rioja|AR|328604|La Rioja
+MACTID:79 >> AR|24045|godoy-cruz|AR|416699|Godoy Cruz
+MACTNAMEES:80 >> AR|24046|guaymallen|Guaymallén
+MACTID:81 >> AR|24047|las-heras|AR|372123|Las Heras
+MACTNAMEES:82 >> AR|24048|lujan-de-cuyo|Luján de Cuyo
+MACTNAMEES:83 >> AR|24049|maipu|Maipú
+MACTID:84 >> AR|24050|mendoza|AR|329275|Mendoza
+MACTNAMEES:85 >> AR|24051|san-martin|San Martín
+MACTID:86 >> AR|24052|san-rafael|AR|327750|San Rafael
+MACTID:87 >> AR|24054|eldorado|AR|406293|Eldorado
+MACTNAMEES:88 >> AR|24055|obera|Oberá
+MACTID:89 >> AR|24056|posadas|AR|329663|Posadas
+MACTNAMEES:90 >> AR|24058|neuquen|Neuquén
+MACTID:91 >> AR|24070|cipolletti|AR|372609|Cipolletti
+MACTID:92 >> AR|24071|general-roca|AR|327261|General Roca
+MACTID:93 >> AR|24072|san-carlos-de-bariloche|AR|327893|San Carlos de Bariloche
+MACTID:94 >> AR|24073|viedma|AR|326912|Viedma
+MACTID:95 >> AR|24075|salta|AR|372371|Salta
+MACTID:96 >> AR|24077|tartagal|AR|457397|Tartagal
+MACTID:97 >> AR|24079|catamarca|AR|328104|Catamarca
+MACTID:98 >> AR|24081|chimbas|AR|27043|Chimbas
+MACTID:99 >> AR|24083|san-juan|AR|330378|San Juan
+MACTID:100 >> AR|24085|san-luis|AR|329020|San Luis
+MACTID:101 >> AR|24086|villa-mercedes|AR|348450|Villa Mercedes
+MACTNAMEES:102 >> AR|24088|tucuman|Tucumán
+MACTNAMEES:103 >> AR|24092|rio-gallegos|Río Gallegos
+MACTID:104 >> AR|24095|rafaela|AR|236328|Rafaela
+MACTID:105 >> AR|24096|reconquista|AR|457425|Reconquista
+MACTID:106 >> AR|24097|rosario|AR|329541|Rosario
+MACTID:107 >> AR|24098|santa-fe|AR|329927|Santa Fe
+MACTID:108 >> AR|24099|venado-tuerto|AR|457382|Venado Tuerto
+MACTID:109 >> AR|24104|la-banda|AR|445781|La Banda
+MACTID:110 >> AR|24105|santiago-del-estero|AR|329948|Santiago del Estero
+MACTNAMEES:111 >> AR|24107|rio-grande|Río Grande
+MACTID:112 >> AR|24108|ushuaia|AR|330330|Ushuaia
+MACTNAMEES:113 >> AR|24111|concepcion|Concepción
+MACTID:114 >> AR|26391|el-calafate|AR|377710|El Calafate
+MACTID:115 >> BZ|26263|ciudad-de-belice|BZ|327828|Ciudad de Belice
+MACTID:116 >> BZ|26267|cayo-goff|BZ|316718|Cayo Goff
+MACTNAMEES:117 >> BZ|26269|belmopan|Belmopán
+MACTID:118 >> BZ|26270|san-ignacio|BZ|343922|San Ignacio
+MACTID:119 >> BZ|26271|benque-viejo-del-carmen|BZ|437985|Benque Viejo Del Carmen
+MACTNAMEES:120 >> BZ|26272|san-antonio-26272|San Antonio
+MACTID:121 >> BZ|26280|bullet-tree-falls|BZ|457640|Bullet Tree Falls
+MACTNAMEEN:122 >> BZ|26285|spanish-lookout|Spanish Lookout
+MACTID:123 >> BZ|26287|vaca|BZ|457668|Vaca
+MACTID:124 >> BZ|26297|chunox|BZ|131251|Chunox
+MACTID:125 >> BZ|26300|copper-bank|BZ|236270|Copper Bank
+MACTID:126 >> BZ|26316|sarteneja|BZ|436839|Sarteneja
+MACTNAMEES:127 >> BZ|26334|san-antonio-26334|San Antonio
+MACTNAMEES:128 >> BZ|26337|san-felipe-26337|San Felipe
+MACTID:129 >> BZ|26353|dangriga|BZ|348972|Dangriga
+MACTID:130 >> BZ|26355|placencia|BZ|336301|Placencia
+MACTNAMEEN:131 >> BZ|26362|independence-and-mango-creek|Independence and Mango Creek
+MACTID:132 >> BZ|26370|pomona|BZ|437052|Pomona
+MACTID:133 >> BZ|26379|hopkins|BZ|324596|Hopkins
+MACTID:134 >> BZ|26381|punta-gorda|BZ|343164|Punta Gorda
+MACTID:135 >> BZ|26384|monkey-river-town|BZ|457643|Monkey River Town
+MACTID:136 >> BZ|26386|san-pedro-columbia|BZ|230279|San Pedro Columbia
+MACTID:137 >> ZA|26402|johannesburgo|ZA|339215|Johannesburgo
+MACTID:138 >> MX|285995|aguascalientes|MX|327738|Aguascalientes
+MACTID:139 >> MX|285996|asientos|MX|445093|Asientos
+MACTID:140 >> MX|285997|calvillo|MX|436819|Calvillo
+MACTNAMEES:141 >> MX|286001|rincon-de-romos|Rincón de Romos
+MACTID:142 >> MX|286002|san-francisco-de-los-romo|MX|42096|San Francisco de los Romo
+MACTID:143 >> MX|286005|ensenada|MX|332883|Ensenada
+MACTID:144 >> MX|286006|mexicali|MX|327108|Mexicali
+MACTID:145 >> MX|286007|san-felipe|MX|229660|San Felipe
+MACTID:146 >> MX|286009|tecate|MX|340383|Tecate
+MACTID:147 >> MX|286010|tijuana|MX|373009|Tijuana
+MACTNAMEES:148 >> MX|286011|ciudad-constitucion|Ciudad Constitución
+MACTID:149 >> MX|286013|la-paz|MX|445289|La Paz
+MACTID:150 >> MX|286014|todos-santos|MX|446961|Todos Santos
+MACTID:151 >> MX|286015|loreto|MX|329031|Loreto
+MACTNAMEES:152 >> MX|286016|san-jose-del-cabo|San José del Cabo
+MACTID:153 >> MX|286017|cabo-san-lucas|MX|335016|Cabo San Lucas
+MACTNAMEES:154 >> MX|286019|santa-rosalia|Santa Rosalía
+MACTID:155 >> MX|286020|san-ignacio|MX|28563|San Ignacio
+MACTID:156 >> MX|286022|guerrero-negro|MX|328568|Guerrero Negro
+MACTNAMEES:157 >> MX|286023|calkini|Calkiní
+MACTID:158 >> MX|286025|candelaria|MX|445139|Candelaria
+MACTID:159 >> MX|286026|ciudad-del-carmen|MX|328152|Ciudad del Carmen
+MACTNAMEES:160 >> MX|286028|champoton|Champotón
+MACTNAMEES:161 >> MX|286029|escarcega|Escárcega
+MACTNAMEES:162 >> MX|286030|hecelchakan|Hecelchakán
+MACTNAMEES:163 >> MX|286032|hopelchen|Hopelchén
+MACTNAMEES:164 >> MX|286035|cacahoatan|Cacahoatán
+MACTID:165 >> MX|286036|chiapa-de-corzo|MX|354473|Chiapa de Corzo
+MACTNAMEES:166 >> MX|286038|comitan-de-dominguez|Comitán de Domínguez
+MACTID:167 >> MX|286040|jiquipilas|MX|353621|Jiquipilas
+MACTID:168 >> MX|286045|ocosingo|MX|417041|Ocosingo
+MACTID:169 >> MX|286046|ocozocoautla-de-espinosa|MX|241325|Ocozocoautla de Espinosa
+MACTID:170 >> MX|286047|palenque|MX|334826|Palenque
+MACTID:171 >> MX|286048|pichucalco|MX|451028|Pichucalco
+MACTID:172 >> MX|286049|pijijiapan|MX|471841|Pijijiapan
+MACTNAMEES:173 >> MX|286051|san-cristobal-de-las-casas|San Cristóbal de las Casas
+MACTNAMEES:174 >> MX|286054|tonala|Tonalá
+MACTNAMEES:175 >> MX|286055|tuxtla-gutierrez|Tuxtla Gutiérrez
+MACTID:176 >> MX|286061|chihuahua|MX|328093|Chihuahua
+MACTNAMEES:177 >> MX|286062|cuauhtemoc|Cuauhtémoc
+MACTNAMEES:178 >> MX|286063|colonia-anahuac|Colonia Anáhuac
+MACTID:179 >> MX|286064|delicias|MX|326006|Delicias
+MACTID:180 >> MX|286065|hidalgo-del-parral|MX|351402|Hidalgo del Parral
+MACTID:181 >> MX|286069|nuevo-casas-grandes|MX|354474|Nuevo Casas Grandes
+MACTNAMEES:182 >> MX|286072|ciudad-de-mexico|Ciudad de México
+MACTID:183 >> MX|286075|arteaga|MX|350982|Arteaga
+MACTNAMEES:184 >> MX|286077|cuatro-cienegas-de-carranza|Cuatro Ciénegas de Carranza
+MACTID:185 >> MX|286080|matamoros|MX|30527|Matamoros
+MACTID:186 >> MX|286081|monclova|MX|329063|Monclova
+MACTID:187 >> MX|286086|parras-de-la-fuente|MX|340768|Parras de la Fuente
+MACTID:188 >> MX|286087|piedras-negras|MX|334903|Piedras Negras
+MACTID:189 >> MX|286088|ramos-arizpe|MX|354471|Ramos Arizpe
+MACTID:190 >> MX|286089|sabinas|MX|353192|Sabinas
+MACTID:191 >> MX|286090|saltillo|MX|329856|Saltillo
+MACTID:192 >> MX|286093|san-pedro|MX|28427|San Pedro
+MACTNAMEES:193 >> MX|286094|torreon|Torreón
+MACTID:194 >> MX|286095|viesca|MX|239752|Viesca
+MACTID:195 >> MX|286098|colima|MX|399104|Colima
+MACTID:196 >> MX|286099|manzanillo|MX|307835|Manzanillo
+MACTNAMEES:197 >> MX|286100|tecoman|Tecomán
+MACTNAMEES:198 >> MX|286104|santa-maria-del-oro|Santa María del Oro
+MACTNAMEES:199 >> MX|286105|gomez-palacio|Gómez Palacio
+MACTID:200 >> MX|286110|el-salto|MX|33464|El Salto
+MACTID:201 >> MX|286113|vicente-guerrero|MX|447298|Vicente Guerrero
+MACTID:202 >> MX|286114|abasolo|MX|42089|Abasolo
+MACTNAMEES:203 >> MX|286115|acambaro|Acámbaro
+MACTID:204 >> MX|286117|apaseo-el-grande|MX|394639|Apaseo el Grande
+MACTID:205 >> MX|286118|celaya|MX|325953|Celaya
+MACTNAMEES:206 >> MX|286122|cortazar|Cortázar
+MACTID:207 >> MX|286125|dolores-hidalgo|MX|343200|Dolores Hidalgo
+MACTID:208 >> MX|286126|guanajuato|MX|333149|Guanajuato
+MACTID:209 >> MX|286129|irapuato|MX|335501|Irapuato
+MACTNAMEES:210 >> MX|286135|penjamo|Pénjamo
+MACTID:211 >> MX|286138|salamanca|MX|351401|Salamanca
+MACTID:212 >> MX|286139|salvatierra|MX|406668|Salvatierra
+MACTNAMEES:213 >> MX|286141|san-francisco-del-rincon|San Francisco del Rincón
+MACTID:214 >> MX|286143|san-luis-de-la-paz|MX|246038|San Luis de la Paz
+MACTID:215 >> MX|286144|san-miguel-de-allende|MX|335108|San Miguel de Allende
+MACTID:216 >> MX|286147|silao|MX|344762|Silao
+MACTID:217 >> MX|286149|uriangato|MX|406649|Uriangato
+MACTID:218 >> MX|286150|valle-de-santiago|MX|230406|Valle de Santiago
+MACTID:219 >> MX|286152|yuriria|MX|406666|Yuriria
+MACTID:220 >> MX|286162|chilpancingo-de-los-bravo|MX|432190|Chilpancingo de los Bravo
+MACTID:221 >> MX|286164|copala|MX|42102|Copala
+MACTNAMEES:222 >> MX|286165|coyuca-de-benitez|Coyuca de Benítez
+MACTID:223 >> MX|286173|iguala-de-la-independencia|MX|367757|Iguala de la Independencia
+MACTID:224 >> MX|286174|tierra-colorada|MX|33740|Tierra Colorada
+MACTNAMEES:225 >> MX|286175|la-union|La Unión
+MACTNAMEES:226 >> MX|286177|olinala|Olinalá
+MACTNAMEES:227 >> MX|286178|petatlan|Petatlán
+MACTID:228 >> MX|286179|ciudad-altamirano|MX|33392|Ciudad Altamirano
+MACTID:229 >> MX|286187|tepecoacuilco-de-trujano|MX|432497|Tepecoacuilco de Trujano
+MACTID:230 >> MX|286192|zihuatanejo|MX|332202|Zihuatanejo
+MACTID:231 >> MX|286193|actopan|MX|353622|Actopan
+MACTID:232 >> MX|286195|huejutla-de-reyes|MX|284772|Huejutla de Reyes
+MACTID:233 >> MX|286196|ixmiquilpan|MX|356581|Ixmiquilpan
+MACTID:234 >> MX|286204|tula-de-allende|MX|350470|Tula de Allende
+MACTID:235 >> MX|286206|tulancingo|MX|356586|Tulancingo
+MACTNAMEES:236 >> MX|286207|zimapan|Zimapán
+MACTID:237 >> MX|286209|ahualulco-de-mercado|MX|351387|Ahualulco de Mercado
+MACTID:238 >> MX|286211|arandas|MX|437473|Arandas
+MACTID:239 >> MX|286215|chapala|MX|324470|Chapala
+MACTID:240 >> MX|286216|ajijic|MX|335499|Ajijic
+MACTNAMEES:241 >> MX|286217|cihuatlan|Cihuatlán
+MACTID:242 >> MX|286218|cocula|MX|228796|Cocula
+MACTID:243 >> MX|286220|el-grullo|MX|228798|El Grullo
+MACTNAMEES:244 >> MX|286224|etzatlan|Etzatlán
+MACTID:245 >> MX|286225|guadalajara|MX|351377|Guadalajara
+MACTID:246 >> MX|286229|jocotepec|MX|372236|Jocotepec
+MACTID:247 >> MX|286230|la-barca|MX|228800|La Barca
+MACTID:248 >> MX|286231|lagos-de-moreno|MX|334219|Lagos de Moreno
+MACTID:249 >> MX|286232|magdalena|MX|228789|Magdalena
+MACTNAMEES:250 >> MX|286233|ocotlan|Ocotlán
+MACTID:251 >> MX|286235|puerto-vallarta|MX|329638|Puerto Vallarta
+MACTID:252 >> MX|286238|san-juan-de-los-lagos|MX|415214|San Juan de los Lagos
+MACTID:253 >> MX|286240|san-miguel-el-alto|MX|228792|San Miguel el Alto
+MACTID:254 >> MX|286241|tlaquepaque|MX|425909|Tlaquepaque
+MACTID:255 >> MX|286242|sayula|MX|350586|Sayula
+MACTID:256 >> MX|286243|tala|MX|351388|Tala
+MACTID:257 >> MX|286244|talpa-de-allende|MX|445145|Talpa de Allende
+MACTID:258 >> MX|286245|tamazula-de-gordiano|MX|439135|Tamazula de Gordiano
+MACTID:259 >> MX|286247|teocaltiche|MX|228805|Teocaltiche
+MACTNAMEES:260 >> MX|286248|tepatitlan-de-morelos|Tepatitlán de Morelos
+MACTID:261 >> MX|286249|tequila|MX|372020|Tequila
+MACTNAMEES:262 >> MX|286250|tlajomulco-de-zuniga|Tlajomulco de Zúñiga
+MACTID:263 >> MX|286252|tuxpan|MX|356682|Tuxpan
+MACTNAMEES:264 >> MX|286253|union-de-san-antonio|Unión de San Antonio
+MACTID:265 >> MX|286254|valle-de-guadalupe|MX|415363|Valle de Guadalupe
+MACTID:266 >> MX|286255|villa-corona|MX|346085|Villa Corona
+MACTID:267 >> MX|286256|villa-hidalgo|MX|421223|Villa Hidalgo
+MACTID:268 >> MX|286259|zapopan|MX|325779|Zapopan
+MACTNAMEES:269 >> MX|286266|chalco-de-diaz-covarrubias|Chalco de Díaz Covarrubias
+MACTID:270 >> MX|286268|chiconcuac|MX|453080|Chiconcuac
+MACTNAMEES:271 >> MX|286269|chimalhuacan|Chimalhuacán
+MACTNAMEES:272 >> MX|286271|cuautitlan|Cuautitlán
+MACTNAMEES:273 >> MX|286272|cuautitlan-izcalli|Cuautitlán Izcalli
+MACTID:274 >> MX|286273|ecatepec-de-morelos|MX|324802|Ecatepec de Morelos
+MACTID:275 >> MX|286275|ixtapaluca|MX|340013|Ixtapaluca
+MACTID:276 >> MX|286283|ocoyoacac|MX|418358|Ocoyoacac
+MACTID:277 >> MX|286286|tejupilco-de-hidalgo|MX|42990|Tejupilco de Hidalgo
+MACTNAMEES:278 >> MX|286287|tepotzotlan|Tepotzotlán
+MACTID:279 >> MX|286289|texcoco-de-mora|MX|340011|Texcoco de Mora
+MACTID:280 >> MX|286290|tlalnepantla-de-baz|MX|369966|Tlalnepantla de Baz
+MACTID:281 >> MX|286296|zumpango|MX|228744|Zumpango
+MACTID:282 >> MX|286300|ciudad-hidalgo|MX|228785|Ciudad Hidalgo
+MACTNAMEES:283 >> MX|286303|jiquilpan-de-juarez|Jiquilpan de Juárez
+MACTID:284 >> MX|286309|morelia|MX|283870|Morelia
+MACTID:285 >> MX|286311|paracho-de-verduzco|MX|437474|Paracho de Verduzco
+MACTNAMEES:286 >> MX|286312|patzcuaro|Pátzcuaro
+MACTNAMEES:287 >> MX|286313|puruandiro|Puruándiro
+MACTNAMEES:288 >> MX|286316|tangancicuaro-de-arista|Tangancícuaro de Arista
+MACTID:289 >> MX|286317|uruapan|MX|330338|Uruapan
+MACTID:290 >> MX|286324|cuernavaca|MX|328088|Cuernavaca
+MACTID:291 >> MX|286326|puente-de-ixtla|MX|346099|Puente de Ixtla
+MACTID:292 >> MX|286328|tlaquiltenango|MX|356585|Tlaquiltenango
+MACTID:293 >> MX|286331|acaponeta|MX|42056|Acaponeta
+MACTNAMEES:294 >> MX|286332|ahuacatlan|Ahuacatlán
+MACTNAMEES:295 >> MX|286333|bucerias|Bucerías
+MACTID:296 >> MX|286335|las-varas|MX|253600|Las Varas
+MACTNAMEES:297 >> MX|286336|la-penita-de-jaltemba|La Peñita de Jaltemba
+MACTNAMEES:298 >> MX|286337|ixtlan-del-rio|Ixtlán del Río
+MACTID:299 >> MX|286338|jala|MX|444816|Jala
+MACTID:300 >> MX|286340|san-blas|MX|341987|San Blas
+MACTID:301 >> MX|286342|santiago-ixcuintla|MX|445159|Santiago Ixcuintla
+MACTID:302 >> MX|286345|tepic|MX|330023|Tepic
+MACTNAMEES:303 >> MX|286350|cadereyta-jimenez|Cadereyta Jiménez
+MACTID:304 >> MX|286352|doctor-arroyo|MX|229537|Doctor Arroyo
+MACTNAMEES:305 >> MX|286353|garcia|García
+MACTID:306 >> MX|286355|guadalupe|MX|334794|Guadalupe
+MACTID:307 >> MX|286358|linares|MX|408825|Linares
+MACTID:308 >> MX|286359|montemorelos|MX|353615|Montemorelos
+MACTID:309 >> MX|286360|monterrey|MX|352078|Monterrey
+MACTNAMEES:310 >> MX|286362|san-nicolas-de-los-garza|San Nicolás de los Garza
+MACTNAMEES:311 >> MX|286363|san-pedro-garza-garcia|San Pedro Garza García
+MACTID:312 >> MX|286365|santiago|MX|400028|Santiago
+MACTID:313 >> MX|286366|el-cercado|MX|308392|El Cercado
+MACTNAMEES:314 >> MX|286368|asuncion-nochixtlan|Asunción Nochixtlán
+MACTNAMEES:315 >> MX|286372|cuilapam-de-guerrero|Cuilápam de Guerrero
+MACTID:316 >> MX|286384|oaxaca|MX|329478|Oaxaca
+MACTID:317 >> MX|286387|salina-cruz|MX|329951|Salina Cruz
+MACTNAMEES:318 >> MX|286390|san-felipe-jalapa-de-diaz|San Felipe Jalapa de Díaz
+MACTID:319 >> MX|286395|san-juan-bautista-tuxtepec|MX|436939|San Juan Bautista Tuxtepec
+MACTID:320 >> MX|286396|san-juan-bautista-valle-nacional|MX|424596|San Juan Bautista Valle Nacional
+MACTID:321 >> MX|286400|san-pablo-villa-de-mitla|MX|249617|San Pablo Villa de Mitla
+MACTID:322 >> MX|286401|san-pedro-pochutla|MX|249614|San Pedro Pochutla
+MACTID:323 >> MX|286405|el-rosario|MX|245642|El Rosario
+MACTNAMEES:324 >> MX|286408|santa-maria-huatulco|Santa María Huatulco
+MACTID:325 >> MX|286419|villa-de-zaachila|MX|42019|Villa de Zaachila
+MACTNAMEES:326 >> MX|286421|zimatlan-de-alvarez|Zimatlán de Álvarez
+MACTID:327 >> MX|286423|amozoc|MX|381859|Amozoc
+MACTID:328 >> MX|286424|atlixco|MX|355089|Atlixco
+MACTID:329 >> MX|286427|huauchinango|MX|401595|Huauchinango
+MACTNAMEES:330 >> MX|286428|izucar-de-matamoros|Izúcar de Matamoros
+MACTID:331 >> MX|286429|puebla|MX|296794|Puebla
+MACTNAMEES:332 >> MX|286434|tehuacan|Tehuacán
+MACTNAMEES:333 >> MX|286436|teziutlan|Teziutlán
+MACTID:334 >> MX|286437|xicotepec|MX|444815|Xicotepec
+MACTNAMEES:335 >> MX|286438|zacatlan|Zacatlán
+MACTID:336 >> MX|286439|el-pueblito|MX|425788|El Pueblito
+MACTNAMEES:337 >> MX|286440|queretaro|Querétaro
+MACTNAMEES:338 >> MX|286441|san-juan-del-rio|San Juan del Río
+MACTID:339 >> MX|286442|bacalar|MX|284668|Bacalar
+MACTNAMEES:340 >> MX|286443|cancun|Cancún
+MACTID:341 >> MX|286444|cozumel|MX|340281|Cozumel
+MACTID:342 >> MX|286445|felipe-carrillo-puerto|MX|432522|Felipe Carrillo Puerto
+MACTID:343 >> MX|286446|isla-mujeres|MX|326220|Isla Mujeres
+MACTID:344 >> MX|286448|chetumal|MX|328101|Chetumal
+MACTID:345 >> MX|286449|playa-del-carmen|MX|344049|Playa del Carmen
+MACTNAMEES:346 >> MX|286450|cardenas|Cárdenas
+MACTID:347 >> MX|286451|cedral|MX|444824|Cedral
+MACTID:348 >> MX|286452|cerritos|MX|446960|Cerritos
+MACTID:349 >> MX|286453|charcas|MX|445112|Charcas
+MACTID:350 >> MX|286456|ciudad-valles|MX|325706|Ciudad Valles
+MACTID:351 >> MX|286458|el-naranjo|MX|444867|El Naranjo
+MACTID:352 >> MX|286459|matehuala|MX|341991|Matehuala
+MACTID:353 >> MX|286461|salinas-de-hidalgo|MX|245490|Salinas de Hidalgo
+MACTNAMEES:354 >> MX|286462|san-luis-potosi|San Luis Potosí
+MACTNAMEES:355 >> MX|286463|santa-maria-del-rio|Santa María del Río
+MACTID:356 >> MX|286465|tamasopo|MX|426147|Tamasopo
+MACTID:357 >> MX|286466|tamazunchale|MX|426146|Tamazunchale
+MACTNAMEES:358 >> MX|286467|tamuin|Tamuín
+MACTID:359 >> MX|286468|tierra-nueva|MX|444863|Tierra Nueva
+MACTID:360 >> MX|286469|villa-de-reyes|MX|359762|Villa de Reyes
+MACTID:361 >> MX|286470|los-mochis|MX|445767|Los Mochis
+MACTID:362 >> MX|286471|ahome|MX|445087|Ahome
+MACTID:363 >> MX|286473|topolobampo|MX|347396|Topolobampo
+MACTID:364 >> MX|286474|angostura|MX|42081|Angostura
+MACTID:365 >> MX|286475|choix|MX|432398|Choix
+MACTID:366 >> MX|286476|cosala|MX|367851|Cosala
+MACTID:367 >> MX|286480|la-cruz|MX|33317|La Cruz
+MACTID:368 >> MX|286482|guasave|MX|324437|Guasave
+MACTNAMEES:369 >> MX|286483|mazatlan|Mazatlán
+MACTID:370 >> MX|286485|mocorito|MX|237584|Mocorito
+MACTNAMEES:371 >> MX|286488|el-rosario-22a06ef6-215c-41e0-a755-12f0a63ec830|El Rosario
+MACTID:372 >> MX|286489|guamuchil|MX|356628|Guamuchil
+MACTID:373 >> MX|286490|sinaloa-de-leyva|MX|41808|Sinaloa de Leyva
+MACTID:374 >> MX|286492|agua-prieta|MX|248230|Agua Prieta
+MACTNAMEES:375 >> MX|286494|ciudad-obregon|Ciudad Obregón
+MACTID:376 >> MX|286499|hermosillo|MX|328486|Hermosillo
+MACTID:377 >> MX|286500|huatabampo|MX|228695|Huatabampo
+MACTID:378 >> MX|286501|magdalena-de-kino|MX|239750|Magdalena de Kino
+MACTID:379 >> MX|286502|navojoa|MX|341225|Navojoa
+MACTNAMEES:380 >> MX|286504|puerto-penasco|Puerto Peñasco
+MACTNAMEES:381 >> MX|286505|san-luis-rio-colorado|San Luis Río Colorado
+MACTID:382 >> MX|286506|villahermosa|MX|330257|Villahermosa
+MACTID:383 >> MX|286507|comalcalco|MX|437639|Comalcalco
+MACTNAMEES:384 >> MX|286508|cunduacan|Cunduacán
+MACTID:385 >> MX|286509|emiliano-zapata|MX|457809|Emiliano Zapata
+MACTNAMEES:386 >> MX|286511|jalpa-de-mendez|Jalpa de Méndez
+MACTNAMEES:387 >> MX|286513|paraiso|Paraíso
+MACTID:388 >> MX|286514|teapa|MX|445158|Teapa
+MACTID:389 >> MX|286516|altamira|MX|315674|Altamira
+MACTID:390 >> MX|286518|ciudad-madero|MX|340769|Ciudad Madero
+MACTID:391 >> MX|286519|ciudad-mante|MX|343206|Ciudad Mante
+MACTID:392 >> MX|286527|nuevo-laredo|MX|329533|Nuevo Laredo
+MACTID:393 >> MX|286528|reynosa|MX|329584|Reynosa
+MACTID:394 >> MX|286532|tampico|MX|330165|Tampico
+MACTID:395 >> MX|286534|valle-hermoso|MX|352258|Valle Hermoso
+MACTID:396 >> MX|286535|ciudad-victoria|MX|328086|Ciudad Victoria
+MACTID:397 >> MX|286537|apizaco|MX|345991|Apizaco
+MACTID:398 >> MX|286539|chiautempan|MX|249347|Chiautempan
+MACTID:399 >> MX|286540|huamantla|MX|316723|Huamantla
+MACTID:400 >> MX|286543|acayucan|MX|440756|Acayucan
+MACTID:401 >> MX|286545|altotonga|MX|452402|Altotonga
+MACTID:402 >> MX|286546|alvarado|MX|351399|Alvarado
+MACTID:403 >> MX|286549|atoyac|MX|338916|Atoyac
+MACTID:404 >> MX|286551|banderilla|MX|433087|Banderilla
+MACTNAMEES:405 >> MX|286552|boca-del-rio|Boca del Río
+MACTNAMEES:406 >> MX|286553|carlos-a-carrillo|Carlos A. Carrillo
+MACTID:407 >> MX|286554|catemaco|MX|324474|Catemaco
+MACTID:408 >> MX|286557|coatepec|MX|347195|Coatepec
+MACTID:409 >> MX|286558|coatzacoalcos|MX|371624|Coatzacoalcos
+MACTID:410 >> MX|286559|coatzintla|MX|450246|Coatzintla
+MACTNAMEES:411 >> MX|286560|cordoba|Córdoba
+MACTNAMEES:412 >> MX|286565|fortin-de-las-flores|Fortín de las Flores
+MACTNAMEES:413 >> MX|286566|gutierrez-zamora|Gutiérrez Zamora
+MACTNAMEES:414 >> MX|286575|jose-cardel|José Cardel
+MACTID:415 >> MX|286577|lerdo-de-tejada|MX|42059|Lerdo de Tejada
+MACTNAMEES:416 >> MX|286578|minatitlan|Minatitlán
+MACTID:417 >> MX|286581|nogales|MX|332175|Nogales
+MACTID:418 >> MX|286582|orizaba|MX|347093|Orizaba
+MACTID:419 >> MX|286584|papantla-de-olarte|MX|425421|Papantla de Olarte
+MACTNAMEES:420 >> MX|286590|rio-blanco|Río Blanco
+MACTNAMEES:421 >> MX|286591|san-andres-tuxtla|San Andrés Tuxtla
+MACTID:422 >> MX|286593|san-rafael|MX|400988|San Rafael
+MACTID:423 >> MX|286594|santiago-tuxtla|MX|433116|Santiago Tuxtla
+MACTID:424 >> MX|286597|tantoyuca|MX|347251|Tantoyuca
+MACTID:425 >> MX|286603|tlapacoyan|MX|356629|Tlapacoyan
+MACTID:426 >> MX|286606|veracruz|MX|352098|Veracruz
+MACTNAMEES:427 >> MX|286610|merida|Mérida
+MACTID:428 >> MX|286612|ticul|MX|384858|Ticul
+MACTNAMEES:429 >> MX|286613|tizimin|Tizimín
+MACTID:430 >> MX|286614|valladolid|MX|324438|Valladolid
+MACTNAMEES:431 >> MX|286616|ciudad-cuauhtemoc|Ciudad Cuauhtémoc
+MACTID:432 >> MX|286617|fresnillo|MX|341993|Fresnillo
+MACTID:433 >> MX|286618|jalpa|MX|444763|Jalpa
+MACTNAMEES:434 >> MX|286619|jerez-de-garcia-salinas|Jerez de García Salinas
+MACTID:435 >> MX|286623|ojocaliente|MX|450308|Ojocaliente
+MACTNAMEES:436 >> MX|286624|rio-grande|Río Grande
+MACTID:437 >> MX|286625|sombrerete|MX|444812|Sombrerete
+MACTID:438 >> MX|286628|villanueva|MX|42123|Villanueva
+MACTID:439 >> MX|286629|zacatecas|MX|326828|Zacatecas
+MACTID:440 >> MX|286630|aculco|MX|450683|Aculco
+MACTID:441 >> MX|286633|valle-de-bravo|MX|335646|Valle de Bravo
+MACTID:442 >> MX|286634|tequisquiapan|MX|351400|Tequisquiapan
+MACTID:443 >> MX|286635|tequesquitengo|MX|335240|Tequesquitengo
+MACTID:444 >> MX|286636|malinalco|MX|274402|Malinalco
+MACTNAMEES:445 >> MX|286637|tepoztlan|Tepoztlán
+MACTID:446 >> MX|286638|puerto-escondido|MX|329635|Puerto Escondido
+MACTID:447 >> MX|286643|tolantongo|MX|418955|Tolantongo
+MACTID:448 >> MX|286646|el-fuerte|MX|341992|El Fuerte
+MACTID:449 >> MX|286647|san-carlos|MX|26616|San Carlos
+MACTID:450 >> MX|286651|xilitla|MX|426142|Xilitla
+MACTID:451 >> MX|286652|tulum|MX|341983|Tulum
+MACTID:452 >> MX|286653|holbox|MX|348262|Holbox
+MACTID:453 >> MX|286654|creel|MX|325699|Creel
+MACTNAMEES:454 >> MX|286656|mapimi|Mapimí
+MACTID:455 >> MX|286660|san-juan-chamula|MX|479144|San Juan Chamula
+MACTID:456 >> MX|286661|tlacotalpan|MX|245451|Tlacotalpan
+MACTID:457 >> MX|286662|jalcomulco|MX|356192|Jalcomulco
+MACTNAMEEN:458 >> MX|286663|chichen-itza|Chichen Itza
+MACTNAMEES:459 >> MX|286664|coba|Cobá
+MACTID:460 >> MX|286665|mahahual|MX|282283|Mahahual
+MACTID:461 >> MX|286666|progreso|MX|341990|Progreso
+MACTID:462 >> MX|286667|xcalak|MX|365691|Xcalak
+MACTID:463 >> MX|286668|xpu-ha|MX|345911|Xpu-Ha
+MACTNAMEES:464 >> MX|286670|talpa-de-allende-53290a00-3fdd-452b-a1ad-885b9846df33|Talpa de Allende
+MACTID:465 >> MX|286671|sayulita|MX|344126|Sayulita
+MACTID:466 >> MX|286673|cocoyoc|MX|324471|Cocoyoc
+MACTID:467 >> MX|286674|nuevo-vallarta|MX|343602|Nuevo Vallarta
+MACTID:468 >> MX|286676|puerto-aventuras|MX|343957|Puerto Aventuras
+MACTID:469 >> PA|24207|almirante|PA|406809|Almirante
+MACTID:470 >> PA|24214|bocas-del-toro|PA|345856|Bocas del Toro
+MACTID:471 >> PA|24216|punta-laurel|PA|406722|Punta Laurel
+MACTID:472 >> PA|24218|changuinola|PA|428242|Changuinola
+MACTID:473 >> PA|24223|las-delicias|PA|66164|Las Delicias
+MACTID:474 >> PA|24224|las-tablas|PA|239686|Las Tablas
+MACTID:475 >> PA|24233|miramar|PA|88387|Miramar
+MACTID:476 >> PA|24242|guarumal|PA|89983|Guarumal
+MACTID:477 >> PA|24245|palo-grande|PA|83772|Palo Grande
+MACTID:478 >> PA|24248|limones|PA|66294|Limones
+MACTID:479 >> PA|24250|puerto-armuelles|PA|87854|Puerto Armuelles
+MACTNAMEES:480 >> PA|24253|boqueron|Boquerón
+MACTNAMEES:481 >> PA|24257|paraiso-24257|Paraíso
+MACTID:482 >> PA|24260|alto-boquete|PA|261172|Alto Boquete
+MACTID:483 >> PA|24262|caldera|PA|421205|Caldera
+MACTID:484 >> PA|24263|jaramillo|PA|82710|Jaramillo
+MACTID:485 >> PA|24264|los-naranjos|PA|81902|Los Naranjos
+MACTNAMEES:486 >> PA|24275|santo-domingo-24275|Santo Domingo
+MACTNAMEES:487 >> PA|24281|chiriqui|Chiriquí
+MACTNAMEES:488 >> PA|24285|san-carlos-24285|San Carlos
+MACTID:489 >> PA|24286|david|PA|343145|David
+MACTID:490 >> PA|24291|dolega|PA|228286|Dolega
+MACTID:491 >> PA|24293|los-algarrobos|PA|236370|Los Algarrobos
+MACTID:492 >> PA|24294|los-anastacios|PA|89972|Los Anastacios
+MACTID:493 >> PA|24305|el-porvenir|PA|236366|El Porvenir
+MACTID:494 >> PA|24316|santa-clara|PA|88690|Santa Clara
+MACTID:495 >> PA|24317|las-lajas|PA|66395|Las Lajas
+MACTID:496 >> PA|24322|boca-chica|PA|271153|Boca Chica
+MACTID:497 >> PA|24324|horconcitos|PA|31428|Horconcitos
+MACTNAMEES:498 >> PA|24327|volcan|Volcán
+MACTID:499 >> PA|24328|cerro-punta|PA|261293|Cerro Punta
+MACTID:500 >> PA|24331|paso-ancho|PA|82697|Paso Ancho
+MACTNAMEES:501 >> PA|24339|tole|Tolé
+MACTID:502 >> PA|24342|aguadulce|PA|30403|Aguadulce
+MACTID:503 >> PA|24345|el-roble|PA|88670|El Roble
+MACTNAMEES:504 >> PA|24350|anton|Antón
+MACTID:505 >> PA|24352|cabuya|PA|29974|Cabuya
+MACTNAMEES:506 >> PA|24353|el-chiru|El Chirú
+MACTNAMEES:507 >> PA|24356|juan-diaz|Juan Díaz
+MACTNAMEES:508 >> PA|24357|rio-hato|Río Hato
+MACTID:509 >> PA|24371|nata|PA|90028|Nata
+MACTID:510 >> PA|24374|el-cope|PA|409834|El Cope
+MACTNAMEES:511 >> PA|24384|penonome|Penonomé
+MACTNAMEES:512 >> PA|24393|cativa|Cativá
+MACTNAMEES:513 >> PA|24395|cristobal|Cristóbal
+MACTID:514 >> PA|24408|nuevo-chagres|PA|228170|Nuevo Chagres
+MACTID:515 >> PA|24419|isla-grande|PA|352437|Isla Grande
+MACTNAMEES:516 >> PA|24420|maria-chiquita|María Chiquita
+MACTID:517 >> PA|24421|portobelo|PA|374498|Portobelo
+MACTNAMEES:518 >> PA|24423|miramar-24423|Miramar
+MACTID:519 >> PA|24425|palenque|PA|66315|Palenque
+MACTID:520 >> PA|24428|santa-isabel|PA|393342|Santa Isabel
+MACTID:521 >> PA|24438|la-palma|PA|53910|La Palma
+MACTNAMEES:522 >> PA|24458|santa-fe-24458|Santa Fe
+MACTNAMEES:523 >> PA|24461|chitre|Chitré
+MACTID:524 >> PA|24462|la-arena|PA|84870|La Arena
+MACTID:525 >> PA|24466|chepo|PA|69265|Chepo
+MACTID:526 >> PA|24469|las-minas|PA|442695|Las Minas
+MACTNAMEES:527 >> PA|24476|la-arena-24476|La Arena
+MACTNAMEES:528 >> PA|24490|cabuya-24490|Cabuya
+MACTNAMEES:529 >> PA|24502|pese|Pesé
+MACTNAMEES:530 >> PA|24514|guarare|Guararé
+MACTNAMEES:531 >> PA|24531|la-palma-24531|La Palma
+MACTNAMEES:532 >> PA|24539|san-jose-24539|San José
+MACTNAMEES:533 >> PA|24540|san-miguel-24540|San Miguel
+MACTNAMEES:534 >> PA|24541|las-tablas-24541|Las Tablas
+MACTNAMEES:535 >> PA|24542|santo-domingo-24542|Santo Domingo
+MACTID:536 >> PA|24549|la-villa-de-los-santos|PA|85670|La Villa de los Santos
+MACTNAMEES:537 >> PA|24556|santa-ana-24556|Santa Ana
+MACTNAMEES:538 >> PA|24574|pedasi|Pedasí
+MACTNAMEES:539 >> PA|24578|paraiso-24578|Paraíso
+MACTID:540 >> PA|24582|cambutal|PA|278106|Cambutal
+MACTNAMEES:541 >> PA|24583|canas-24583|Cañas
+MACTNAMEES:542 >> PA|24598|san-miguel-24598|San Miguel
+MACTNAMEES:543 >> PA|24603|chepo-24603|Chepo
+MACTID:544 >> PA|24619|chilibre|PA|261269|Chilibre
+MACTNAMEES:545 >> PA|24620|curundu|Curundú
+MACTID:546 >> PA|24622|el-chorrillo|PA|84316|El Chorrillo
+MACTNAMEES:547 >> PA|24624|juan-diaz-24624|Juan Díaz
+MACTID:548 >> PA|24625|las-cumbres|PA|406802|Las Cumbres
+MACTID:549 >> PA|24629|parque-lefevre|PA|85679|Parque Lefevre
+MACTID:550 >> PA|24631|pueblo-nuevo|PA|85681|Pueblo Nuevo
+MACTNAMEES:551 >> PA|24632|rio-abajo|Río Abajo
+MACTNAMEES:552 >> PA|24634|san-francisco-24634|San Francisco
+MACTNAMEES:553 >> PA|24636|santa-ana-24636|Santa Ana
+MACTID:554 >> PA|24637|tocumen|PA|352470|Tocumen
+MACTID:555 >> PA|24643|mateo-iturralde|PA|21084|Mateo Iturralde
+MACTID:556 >> PA|24649|taboga|PA|256902|Taboga
+MACTNAMEES:557 >> PA|24656|santa-clara-24656|Santa Clara
+MACTID:558 >> PA|24657|veracruz|PA|454536|Veracruz
+MACTID:559 >> PA|24658|vista-alegre|PA|28364|Vista Alegre
+MACTID:560 >> PA|24672|bejuco|PA|364921|Bejuco
+MACTNAMEES:561 >> PA|24674|cabuya-24674|Cabuya
+MACTID:562 >> PA|24675|chame|PA|236345|Chame
+MACTNAMEES:563 >> PA|24676|chica|Chicá
+MACTNAMEES:564 >> PA|24678|las-lajas-24678|Las Lajas
+MACTID:565 >> PA|24679|nueva-gorgona|PA|442694|Nueva Gorgona
+MACTID:566 >> PA|24680|punta-chame|PA|374497|Punta Chame
+MACTID:567 >> PA|24699|puerto-caimito|PA|20487|Puerto Caimito
+MACTID:568 >> PA|24701|el-espino|PA|87840|El Espino
+MACTID:569 >> PA|24702|el-higo|PA|24833|El Higo
+MACTID:570 >> PA|24705|la-laguna|PA|236369|La Laguna
+MACTID:571 >> PA|24706|las-uvas|PA|87558|Las Uvas
+MACTNAMEES:572 >> PA|24708|san-carlos-24708|San Carlos
+MACTNAMEES:573 >> PA|24709|san-jose-24709|San José
+MACTID:574 >> PA|24711|atalaya|PA|236353|Atalaya
+MACTID:575 >> PA|24715|san-antonio|PA|90329|San Antonio
+MACTID:576 >> PA|24717|calobre|PA|41611|Calobre
+MACTNAMEES:577 >> PA|24721|la-laguna-24721|La Laguna
+MACTNAMEES:578 >> PA|24727|san-jose-24727|San José
+MACTNAMEES:579 >> PA|24734|san-jose-24734|San José
+MACTNAMEES:580 >> PA|24738|el-higo-24738|El Higo
+MACTID:581 >> PA|24758|mariato|PA|444587|Mariato
+MACTNAMEES:582 >> PA|24777|san-francisco-24777|San Francisco
+MACTNAMEES:583 >> PA|24779|san-jose-24779|San José
+MACTNAMEES:584 >> PA|24787|santa-fe-24787|Santa Fe
+MACTNAMEES:585 >> PA|24792|la-pena|La Peña
+MACTNAMEES:586 >> PA|24794|los-algarrobos-24794|Los Algarrobos
+MACTID:587 >> PA|24799|santiago|PA|387171|Santiago
+MACTNAMEES:588 >> PA|24808|guarumal-24808|Guarumal
+MACTID:589 >> PA|26408|boquete|PA|343144|Boquete
+MACTID:590 >> CO|21422|leticia|CO|329124|Leticia
+MACTID:591 >> CO|21432|caucasia|CO|327340|Caucasia
+MACTID:592 >> CO|21500|granada|CO|16125|Granada
+MACTID:593 >> CO|21504|la-ceja|CO|422973|La Ceja
+MACTID:594 >> CO|21507|marinilla|CO|422964|Marinilla
+MACTID:595 >> CO|21512|rionegro|CO|341387|Rionegro
+MACTNAMEES:596 >> CO|21547|apartado|Apartadó
+MACTID:597 >> CO|21550|carepa|CO|412740|Carepa
+MACTNAMEES:598 >> CO|21552|chigorodo|Chigorodó
+MACTNAMEES:599 >> CO|21556|necocli|Necoclí
+MACTID:600 >> CO|21560|turbo|CO|330020|Turbo
+MACTID:601 >> CO|21565|bello|CO|406662|Bello
+MACTID:602 >> CO|21567|caldas|CO|66414|Caldas
+MACTID:603 >> CO|21569|copacabana|CO|40350|Copacabana
+MACTID:604 >> CO|21571|envigado|CO|283823|Envigado
+MACTID:605 >> CO|21573|girardota|CO|449836|Girardota
+MACTNAMEES:606 >> CO|21575|itagui|Itagüí
+MACTNAMEES:607 >> CO|21579|medellin|Medellín
+MACTID:608 >> CO|21581|sabaneta|CO|406656|Sabaneta
+MACTID:609 >> CO|21585|arauca|CO|327615|Arauca
+MACTID:610 >> CO|21600|barranquilla|CO|247450|Barranquilla
+MACTID:611 >> CO|21603|malambo|CO|229094|Malambo
+MACTID:612 >> CO|21606|soledad|CO|429136|Soledad
+MACTID:613 >> CO|21623|sabanalarga|CO|229114|Sabanalarga
+MACTID:614 >> CO|21647|cartagena|CO|371476|Cartagena
+MACTID:615 >> CO|21656|turbaco|CO|244672|Turbaco
+MACTNAMEES:616 >> CO|21676|magangue|Magangué
+MACTID:617 >> CO|21705|tunja|CO|27032|Tunja
+MACTID:618 >> CO|21809|sogamoso|CO|407665|Sogamoso
+MACTID:619 >> CO|21819|duitama|CO|403987|Duitama
+MACTNAMEES:620 >> CO|21853|chinchina|Chinchiná
+MACTID:621 >> CO|21855|manizales|CO|329341|Manizales
+MACTNAMEES:622 >> CO|21859|villamaria|Villamaría
+MACTID:623 >> CO|21867|la-dorada|CO|447798|La Dorada
+MACTID:624 >> CO|21880|florencia|CO|412719|Florencia
+MACTID:625 >> CO|21913|yopal|CO|412743|Yopal
+MACTNAMEES:626 >> CO|21922|popayan|Popayán
+MACTID:627 >> CO|21985|valledupar|CO|330252|Valledupar
+MACTID:628 >> CO|21988|aguachica|CO|239460|Aguachica
+MACTNAMEES:629 >> CO|22005|quibdo|Quibdó
+MACTNAMEES:630 >> CO|22047|monteria|Montería
+MACTNAMEES:631 >> CO|22073|cerete|Cereté
+MACTID:632 >> CO|22090|girardot|CO|374658|Girardot
+MACTNAMEES:633 >> CO|22156|cajica|Cajicá
+MACTNAMEES:634 >> CO|22158|chia|Chía
+MACTNAMEES:635 >> CO|22166|zipaquira|Zipaquirá
+MACTNAMEES:636 >> CO|22172|facatativa|Facatativá
+MACTID:637 >> CO|22178|mosquera|CO|434491|Mosquera
+MACTID:638 >> CO|22185|soacha|CO|425553|Soacha
+MACTNAMEES:639 >> CO|22190|fusagasuga|Fusagasugá
+MACTNAMEES:640 >> CO|22225|inirida|Inírida
+MACTNAMEES:641 >> CO|22244|garzon|Garzón
+MACTID:642 >> CO|22259|neiva|CO|369378|Neiva
+MACTID:643 >> CO|22270|la-plata|CO|229775|La Plata
+MACTID:644 >> CO|22281|pitalito|CO|447600|Pitalito
+MACTID:645 >> CO|22290|maicao|CO|229098|Maicao
+MACTID:646 >> CO|22292|manaure|CO|451175|Manaure
+MACTID:647 >> CO|22294|riohacha|CO|329606|Riohacha
+MACTID:648 >> CO|22296|uribia|CO|457166|Uribia
+MACTNAMEES:649 >> CO|22320|cienaga|Ciénaga
+MACTNAMEES:650 >> CO|22323|fundacion|Fundación
+MACTID:651 >> CO|22339|santa-marta|CO|29410|Santa Marta
+MACTID:652 >> CO|22367|villavicencio|CO|265681|Villavicencio
+MACTNAMEES:653 >> CO|22370|acacias|Acacías
+MACTID:654 >> CO|22394|san-juan-de-pasto|CO|327059|San Juan de Pasto
+MACTID:655 >> CO|22454|ipiales|CO|328614|Ipiales
+MACTNAMEES:656 >> CO|22481|ocana|Ocaña
+MACTID:657 >> CO|22493|villa-del-rosario|CO|238641|Villa del Rosario
+MACTID:658 >> CO|22499|pamplona|CO|244853|Pamplona
+MACTID:659 >> CO|22528|armenia|CO|327597|Armenia
+MACTNAMEES:660 >> CO|22531|calarca|Calarcá
+MACTID:661 >> CO|22548|dosquebradas|CO|401818|Dosquebradas
+MACTID:662 >> CO|22552|pereira|CO|401059|Pereira
+MACTID:663 >> CO|22554|santa-rosa-de-cabal|CO|374240|Santa Rosa de Cabal
+MACTNAMEES:664 >> CO|22596|san-andres|San Andrés
+MACTID:665 >> CO|22619|barrancabermeja|CO|328430|Barrancabermeja
+MACTID:666 >> CO|22628|bucaramanga|CO|260816|Bucaramanga
+MACTID:667 >> CO|22633|floridablanca|CO|410822|Floridablanca
+MACTID:668 >> CO|22640|piedecuesta|CO|372479|Piedecuesta
+MACTID:669 >> CO|22677|sincelejo|CO|244723|Sincelejo
+MACTID:670 >> CO|22732|espinal|CO|434443|Espinal
+MACTNAMEES:671 >> CO|22735|ibague|Ibagué
+MACTID:672 >> CO|22761|guadalajara-de-buga|CO|378652|Guadalajara de Buga
+MACTNAMEES:673 >> CO|22772|tulua|Tuluá
+MACTID:674 >> CO|22780|cartago|CO|371747|Cartago
+MACTID:675 >> CO|22794|buenaventura|CO|350977|Buenaventura
+MACTID:676 >> CO|22800|cali|CO|262971|Cali
+MACTNAMEES:677 >> CO|22807|jamundi|Jamundí
+MACTID:678 >> CO|22810|palmira|CO|434169|Palmira
+MACTID:679 >> CO|22815|yumbo|CO|380227|Yumbo
+MACTID:680 >> CO|22834|la-victoria|CO|27522|La Victoria
+MACTNAMEES:681 >> CO|22838|puerto-narino|Puerto Nariño
+MACTID:682 >> CO|22842|el-bagre|CO|328450|El Bagre
+MACTNAMEES:683 >> CO|22848|puerto-berrio|Puerto Berrío
+MACTID:684 >> CO|22849|puerto-nare|CO|329327|Puerto Nare
+MACTID:685 >> CO|22850|puerto-triunfo|CO|415968|Puerto Triunfo
+MACTID:686 >> CO|22862|angostura|CO|40329|Angostura
+MACTID:687 >> CO|22871|ituango|CO|40348|Ituango
+MACTNAMEES:688 >> CO|22872|san-andres-22872|San Andrés
+MACTNAMEES:689 >> CO|22873|san-jose-de-la-montana|San José de la Montaña
+MACTID:690 >> CO|22874|san-pedro|CO|256695|San Pedro
+MACTID:691 >> CO|22875|santa-rosa-de-osos|CO|457215|Santa Rosa de Osos
+MACTID:692 >> CO|22877|valdivia|CO|229231|Valdivia
+MACTNAMEES:693 >> CO|22881|armenia-22881|Armenia
+MACTID:694 >> CO|22890|olaya|CO|439018|Olaya
+MACTNAMEES:695 >> CO|22892|sabanalarga-22892|Sabanalarga
+MACTNAMEES:696 >> CO|22893|san-jeronimo|San Jerónimo
+MACTID:697 >> CO|22894|santa-fe-de-antioquia|CO|373035|Santa Fe de Antioquia
+MACTNAMEES:698 >> CO|22895|sopetran|Sopetrán
+MACTNAMEES:699 >> CO|22898|alejandria|Alejandría
+MACTNAMEES:700 >> CO|22901|cocorna|Cocorná
+MACTID:701 >> CO|22903|guarne|CO|457221|Guarne
+MACTNAMEES:702 >> CO|22904|guatape|Guatapé
+MACTNAMEES:703 >> CO|22905|la-union|La Unión
+MACTID:704 >> CO|22908|retiro|CO|415978|Retiro
+MACTID:705 >> CO|22910|san-francisco|CO|439267|San Francisco
+MACTID:706 >> CO|22911|san-luis|CO|24933|San Luis
+MACTNAMEES:707 >> CO|22915|sonson|Sonsón
+MACTID:708 >> CO|22919|betania|CO|52831|Betania
+MACTNAMEES:709 >> CO|22927|jardin|Jardín
+MACTNAMEES:710 >> CO|22928|jerico|Jericó
+MACTID:711 >> CO|22929|la-pintada|CO|400092|La Pintada
+MACTID:712 >> CO|22930|montebello|CO|239191|Montebello
+MACTID:713 >> CO|22931|pueblorrico|CO|244865|Pueblorrico
+MACTNAMEES:714 >> CO|22933|santa-barbara|Santa Bárbara
+MACTID:715 >> CO|22937|urrao|CO|330333|Urrao
+MACTNAMEES:716 >> CO|22938|valparaiso|Valparaíso
+MACTID:717 >> CO|22940|arboletes|CO|457245|Arboletes
+MACTNAMEES:718 >> CO|22942|mutata|Mutatá
+MACTID:719 >> CO|22946|barbosa|CO|66098|Barbosa
+MACTNAMEES:720 >> CO|22950|puerto-rondon|Puerto Rondón
+MACTNAMEES:721 >> CO|22955|san-andres-22955|San Andrés
+MACTID:722 >> CO|22962|puerto-colombia|CO|410817|Puerto Colombia
+MACTNAMEES:723 >> CO|22972|santa-lucia|Santa Lucía
+MACTNAMEES:724 >> CO|22977|mompos|Mompós
+MACTID:725 >> CO|22978|san-fernando|CO|40405|San Fernando
+MACTID:726 >> CO|22986|santa-catalina|CO|26354|Santa Catalina
+MACTID:727 >> CO|22990|villanueva|CO|446029|Villanueva
+MACTID:728 >> CO|22997|arenal|CO|24823|Arenal
+MACTID:729 >> CO|23001|santa-rosa-del-sur|CO|40404|Santa Rosa del Sur
+MACTNAMEES:730 >> CO|23015|chivata|Chivatá
+MACTID:731 >> CO|23017|cucaita|CO|457261|Cucaita
+MACTID:732 >> CO|23025|toca|CO|244766|Toca
+MACTID:733 >> CO|23028|chiscas|CO|40403|Chiscas
+MACTNAMEES:734 >> CO|23029|cubara|Cubará
+MACTID:735 >> CO|23030|el-cocuy|CO|434520|El Cocuy
+MACTNAMEES:736 >> CO|23033|guican|Güicán
+MACTID:737 >> CO|23047|jenesano|CO|457241|Jenesano
+MACTNAMEES:738 >> CO|23051|tibana|Tibaná
+MACTNAMEES:739 >> CO|23060|santa-maria|Santa María
+MACTID:740 >> CO|23064|san-mateo|CO|447639|San Mateo
+MACTNAMEES:741 >> CO|23068|susacon|Susacón
+MACTID:742 >> CO|23071|buenavista|CO|447980|Buenavista
+MACTNAMEES:743 >> CO|23072|caldas-23072|Caldas
+MACTNAMEES:744 >> CO|23074|la-victoria-23074|La Victoria
+MACTID:745 >> CO|23078|pauna|CO|227020|Pauna
+MACTID:746 >> CO|23092|arcabuco|CO|457247|Arcabuco
+MACTNAMEES:747 >> CO|23094|gachantiva|Gachantivá
+MACTNAMEES:748 >> CO|23095|moniquira|Moniquirá
+MACTNAMEES:749 >> CO|23097|sachica|Sáchica
+MACTNAMEES:750 >> CO|23099|santa-sofia|Santa Sofía
+MACTNAMEES:751 >> CO|23102|tinjaca|Tinjacá
+MACTID:752 >> CO|23104|villa-de-leyva|CO|375048|Villa de Leyva
+MACTID:753 >> CO|23105|aquitania|CO|447747|Aquitania
+MACTNAMEES:754 >> CO|23106|cuitiva|Cuítiva
+MACTID:755 >> CO|23107|firavitoba|CO|447742|Firavitoba
+MACTID:756 >> CO|23109|iza|CO|434481|Iza
+MACTID:757 >> CO|23112|nobsa|CO|447738|Nobsa
+MACTID:758 >> CO|23113|pesca|CO|434490|Pesca
+MACTID:759 >> CO|23114|tibasosa|CO|244776|Tibasosa
+MACTNAMEES:760 >> CO|23117|belen|Belén
+MACTID:761 >> CO|23122|paipa|CO|339011|Paipa
+MACTNAMEES:762 >> CO|23127|jerico-23127|Jericó
+MACTID:763 >> CO|23133|la-merced|CO|410695|La Merced
+MACTNAMEES:764 >> CO|23135|supia|Supía
+MACTID:765 >> CO|23142|risaralda|CO|280598|Risaralda
+MACTID:766 >> CO|23144|viterbo|CO|244702|Viterbo
+MACTID:767 >> CO|23145|neira|CO|447686|Neira
+MACTID:768 >> CO|23146|palestina|CO|447601|Palestina
+MACTID:769 >> CO|23150|salamina|CO|256625|Salamina
+MACTID:770 >> CO|23154|albania|CO|249792|Albania
+MACTNAMEES:771 >> CO|23168|valparaiso-23168|Valparaíso
+MACTID:772 >> CO|23169|aguazul|CO|447749|Aguazul
+MACTID:773 >> CO|23174|monterrey|CO|453525|Monterrey
+MACTNAMEES:774 >> CO|23176|orocue|Orocué
+MACTID:775 >> CO|23177|paz-de-ariporo|CO|447737|Paz de Ariporo
+MACTNAMEES:776 >> CO|23180|sabanalarga-23180|Sabanalarga
+MACTNAMEES:777 >> CO|23186|villanueva-23186|Villanueva
+MACTID:778 >> CO|23188|el-tambo|CO|40332|El Tambo
+MACTID:779 >> CO|23199|padilla|CO|448015|Padilla
+MACTID:780 >> CO|23203|guapi|CO|328592|Guapi
+MACTID:781 >> CO|23211|silvia|CO|479371|Silvia
+MACTNAMEES:782 >> CO|23218|florencia-23218|Florencia
+MACTID:783 >> CO|23219|la-vega|CO|25653|La Vega
+MACTID:784 >> CO|23224|santa-rosa|CO|23621|Santa Rosa
+MACTNAMEES:785 >> CO|23238|manaure-23238|Manaure
+MACTID:786 >> CO|23240|san-diego|CO|434054|San Diego
+MACTID:787 >> CO|23241|gamarra|CO|428637|Gamarra
+MACTNAMEES:788 >> CO|23247|san-martin|San Martín
+MACTNAMEES:789 >> CO|23255|acandi|Acandí
+MACTNAMEES:790 >> CO|23260|bahia-solano|Bahía Solano
+MACTNAMEES:791 >> CO|23262|nuqui|Nuquí
+MACTID:792 >> CO|23269|condoto|CO|328131|Condoto
+MACTID:793 >> CO|23288|san-antero|CO|238642|San Antero
+MACTID:794 >> CO|23289|san-bernardo-del-viento|CO|237633|San Bernardo del Viento
+MACTNAMEES:795 >> CO|23292|buenavista-23292|Buenavista
+MACTNAMEES:796 >> CO|23298|choconta|Chocontá
+MACTID:797 >> CO|23302|suesca|CO|447667|Suesca
+MACTNAMEES:798 >> CO|23303|tibirita|Tibiritá
+MACTID:799 >> CO|23309|nilo|CO|447736|Nilo
+MACTID:800 >> CO|23310|ricaurte|CO|244937|Ricaurte
+MACTID:801 >> CO|23313|guaduas|CO|439610|Guaduas
+MACTID:802 >> CO|23314|puerto-salgar|CO|447791|Puerto Salgar
+MACTNAMEES:803 >> CO|23317|la-vega-23317|La Vega
+MACTID:804 >> CO|23318|nimaima|CO|447789|Nimaima
+MACTID:805 >> CO|23319|nocaima|CO|447795|Nocaima
+MACTNAMEES:806 >> CO|23321|san-francisco-23321|San Francisco
+MACTID:807 >> CO|23322|sasaima|CO|447790|Sasaima
+MACTNAMEES:808 >> CO|23324|utica|Útica
+MACTID:809 >> CO|23326|villeta|CO|410816|Villeta
+MACTID:810 >> CO|23330|guasca|CO|410826|Guasca
+MACTID:811 >> CO|23331|guatavita|CO|457222|Guatavita
+MACTID:812 >> CO|23333|la-calera|CO|339068|La Calera
+MACTNAMEES:813 >> CO|23340|san-juan-de-rio-seco|San Juan de Río Seco
+MACTNAMEES:814 >> CO|23341|viani|Vianí
+MACTID:815 >> CO|23342|medina|CO|239192|Medina
+MACTID:816 >> CO|23345|chipaque|CO|239200|Chipaque
+MACTNAMEES:817 >> CO|23346|choachi|Choachí
+MACTNAMEES:818 >> CO|23347|fomeque|Fómeque
+MACTID:819 >> CO|23355|la-palma|CO|448023|La Palma
+MACTID:820 >> CO|23356|pacho|CO|410771|Pacho
+MACTNAMEES:821 >> CO|23365|sopo|Sopó
+MACTID:822 >> CO|23366|tabio|CO|457204|Tabio
+MACTNAMEES:823 >> CO|23367|tocancipa|Tocancipá
+MACTNAMEES:824 >> CO|23368|bojaca|Bojacá
+MACTID:825 >> CO|23369|cota|CO|271967|Cota
+MACTID:826 >> CO|23371|subachoque|CO|457201|Subachoque
+MACTID:827 >> CO|23372|tenjo|CO|229791|Tenjo
+MACTID:828 >> CO|23376|cabrera|CO|434397|Cabrera
+MACTNAMEES:829 >> CO|23377|granada-23377|Granada
+MACTID:830 >> CO|23380|san-bernardo|CO|244934|San Bernardo
+MACTID:831 >> CO|23381|silvania|CO|244731|Silvania
+MACTID:832 >> CO|23382|tibacuy|CO|447745|Tibacuy
+MACTID:833 >> CO|23384|anapoima|CO|244960|Anapoima
+MACTID:834 >> CO|23386|apulo|CO|434403|Apulo
+MACTID:835 >> CO|23388|el-colegio|CO|26755|El Colegio
+MACTID:836 >> CO|23389|la-mesa|CO|237395|La Mesa
+MACTID:837 >> CO|23394|carmen-de-carupa|CO|40331|Carmen de Carupa
+MACTNAMEES:838 >> CO|23395|cucunuba|Cucunubá
+MACTID:839 >> CO|23400|susa|CO|244733|Susa
+MACTNAMEES:840 >> CO|23403|ubate|Ubaté
+MACTID:841 >> CO|23406|la-guadalupe|CO|40353|La Guadalupe
+MACTNAMEES:842 >> CO|23410|puerto-colombia-23410|Puerto Colombia
+MACTID:843 >> CO|23416|altamira|CO|22515|Altamira
+MACTID:844 >> CO|23425|campoalegre|CO|447729|Campoalegre
+MACTID:845 >> CO|23426|colombia|CO|29717|Colombia
+MACTID:846 >> CO|23430|rivera|CO|447735|Rivera
+MACTNAMEES:847 >> CO|23431|santa-maria-23431|Santa María
+MACTID:848 >> CO|23434|villavieja|CO|447734|Villavieja
+MACTNAMEES:849 >> CO|23437|nataga|Nátaga
+MACTID:850 >> CO|23438|paicol|CO|226960|Paicol
+MACTNAMEES:851 >> CO|23444|palestina-23444|Palestina
+MACTNAMEES:852 >> CO|23446|san-agustin|San Agustín
+MACTNAMEES:853 >> CO|23448|albania-23448|Albania
+MACTID:854 >> CO|23449|dibulla|CO|434517|Dibulla
+MACTID:855 >> CO|23456|san-juan-del-cesar|CO|259173|San Juan del Cesar
+MACTNAMEES:856 >> CO|23458|villanueva-23458|Villanueva
+MACTID:857 >> CO|23464|algarrobo|CO|24587|Algarrobo
+MACTID:858 >> CO|23465|aracataca|CO|282322|Aracataca
+MACTNAMEES:859 >> CO|23474|salamina-23474|Salamina
+MACTID:860 >> CO|23477|guamal|CO|240339|Guamal
+MACTID:861 >> CO|23481|santa-ana|CO|23362|Santa Ana
+MACTID:862 >> CO|23484|el-dorado|CO|239199|El Dorado
+MACTNAMEES:863 >> CO|23486|granada-23486|Granada
+MACTID:864 >> CO|23487|la-macarena|CO|380190|La Macarena
+MACTID:865 >> CO|23493|puerto-lleras|CO|447461|Puerto Lleras
+MACTID:866 >> CO|23496|vista-hermosa|CO|447465|Vista Hermosa
+MACTID:867 >> CO|23498|castilla-la-nueva|CO|445591|Castilla la Nueva
+MACTNAMEES:868 >> CO|23501|guamal-23501|Guamal
+MACTID:869 >> CO|23502|restrepo|CO|388637|Restrepo
+MACTNAMEES:870 >> CO|23506|san-martin-23506|San Martín
+MACTNAMEES:871 >> CO|23508|puerto-gaitan|Puerto Gaitán
+MACTNAMEES:872 >> CO|23509|puerto-lopez|Puerto López
+MACTNAMEES:873 >> CO|23512|el-penol|El Peñol
+MACTNAMEES:874 >> CO|23513|el-tambo-23513|El Tambo
+MACTID:875 >> CO|23514|la-florida|CO|434479|La Florida
+MACTID:876 >> CO|23524|los-andes|CO|28368|Los Andes
+MACTNAMEEN:877 >> CO|23527|providencia|Providencia
+MACTNAMEES:878 >> CO|23528|ricaurte-23528|Ricaurte
+MACTID:879 >> CO|23534|el-charco|CO|40415|El Charco
+MACTNAMEES:880 >> CO|23538|mosquera-23538|Mosquera
+MACTNAMEES:881 >> CO|23541|santa-barbara-23541|Santa Bárbara
+MACTID:882 >> CO|23542|tumaco|CO|326994|Tumaco
+MACTNAMEES:883 >> CO|23545|belen-23545|Belén
+MACTID:884 >> CO|23549|el-rosario|CO|447622|El Rosario
+MACTNAMEES:885 >> CO|23552|la-union-23552|La Unión
+MACTNAMEES:886 >> CO|23555|san-bernardo-23555|San Bernardo
+MACTNAMEES:887 >> CO|23570|potosi|Potosí
+MACTID:888 >> CO|23572|pupiales|CO|40414|Pupiales
+MACTID:889 >> CO|23573|arboledas|CO|40333|Arboledas
+MACTID:890 >> CO|23578|santiago|CO|40413|Santiago
+MACTID:891 >> CO|23587|el-carmen|CO|23806|El Carmen
+MACTNAMEES:892 >> CO|23602|chinacota|Chinácota
+MACTID:893 >> CO|23603|durania|CO|27648|Durania
+MACTNAMEES:894 >> CO|23604|herran|Herrán
+MACTID:895 >> CO|23606|ragonvalia|CO|40399|Ragonvalia
+MACTNAMEES:896 >> CO|23611|puerto-asis|Puerto Asís
+MACTID:897 >> CO|23615|san-miguel|CO|4103|San Miguel
+MACTNAMEES:898 >> CO|23617|santiago-23617|Santiago
+MACTNAMEES:899 >> CO|23621|buenavista-23621|Buenavista
+MACTID:900 >> CO|23624|pijao|CO|448021|Pijao
+MACTID:901 >> CO|23625|filandia|CO|434439|Filandia
+MACTID:902 >> CO|23626|salento|CO|248603|Salento
+MACTID:903 >> CO|23627|circasia|CO|434514|Circasia
+MACTID:904 >> CO|23628|la-tebaida|CO|283654|La Tebaida
+MACTID:905 >> CO|23629|montenegro|CO|372762|Montenegro
+MACTID:906 >> CO|23630|quimbaya|CO|294934|Quimbaya
+MACTNAMEES:907 >> CO|23633|belen-de-umbria|Belén de Umbría
+MACTID:908 >> CO|23640|la-virginia|CO|447689|La Virginia
+MACTID:909 >> CO|23641|marsella|CO|239193|Marsella
+MACTID:910 >> CO|23643|confines|CO|447801|Confines
+MACTNAMEES:911 >> CO|23647|gambita|Gámbita
+MACTNAMEEN:912 >> CO|23656|socorro|Socorro
+MACTNAMEES:913 >> CO|23660|cepita|Cepitá
+MACTNAMEES:914 >> CO|23669|san-miguel-23669|San Miguel
+MACTID:915 >> CO|23671|barichara|CO|410798|Barichara
+MACTNAMEES:916 >> CO|23672|cabrera-23672|Cabrera
+MACTNAMEES:917 >> CO|23675|curiti|Curití
+MACTNAMEEN:918 >> CO|23681|paramo|Paramo
+MACTID:919 >> CO|23683|san-gil|CO|284610|San Gil
+MACTNAMEES:920 >> CO|23685|valle-de-san-jose|Valle de San José
+MACTNAMEES:921 >> CO|23686|villanueva-23686|Villanueva
+MACTID:922 >> CO|23689|puerto-wilches|CO|410802|Puerto Wilches
+MACTNAMEES:923 >> CO|23691|san-vicente-de-chucuri|San Vicente de Chucurí
+MACTID:924 >> CO|23692|zapatoca|CO|446315|Zapatoca
+MACTID:925 >> EC|1815|cuenca|EC|262895|Cuenca
+MACTID:926 >> EC|1817|gualaceo|EC|421721|Gualaceo
+MACTNAMEES:927 >> EC|1818|nabon|Nabón
+MACTID:928 >> EC|1819|paute|EC|399622|Paute
+MACTID:929 >> EC|1822|santa-isabel|EC|382696|Santa Isabel
+MACTID:930 >> EC|1823|sigsig|EC|239121|Sigsig
+MACTID:931 >> EC|1828|guaranda|EC|448100|Guaranda
+MACTID:932 >> EC|1829|san-miguel|EC|448045|San Miguel
+MACTID:933 >> EC|1830|azogues|EC|447943|Azogues
+MACTID:934 >> EC|1832|canar|EC|393500|Canar
+MACTID:935 >> EC|1833|la-troncal|EC|434590|La Troncal
+MACTNAMEES:936 >> EC|1836|el-angel|El Ángel
+MACTNAMEES:937 >> EC|1838|tulcan|Tulcán
+MACTNAMEES:938 >> EC|1839|alausi|Alausí
+MACTID:939 >> EC|1840|chambo|EC|40373|Chambo
+MACTID:940 >> EC|1841|chunchi|EC|239120|Chunchi
+MACTID:941 >> EC|1843|guamote|EC|371940|Guamote
+MACTID:942 >> EC|1844|guano|EC|447967|Guano
+MACTID:943 >> EC|1845|pallatanga|EC|448047|Pallatanga
+MACTID:944 >> EC|1847|riobamba|EC|371639|Riobamba
+MACTID:945 >> EC|1850|latacunga|EC|374181|Latacunga
+MACTNAMEES:946 >> EC|1852|pujili|Pujilí
+MACTNAMEES:947 >> EC|1854|saquisili|Saquisilí
+MACTID:948 >> EC|1856|arenillas|EC|401280|Arenillas
+MACTID:949 >> EC|1859|el-guabo|EC|239124|El Guabo
+MACTID:950 >> EC|1860|huaquillas|EC|236397|Huaquillas
+MACTID:951 >> EC|1862|machala|EC|329293|Machala
+MACTID:952 >> EC|1865|pinas|EC|479052|Pinas
+MACTID:953 >> EC|1866|santa-rosa|EC|352656|Santa Rosa
+MACTID:954 >> EC|1867|zaruma|EC|447861|Zaruma
+MACTID:955 >> EC|1869|puerto-ayora|EC|344770|Puerto Ayora
+MACTID:956 >> EC|1870|puerto-baquerizo-moreno|EC|370555|Puerto Baquerizo Moreno
+MACTID:957 >> EC|1871|puerto-villamil|EC|356620|Puerto Villamil
+MACTID:958 >> EC|1873|balzar|EC|434587|Balzar
+MACTID:959 >> EC|1875|daule|EC|33775|Daule
+MACTNAMEES:960 >> EC|1876|duran|Durán
+MACTID:961 >> EC|1877|el-empalme|EC|29248|El Empalme
+MACTID:962 >> EC|1879|guayaquil|EC|437809|Guayaquil
+MACTID:963 >> EC|1880|milagro|EC|240719|Milagro
+MACTID:964 >> EC|1881|naranjal|EC|410502|Naranjal
+MACTID:965 >> EC|1885|playas|EC|379303|Playas
+MACTNAMEES:966 >> EC|1886|samborondon|Samborondón
+MACTID:967 >> EC|1889|atuntaqui|EC|447931|Atuntaqui
+MACTID:968 >> EC|1890|cotacachi|EC|349259|Cotacachi
+MACTID:969 >> EC|1891|ibarra|EC|449380|Ibarra
+MACTNAMEES:970 >> EC|1892|otavalo|Otávalo
+MACTID:971 >> EC|1893|pimampiro|EC|447933|Pimampiro
+MACTNAMEES:972 >> EC|1894|urcuqui|Urcuquí
+MACTID:973 >> EC|1895|alamor|EC|447864|Alamor
+MACTID:974 >> EC|1898|catamayo|EC|239123|Catamayo
+MACTID:975 >> EC|1903|loja|EC|267328|Loja
+MACTNAMEES:976 >> EC|1904|macara|Macará
+MACTID:977 >> EC|1907|saraguro|EC|441770|Saraguro
+MACTID:978 >> EC|1916|quevedo|EC|237396|Quevedo
+MACTID:979 >> EC|1917|vinces|EC|236450|Vinces
+MACTID:980 >> EC|1918|atahualpa|EC|24056|Atahualpa
+MACTID:981 >> EC|1922|jipijapa|EC|449853|Jipijapa
+MACTID:982 >> EC|1924|manta|EC|344298|Manta
+MACTID:983 >> EC|1925|montecristi|EC|452181|Montecristi
+MACTID:984 >> EC|1927|pedernales|EC|450021|Pedernales
+MACTID:985 >> EC|1933|tosagua|EC|1193|Tosagua
+MACTID:986 >> EC|1936|macas|EC|326918|Macas
+MACTID:987 >> EC|1939|sucua|EC|227846|Sucua
+MACTID:988 >> EC|1940|archidona|EC|443896|Archidona
+MACTID:989 >> EC|1942|el-chaco|EC|255508|El Chaco
+MACTID:990 >> EC|1943|tena|EC|371640|Tena
+MACTID:991 >> EC|1945|la-joya-de-los-sachas|EC|34665|La Joya de los Sachas
+MACTID:992 >> EC|1947|mera|EC|448048|Mera
+MACTID:993 >> EC|1948|puyo|EC|393521|Puyo
+MACTNAMEES:994 >> EC|1949|aloag|Alóag
+MACTID:995 >> EC|1950|cayambe|EC|434664|Cayambe
+MACTID:996 >> EC|1951|machachi|EC|374005|Machachi
+MACTID:997 >> EC|1952|quito|EC|330357|Quito
+MACTID:998 >> EC|1953|san-miguel-de-los-bancos|EC|434619|San Miguel de los Bancos
+MACTNAMEES:999 >> EC|1954|sangolqui|Sangolquí
+MACTID:1000 >> EC|1955|tabacundo|EC|437003|Tabacundo
+MACTID:1001 >> EC|1956|salinas|EC|343366|Salinas
+MACTID:1002 >> EC|1963|shushufindi|EC|440996|Shushufindi
+MACTID:1003 >> EC|1964|ambato|EC|282714|Ambato
+MACTNAMEES:1004 >> EC|1966|banos|Baños
+MACTID:1005 >> EC|1967|cevallos|EC|22781|Cevallos
+MACTID:1006 >> EC|1969|patate|EC|64799|Patate
+MACTID:1007 >> EC|1970|pelileo|EC|447965|Pelileo
+MACTID:1008 >> EC|1971|pillaro|EC|447964|Pillaro
+MACTID:1009 >> EC|1975|yantzaza|EC|236451|Yantzaza
+MACTID:1010 >> EC|1976|zamora|EC|447860|Zamora
+MACTNAMEES:1011 >> EC|2000|puerto-lopez|Puerto López
+MACTID:1012 >> ES|9403|santiago-de-compostela|ES|329955|Santiago de Compostela
+MACTID:1013 >> ES|9404|vigo|ES|451180|Vigo
+MACTNAMEES:1014 >> ES|9405|gijon|Gijón
+MACTNAMEES:1015 >> ES|9406|aviles|Avilés
+MACTID:1016 >> ES|9407|llanes|ES|321840|Llanes
+MACTID:1017 >> ES|9408|sitges|ES|331962|Sitges
+MACTID:1018 >> ES|9409|lloret-de-mar|ES|331983|Lloret de Mar
+MACTID:1019 >> ES|9410|rosas|ES|344820|Rosas
+MACTID:1020 >> ES|9411|tossa-de-mar|ES|330623|Tossa de Mar
+MACTID:1021 >> ES|9412|salou|ES|340890|Salou
+MACTID:1022 >> ES|9413|cambrils|ES|341443|Cambrils
+MACTNAMEEN:1023 >> ES|9414|calvia|Calvia
+MACTID:1024 >> ES|9415|pollensa|ES|342069|Pollensa
+MACTNAMEES:1025 >> ES|9416|alcudia|Alcúdia
+MACTID:1026 >> ES|9417|ciudadela|ES|331416|Ciudadela
+MACTID:1027 >> ES|9418|sant-antoni-de-portmany|ES|331973|Sant Antoni de Portmany
+MACTNAMEES:1028 >> ES|9419|santa-eulalia-del-rio|Santa Eulalia del Río
+MACTID:1029 >> ES|9420|ibiza|ES|328665|Ibiza
+MACTID:1030 >> ES|9422|formentera|ES|283822|Formentera
+MACTID:1031 >> ES|9423|adeje|ES|336466|Adeje
+MACTID:1032 >> ES|9424|puerto-de-la-cruz|ES|29783|Puerto de la Cruz
+MACTID:1033 >> ES|9427|maspalomas|ES|5596|Maspalomas
+MACTID:1034 >> ES|9430|la-oliva|ES|283572|La Oliva
+MACTID:1035 >> ES|9433|benidorm|ES|341457|Benidorm
+MACTNAMEES:1036 >> ES|9434|javea|Jávea
+MACTNAMEES:1037 >> ES|9435|denia|Dénia
+MACTID:1038 >> ES|9436|calpe|ES|347419|Calpe
+MACTID:1039 >> ES|9437|torrevieja|ES|342038|Torrevieja
+MACTID:1040 >> ES|9438|moraira|ES|367790|Moraira
+MACTID:1041 >> ES|9439|altea|ES|342144|Altea
+MACTID:1042 >> ES|9440|guardamar-del-segura|ES|350096|Guardamar del Segura
+MACTNAMEES:1043 >> ES|9441|peniscola|Peñíscola
+MACTID:1044 >> ES|9442|oliva|ES|344411|Oliva
+MACTID:1045 >> ES|9443|gandia|ES|342102|Gandia
+MACTID:1046 >> ES|9444|marbella|ES|331959|Marbella
+MACTID:1047 >> ES|9445|nerja|ES|335936|Nerja
+MACTNAMEES:1048 >> ES|9446|benalmadena|Benalmádena
+MACTID:1049 >> ES|9447|estepona|ES|331412|Estepona
+MACTID:1050 >> ES|9448|fuengirola|ES|326558|Fuengirola
+MACTID:1051 >> ES|9449|torremolinos|ES|325908|Torremolinos
+MACTID:1052 >> ES|9450|mijas|ES|325858|Mijas
+MACTID:1053 >> ES|9452|ronda|ES|331398|Ronda
+MACTNAMEES:1054 >> ES|9453|sanlucar-de-barrameda|Sanlúcar de Barrameda
+MACTID:1055 >> ES|9454|conil-de-la-frontera|ES|344806|Conil de la Frontera
+MACTID:1056 >> ES|9455|tarifa|ES|26497|Tarifa
+MACTID:1057 >> ES|9456|jerez-de-la-frontera|ES|330524|Jerez de la Frontera
+MACTID:1058 >> ES|9457|chiclana-de-la-frontera|ES|342119|Chiclana de la Frontera
+MACTID:1059 >> ES|9458|chipiona|ES|349663|Chipiona
+MACTNAMEES:1060 >> ES|9459|el-puerto-de-santa-maria|El Puerto de Santa María
+MACTID:1061 >> ES|9460|algeciras|ES|326720|Algeciras
+MACTNAMEES:1062 >> ES|9461|mojacar|Mojácar
+MACTID:1063 >> ES|9462|vera|ES|346348|Vera
+MACTID:1064 >> ES|9463|roquetas-de-mar|ES|331965|Roquetas de Mar
+MACTNAMEES:1065 >> ES|9464|almunecar|Almuñécar
+MACTID:1066 >> ES|9465|motril|ES|346321|Motril
+MACTID:1067 >> ES|9466|ayamonte|ES|324426|Ayamonte
+MACTNAMEES:1068 >> ES|9468|punta-umbria|Punta Umbría
+MACTID:1069 >> ES|9469|isla-cristina|ES|336865|Isla Cristina
+MACTID:1070 >> ES|9470|islantilla|ES|353331|Islantilla
+MACTNAMEES:1071 >> ES|9471|merida|Mérida
+MACTID:1072 >> ES|9483|villacarrillo|ES|451418|Villacarrillo
+MACTID:1073 >> ES|9484|baeza|ES|325722|Baeza
+MACTNAMEES:1074 >> ES|9485|ubeda|Úbeda
+MACTID:1075 >> ES|9486|cazorla|ES|341434|Cazorla
+MACTID:1076 >> ES|9487|haro|ES|331977|Haro
+MACTNAMEES:1077 >> PE|21415|mancora|Máncora
+MACTID:1078 >> PE|21416|vichayito|PE|238801|Vichayito
+MACTNAMEES:1079 >> PE|21418|zorritos--2|Zorritos
+MACTID:1080 >> CL|21831|antofagasta|CL|327678|Antofagasta
+MACTID:1081 >> CL|21832|taltal|CL|429150|Taltal
+MACTID:1082 >> CL|21833|mejillones|CL|415675|Mejillones
+MACTID:1083 >> CL|21834|calama|CL|328175|Calama
+MACTID:1084 >> CL|21836|tocopilla|CL|393173|Tocopilla
+MACTID:1085 >> CL|21838|caldera|CL|367553|Caldera
+MACTNAMEES:1086 >> CL|21839|copiapo|Copiapó
+MACTID:1087 >> CL|21840|tierra-amarilla|CL|448785|Tierra Amarilla
+MACTNAMEES:1088 >> CL|21841|chanaral|Chañaral
+MACTID:1089 >> CL|21843|el-salvador|CL|328386|El Salvador
+MACTID:1090 >> CL|21844|huasco|CL|270446|Huasco
+MACTID:1091 >> CL|21845|vallenar|CL|367555|Vallenar
+MACTID:1092 >> CL|21846|arauco|CL|230263|Arauco
+MACTID:1093 >> CL|21848|curanilahue|CL|457141|Curanilahue
+MACTID:1094 >> CL|21849|lebu|CL|409122|Lebu
+MACTID:1095 >> CL|21851|cabrero|CL|453658|Cabrero
+MACTNAMEES:1096 >> CL|21854|los-angeles|Los Ángeles
+MACTID:1097 >> CL|21860|yumbel|CL|457258|Yumbel
+MACTNAMEES:1098 >> CL|21862|concepcion|Concepción
+MACTID:1099 >> CL|21863|coronel|CL|236388|Coronel
+MACTID:1100 >> CL|21866|lota|CL|230277|Lota
+MACTID:1101 >> CL|21868|san-pedro-de-la-paz|CL|457250|San Pedro de la Paz
+MACTNAMEES:1102 >> CL|21871|tome|Tomé
+MACTID:1103 >> CL|21872|bulnes|CL|236393|Bulnes
+MACTNAMEES:1104 >> CL|21873|chillan|Chillán
+MACTNAMEES:1105 >> CL|21877|quillon|Quillón
+MACTID:1106 >> CL|21879|san-carlos|CL|41008|San Carlos
+MACTID:1107 >> CL|21881|andacollo|CL|393183|Andacollo
+MACTID:1108 >> CL|21882|illapel|CL|457329|Illapel
+MACTID:1109 >> CL|21883|los-vilos|CL|323903|Los Vilos
+MACTNAMEES:1110 >> CL|21884|combarbala|Combarbalá
+MACTID:1111 >> CL|21885|coquimbo|CL|316708|Coquimbo
+MACTNAMEES:1112 >> CL|21887|vicuna|Vicuña
+MACTID:1113 >> CL|21888|ovalle|CL|356394|Ovalle
+MACTID:1114 >> CL|21889|monte-patria|CL|371654|Monte Patria
+MACTID:1115 >> CL|21892|codegua|CL|40466|Codegua
+MACTID:1116 >> CL|21896|las-cabras|CL|457322|Las Cabras
+MACTID:1117 >> CL|21897|machali|CL|445568|Machali
+MACTID:1118 >> CL|21902|pichilemu|CL|368381|Pichilemu
+MACTID:1119 >> CL|21904|rancagua|CL|356348|Rancagua
+MACTID:1120 >> CL|21905|rengo|CL|457298|Rengo
+MACTID:1121 >> CL|21908|nancagua|CL|236384|Nancagua
+MACTID:1122 >> CL|21909|palmilla|CL|253954|Palmilla
+MACTID:1123 >> CL|21910|san-fernando|CL|343364|San Fernando
+MACTID:1124 >> CL|21911|santa-cruz|CL|349306|Santa Cruz
+MACTNAMEES:1125 >> CL|21920|pitrufquen|Pitrufquén
+MACTID:1126 >> CL|21923|temuco|CL|330774|Temuco
+MACTID:1127 >> CL|21925|angol|CL|393228|Angol
+MACTID:1128 >> CL|21926|collipulli|CL|245023|Collipulli
+MACTNAMEES:1129 >> CL|21927|curacautin|Curacautín
+MACTNAMEES:1130 >> CL|21928|puren|Purén
+MACTID:1131 >> CL|21929|renaico|CL|40461|Renaico
+MACTID:1132 >> CL|21931|victoria|CL|479128|Victoria
+MACTID:1133 >> CL|21932|ancud|CL|347495|Ancud
+MACTID:1134 >> CL|21933|castro|CL|346429|Castro
+MACTID:1135 >> CL|21937|frutillar|CL|367554|Frutillar
+MACTID:1136 >> CL|21938|llanquihue|CL|434136|Llanquihue
+MACTID:1137 >> CL|21940|puerto-montt|CL|329719|Puerto Montt
+MACTID:1138 >> CL|21941|puerto-varas|CL|324579|Puerto Varas
+MACTID:1139 >> CL|21942|osorno|CL|330752|Osorno
+MACTID:1140 >> CL|21945|futrono|CL|434124|Futrono
+MACTNAMEES:1141 >> CL|21946|la-union|La Unión
+MACTID:1142 >> CL|21948|los-lagos|CL|446031|Los Lagos
+MACTID:1143 >> CL|21950|paillaco|CL|40470|Paillaco
+MACTID:1144 >> CL|21951|panguipulli|CL|356349|Panguipulli
+MACTID:1145 >> CL|21953|valdivia|CL|326824|Valdivia
+MACTID:1146 >> CL|21955|puerto-natales|CL|346430|Puerto Natales
+MACTID:1147 >> CL|21957|curico|CL|356350|Curico
+MACTID:1148 >> CL|21959|molina|CL|457342|Molina
+MACTID:1149 >> CL|21961|linares|CL|373261|Linares
+MACTID:1150 >> CL|21963|parral|CL|238926|Parral
+MACTID:1151 >> CL|21964|san-javier|CL|238744|San Javier
+MACTID:1152 >> CL|21965|villa-alegre|CL|457255|Villa Alegre
+MACTNAMEES:1153 >> CL|21966|constitucion|Constitución
+MACTID:1154 >> CL|21968|talca|CL|350256|Talca
+MACTID:1155 >> CL|21969|colina|CL|442730|Colina
+MACTID:1156 >> CL|21972|tiltil|CL|457251|Tiltil
+MACTID:1157 >> CL|21973|pirque|CL|363650|Pirque
+MACTID:1158 >> CL|21974|puente-alto|CL|325032|Puente Alto
+MACTNAMEES:1159 >> CL|21975|san-jose-de-maipo|San José de Maipo
+MACTID:1160 >> CL|21977|buin|CL|479501|Buin
+MACTID:1161 >> CL|21980|paine|CL|263535|Paine
+MACTID:1162 >> CL|21981|san-bernardo|CL|325025|San Bernardo
+MACTID:1163 >> CL|21983|melipilla|CL|457337|Melipilla
+MACTNAMEES:1164 >> CL|21986|conchali|Conchalí
+MACTID:1165 >> CL|21987|el-bosque|CL|263559|El Bosque
+MACTID:1166 >> CL|21990|independencia|CL|40465|Independencia
+MACTID:1167 >> CL|21991|la-cisterna|CL|325037|La Cisterna
+MACTID:1168 >> CL|21992|la-florida|CL|325038|La Florida
+MACTID:1169 >> CL|21993|la-granja|CL|325040|La Granja
+MACTID:1170 >> CL|21995|la-reina|CL|325039|La Reina
+MACTID:1171 >> CL|21996|las-condes|CL|352684|Las Condes
+MACTID:1172 >> CL|21999|lo-prado|CL|325035|Lo Prado
+MACTNAMEES:1173 >> CL|22001|maipu|Maipú
+MACTNAMEES:1174 >> CL|22002|nunoa|Ñuñoa
+MACTID:1175 >> CL|22005|providencia|CL|325029|Providencia
+MACTID:1176 >> CL|22008|quinta-normal|CL|325031|Quinta Normal
+MACTID:1177 >> CL|22009|recoleta|CL|382639|Recoleta
+MACTID:1178 >> CL|22010|renca|CL|325027|Renca
+MACTID:1179 >> CL|22012|san-miguel|CL|325028|San Miguel
+MACTID:1180 >> CL|22015|vitacura|CL|382640|Vitacura
+MACTID:1181 >> CL|22016|el-monte|CL|230270|El Monte
+MACTID:1182 >> CL|22017|isla-de-maipo|CL|403856|Isla de Maipo
+MACTID:1183 >> CL|22019|padre-hurtado|CL|457290|Padre Hurtado
+MACTNAMEES:1184 >> CL|22020|penaflor|Peñaflor
+MACTNAMEES:1185 >> CL|22021|talangate|Talagante
+MACTID:1186 >> CL|22024|pozo-almonte|CL|256209|Pozo Almonte
+MACTID:1187 >> CL|22026|hanga-roa|CL|352607|Hanga Roa
+MACTID:1188 >> CL|22027|calle-larga|CL|435589|Calle Larga
+MACTID:1189 >> CL|22028|los-andes|CL|256173|Los Andes
+MACTID:1190 >> CL|22029|rinconada|CL|264838|Rinconada
+MACTID:1191 >> CL|22030|san-esteban|CL|263536|San Esteban
+MACTID:1192 >> CL|22031|la-ligua|CL|240717|La Ligua
+MACTID:1193 >> CL|22035|limache|CL|380317|Limache
+MACTNAMEES:1194 >> CL|22038|olmue|Olmué
+MACTID:1195 >> CL|22039|quillota|CL|263546|Quillota
+MACTID:1196 >> CL|22040|algarrobo|CL|282991|Algarrobo
+MACTID:1197 >> CL|22041|cartagena|CL|403813|Cartagena
+MACTID:1198 >> CL|22042|el-quisco|CL|369509|El Quisco
+MACTID:1199 >> CL|22043|el-tabo|CL|256146|El Tabo
+MACTID:1200 >> CL|22044|san-antonio|CL|437330|San Antonio
+MACTID:1201 >> CL|22045|santo-domingo|CL|419171|Santo Domingo
+MACTID:1202 >> CL|22050|santa-maria|CL|240764|Santa Maria
+MACTNAMEES:1203 >> CL|22052|concon|Concón
+MACTNAMEES:1204 >> CL|22054|quilpue|Quilpué
+MACTID:1205 >> CL|22055|quintero|CL|349108|Quintero
+MACTID:1206 >> CL|22058|villa-alemana|CL|259723|Villa Alemana
+MACTNAMEES:1207 >> CL|22069|arica-0b1d435e-695d-40d5-853b-d399b683b3f7|Arica
+MACTID:1208 >> CL|22225|chile-chico|CL|283737|Chile Chico
+MACTID:1209 >> CL|22227|san-pedro-de-atacama|CL|450679|San Pedro de Atacama
+MACTID:1210 >> CL|22228|coyhaique|CL|449346|Coyhaique
+MACTNAMEES:1211 >> CL|22231|puerto-rio-tranquilo|Puerto Río Tranquilo
+MACTNAMEES:1212 >> BO|25917|trinidad-25917|Trinidad
+MACTID:1213 >> BO|25918|san-javier|BO|447752|San Javier
+MACTID:1214 >> BO|25919|riberalta|BO|329574|Riberalta
+MACTNAMEES:1215 >> BO|25920|guayaramerin|Guayaramerín
+MACTID:1216 >> BO|25924|rurrenabaque|BO|447248|Rurrenabaque
+MACTID:1217 >> BO|25925|santa-ana-del-yacuma|BO|329968|Santa Ana del Yacuma
+MACTID:1218 >> BO|25927|san-ignacio-de-moxos|BO|447756|San Ignacio de Moxos
+MACTID:1219 >> BO|25949|sucre|BO|329815|Sucre
+MACTID:1220 >> BO|25950|yotala|BO|447249|Yotala
+MACTID:1221 >> BO|25967|cochabamba|BO|327336|Cochabamba
+MACTID:1222 >> BO|25970|villa-tunari|BO|239245|Villa Tunari
+MACTID:1223 >> BO|25971|tiquipaya|BO|448005|Tiquipaya
+MACTNAMEES:1224 >> BO|26015|el-alto-26015|El Alto
+MACTNAMEES:1225 >> BO|26016|la-paz-26016|La Paz
+MACTID:1226 >> BO|26019|achacachi|BO|239224|Achacachi
+MACTID:1227 >> BO|26025|sorata|BO|447250|Sorata
+MACTID:1228 >> BO|26028|apolo|BO|392114|Apolo
+MACTID:1229 >> BO|26030|coroico|BO|284689|Coroico
+MACTID:1230 >> BO|26031|chulumani|BO|239223|Chulumani
+MACTID:1231 >> BO|26035|palca|BO|452956|Palca
+MACTID:1232 >> BO|26036|mecapaca|BO|239219|Mecapaca
+MACTID:1233 >> BO|26039|copacabana|BO|349990|Copacabana
+MACTID:1234 >> BO|26064|san-buenaventura|BO|239110|San Buenaventura
+MACTID:1235 >> BO|26081|yanacachi|BO|250186|Yanacachi
+MACTID:1236 >> BO|26093|huatajata|BO|371651|Huatajata
+MACTID:1237 >> BO|26103|sabaya|BO|229816|Sabaya
+MACTID:1238 >> BO|26108|oruro|BO|447656|Oruro
+MACTID:1239 >> BO|26129|todos-santos|BO|26066|Todos Santos
+MACTID:1240 >> BO|26150|cobija|BO|328182|Cobija
+MACTID:1241 >> BO|26157|uyuni|BO|284337|Uyuni
+MACTID:1242 >> BO|26163|toro-toro|BO|374316|Toro Toro
+MACTID:1243 >> BO|26178|colcha-k|BO|55657|Colcha K
+MACTID:1244 >> BO|26179|san-pedro-de-quemes|BO|32976|San Pedro de Quemes
+MACTID:1245 >> BO|26186|tupiza|BO|268932|Tupiza
+MACTNAMEES:1246 >> BO|26191|potosi|Potosí
+MACTID:1247 >> BO|26199|la-guardia|BO|445156|La Guardia
+MACTNAMEES:1248 >> BO|26202|san-jose-de-chiquitos|San José de Chiquitos
+MACTID:1249 >> BO|26208|camiri|BO|327815|Camiri
+MACTID:1250 >> BO|26212|samaipata|BO|391858|Samaipata
+MACTID:1251 >> BO|26226|san-ignacio-de-velasco|BO|380507|San Ignacio de Velasco
+MACTNAMEES:1252 >> BO|26231|concepcion-26231|Concepción
+MACTID:1253 >> BO|26242|portachuelo|BO|28266|Portachuelo
+MACTID:1254 >> BO|26245|vallegrande|BO|447358|Vallegrande
+MACTID:1255 >> BO|26252|bermejo|BO|228576|Bermejo
+MACTID:1256 >> BO|26255|tarija|BO|330094|Tarija
+MACTID:1257 >> CR|24118|alajuela|CR|336422|Alajuela
+MACTNAMEES:1258 >> CR|24120|san-ramon|San Ramón
+MACTID:1259 >> CR|24122|upala|CR|438171|Upala
+MACTID:1260 >> CR|24123|naranjo|CR|356549|Naranjo
+MACTID:1261 >> CR|24124|palmares|CR|401872|Palmares
+MACTID:1262 >> CR|24126|atenas|CR|349261|Atenas
+MACTID:1263 >> CR|24127|los-chiles|CR|353103|Los Chiles
+MACTID:1264 >> CR|24128|orotina|CR|449370|Orotina
+MACTID:1265 >> CR|24133|san-mateo|CR|457417|San Mateo
+MACTID:1266 >> CR|24135|cartago|CR|401859|Cartago
+MACTID:1267 >> CR|24137|turrialba|CR|308620|Turrialba
+MACTNAMEES:1268 >> CR|24138|paraiso|Paraíso
+MACTID:1269 >> CR|24144|liberia|CR|343152|Liberia
+MACTNAMEES:1270 >> CR|24145|santa-cruz-24145|Santa Cruz
+MACTID:1271 >> CR|24146|nicoya|CR|344108|Nicoya
+MACTID:1272 >> CR|24148|canas|CR|340441|Canas
+MACTNAMEES:1273 >> CR|24149|tilaran|Tilarán
+MACTID:1274 >> CR|24150|bagaces|CR|254073|Bagaces
+MACTID:1275 >> CR|24151|la-cruz|CR|347197|La Cruz
+MACTID:1276 >> CR|24152|abangares|CR|229823|Abangares
+MACTID:1277 >> CR|24156|heredia|CR|343150|Heredia
+MACTNAMEES:1278 >> CR|24157|sarapiqui|Sarapiquí
+MACTNAMEES:1279 >> CR|24158|san-rafael-24158|San Rafael
+MACTID:1280 >> CR|24160|santo-domingo|CR|34449|Santo Domingo
+MACTNAMEES:1281 >> CR|24164|san-isidro-24164|San Isidro
+MACTNAMEES:1282 >> CR|24168|limon|Limón
+MACTID:1283 >> CR|24169|siquirres|CR|374697|Siquirres
+MACTNAMEES:1284 >> CR|24170|guacimo|Guácimo
+MACTID:1285 >> CR|24174|puntarenas|CR|334852|Puntarenas
+MACTNAMEES:1286 >> CR|24175|buenos-aires-24175|Buenos Aires
+MACTID:1287 >> CR|24177|golfito|CR|343951|Golfito
+MACTID:1288 >> CR|24181|quepos|CR|330527|Quepos
+MACTID:1289 >> CR|24183|parrita|CR|348539|Parrita
+MACTNAMEES:1290 >> CR|24186|san-jose|San José
+MACTID:1291 >> CR|24187|desamparados|CR|345254|Desamparados
+MACTID:1292 >> CR|24190|alajuelita|CR|345367|Alajuelita
+MACTID:1293 >> CR|24191|curridabat|CR|396818|Curridabat
+MACTNAMEES:1294 >> CR|24194|aserri|Aserrí
+MACTNAMEES:1295 >> CR|24196|escazu|Escazú
+MACTID:1296 >> CR|24198|santa-ana|CR|323519|Santa Ana
+MACTNAMEES:1297 >> CR|26392|jaco|Jacó
+MACTID:1298 >> CR|26394|monteverde|CR|348545|Monteverde
+MACTNAMEES:1299 >> CU|25365|pinar-del-rio|Pinar del Río
+MACTID:1300 >> CU|25370|mantua|CU|32426|Mantua
+MACTNAMEES:1301 >> CU|25372|san-juan-y-martinez|San Juan y Martínez
+MACTID:1302 >> CU|25374|sandino|CU|239488|Sandino
+MACTNAMEES:1303 >> CU|25375|vinales|Viñales
+MACTID:1304 >> CU|25377|artemisa|CU|447354|Artemisa
+MACTNAMEES:1305 >> CU|25378|san-antonio-de-los-banos|San Antonio de los Baños
+MACTID:1306 >> CU|25380|bauta|CU|446548|Bauta
+MACTNAMEES:1307 >> CU|25384|caimito-25384|Caimito
+MACTID:1308 >> CU|25389|la-habana|CU|239360|La Habana
+MACTID:1309 >> CU|25402|playa|CU|446729|Playa
+MACTNAMEES:1310 >> CU|25408|san-jose-de-las-lajas|San José de las Lajas
+MACTID:1311 >> CU|25410|bejucal|CU|32406|Bejucal
+MACTID:1312 >> CU|25411|jaruco|CU|446543|Jaruco
+MACTID:1313 >> CU|25413|melena-del-sur|CU|447353|Melena del Sur
+MACTID:1314 >> CU|25417|santa-cruz-del-norte|CU|446252|Santa Cruz del Norte
+MACTID:1315 >> CU|25419|matanzas|CU|343214|Matanzas
+MACTNAMEES:1316 >> CU|25420|cardenas|Cárdenas
+MACTID:1317 >> CU|25422|calimete|CU|32224|Calimete
+MACTNAMEES:1318 >> CU|25424|jaguey-grande|Jagüey Grande
+MACTID:1319 >> CU|25433|cienfuegos|CU|332457|Cienfuegos
+MACTID:1320 >> CU|25434|cumanayagua|CU|237468|Cumanayagua
+MACTNAMEES:1321 >> CU|25439|palmira-25439|Palmira
+MACTNAMEES:1322 >> CU|25442|santa-clara-25442|Santa Clara
+MACTID:1323 >> CU|25444|sagua-la-grande|CU|446274|Sagua la Grande
+MACTNAMEES:1324 >> CU|25445|caibarien|Caibarién
+MACTID:1325 >> CU|25448|corralillo|CU|446373|Corralillo
+MACTNAMEEN:1326 >> CU|25456|sancti-spiritus|Sancti Spiritus
+MACTID:1327 >> CU|25457|trinidad|CU|325943|Trinidad
+MACTID:1328 >> CU|25459|fomento|CU|446268|Fomento
+MACTID:1329 >> CU|25460|jatibonico|CU|27616|Jatibonico
+MACTNAMEES:1330 >> CU|25465|moron-25465|Mörön
+MACTNAMEES:1331 >> CU|25469|ciego-de-avila|Ciego de Ávila
+MACTNAMEES:1332 >> CU|25476|camaguey|Camagüey
+MACTNAMEES:1333 >> CU|25477|ciego-de-avila-25477|Ciego de Ávila
+MACTID:1334 >> CU|25479|nuevitas|CU|326073|Nuevitas
+MACTNAMEES:1335 >> CU|25483|guaimaro|Guáimaro
+MACTNAMEES:1336 >> CU|25484|jimaguayu|Jimaguayú
+MACTID:1337 >> CU|25491|las-tunas|CU|330254|Las Tunas
+MACTID:1338 >> CU|25492|puerto-padre|CU|447330|Puerto Padre
+MACTID:1339 >> CU|25495|colombia|CU|446388|Colombia
+MACTID:1340 >> CU|25500|bayamo|CU|327831|Bayamo
+MACTID:1341 >> CU|25501|manzanillo|CU|329340|Manzanillo
+MACTID:1342 >> CU|25502|niquero|CU|455055|Niquero
+MACTNAMEES:1343 >> CU|25504|bartolome-maso|Bartolomé Masó
+MACTID:1344 >> CU|25505|buey-arriba|CU|32325|Buey Arriba
+MACTNAMEES:1345 >> CU|25510|pilon-25510|Pilón
+MACTID:1346 >> CU|25512|yara|CU|32274|Yara
+MACTNAMEES:1347 >> CU|25514|holguin|Holguín
+MACTID:1348 >> CU|25515|moa|CU|329160|Moa
+MACTID:1349 >> CU|25516|banes|CU|237593|Banes
+MACTNAMEES:1350 >> CU|25517|mayari|Mayarí
+MACTID:1351 >> CU|25519|antilla|CU|32158|Antilla
+MACTID:1352 >> CU|25525|gibara|CU|237590|Gibara
+MACTID:1353 >> CU|25526|rafael-freyre|CU|341191|Rafael Freyre
+MACTID:1354 >> CU|25529|santiago-de-cuba|CU|329954|Santiago de Cuba
+MACTID:1355 >> CU|25530|palma-soriano|CU|446341|Palma Soriano
+MACTNAMEES:1356 >> CU|25532|guama|Guamá
+MACTNAMEES:1357 >> CU|25539|guantanamo|Guantánamo
+MACTID:1358 >> CU|25540|baracoa|CU|327345|Baracoa
+MACTID:1359 >> CU|25541|caimanera|CU|455054|Caimanera
+MACTID:1360 >> CU|25550|nueva-gerona|CU|328271|Nueva Gerona
+MACTID:1361 >> DO|25204|las-salinas|DO|87284|Las Salinas
+MACTNAMEES:1362 >> DO|25205|paraiso-25205|Paraiso
+MACTNAMEES:1363 >> DO|25215|san-francisco-de-macoris|San Francisco de Macorís
+MACTID:1364 >> DO|25216|arenoso|DO|34982|Arenoso
+MACTNAMEES:1365 >> DO|25219|las-guaranas|Las Guáranas
+MACTID:1366 >> DO|25221|villa-riva|DO|34946|Villa Riva
+MACTNAMEES:1367 >> DO|25235|gaspar-hernandez|Gaspar Hernández
+MACTID:1368 >> DO|25240|sabana-de-la-mar|DO|241290|Sabana de la Mar
+MACTID:1369 >> DO|25249|la-descubierta|DO|271727|La Descubierta
+MACTNAMEES:1370 >> DO|25253|higuey|Higüey
+MACTID:1371 >> DO|25256|la-romana|DO|393371|La Romana
+MACTID:1372 >> DO|25261|jarabacoa|DO|298956|Jarabacoa
+MACTID:1373 >> DO|25262|constanza|DO|444856|Constanza
+MACTID:1374 >> DO|25265|nagua|DO|401035|Nagua
+MACTID:1375 >> DO|25266|cabrera|DO|344136|Cabrera
+MACTID:1376 >> DO|25267|el-factor|DO|34984|El Factor
+MACTNAMEES:1377 >> DO|25268|rio-san-juan|Río San Juan
+MACTID:1378 >> DO|25270|bonao|DO|307581|Bonao
+MACTNAMEES:1379 >> DO|25271|maimon|Maimón
+MACTID:1380 >> DO|25287|pedernales|DO|60387|Pedernales
+MACTNAMEES:1381 >> DO|25290|bani|Baní
+MACTNAMEES:1382 >> DO|25298|luperon|Luperón
+MACTNAMEES:1383 >> DO|25299|sosua|Sosúa
+MACTID:1384 >> DO|25304|las-terrenas|DO|348546|Las Terrenas
+MACTNAMEES:1385 >> DO|25307|san-cristobal|San Cristóbal
+MACTID:1386 >> DO|25310|los-cacaos|DO|401037|Los Cacaos
+MACTID:1387 >> DO|25313|villa-altagracia|DO|226909|Villa Altagracia
+MACTNAMEES:1388 >> DO|25316|san-jose-de-ocoa|San José de Ocoa
+MACTID:1389 >> DO|25320|san-juan-de-la-maguana|DO|388232|San Juan de la Maguana
+MACTNAMEES:1390 >> DO|25327|san-pedro-de-macoris|San Pedro de Macorís
+MACTID:1391 >> DO|25337|la-mata|DO|24350|La Mata
+MACTID:1392 >> DO|25339|santiago-de-los-caballeros|DO|363924|Santiago de los Caballeros
+MACTID:1393 >> DO|25354|santo-domingo-este|DO|423469|Santo Domingo Este
+MACTID:1394 >> DO|25355|santo-domingo-norte|DO|34960|Santo Domingo Norte
+MACTID:1395 >> DO|25356|santo-domingo-oeste|DO|439606|Santo Domingo Oeste
+MACTNAMEES:1396 >> DO|25357|boca-chica-25357|Boca Chica
+MACTID:1397 >> DO|26398|punta-cana|DO|329649|Punta Cana
+MACTID:1398 >> DO|26403|puerto-plata|DO|329696|Puerto Plata
+MACTNAMEES:1399 >> GT|24817|coban|Cobán
+MACTID:1400 >> GT|24819|san-juan-chamelco|GT|437145|San Juan Chamelco
+MACTNAMEES:1401 >> GT|24827|lanquin|Lanquín
+MACTID:1402 >> GT|24830|chisec|GT|479292|Chisec
+MACTID:1403 >> GT|24831|santa-cruz-verapaz|GT|421389|Santa Cruz Verapaz
+MACTNAMEES:1404 >> GT|24838|purulha|Purulhá
+MACTID:1405 >> GT|24839|rabinal|GT|34575|Rabinal
+MACTNAMEES:1406 >> GT|24840|salama|Salamá
+MACTNAMEES:1407 >> GT|24842|san-jeronimo|San Jerónimo
+MACTID:1408 >> GT|24844|chimaltenango|GT|451243|Chimaltenango
+MACTNAMEES:1409 >> GT|24849|tecpan-guatemala|Tecpán Guatemala
+MACTID:1410 >> GT|24854|acatenango|GT|28797|Acatenango
+MACTID:1411 >> GT|24861|chiquimula|GT|261992|Chiquimula
+MACTID:1412 >> GT|24863|esquipulas|GT|349292|Esquipulas
+MACTID:1413 >> GT|24867|ipala|GT|437105|Ipala
+MACTNAMEEN:1414 >> GT|24880|san-cristobal-acasaguastlan|San Cristóbal Acasaguastlán
+MACTID:1415 >> GT|24884|iztapa|GT|437248|Iztapa
+MACTID:1416 >> GT|24886|la-gomera|GT|228507|La Gomera
+MACTID:1417 >> GT|24887|masagua|GT|457372|Masagua
+MACTID:1418 >> GT|24892|santa-lucia-cotzumalguapa|GT|479141|Santa Lucia Cotzumalguapa
+MACTID:1419 >> GT|24893|sipacate|GT|241377|Sipacate
+MACTID:1420 >> GT|24895|tiquisate|GT|33928|Tiquisate
+MACTID:1421 >> GT|24899|mixco|GT|457373|Mixco
+MACTNAMEES:1422 >> GT|24901|san-jose-pinula|San José Pinula
+MACTID:1423 >> GT|24910|fraijanes|GT|7583|Fraijanes
+MACTNAMEES:1424 >> GT|24911|amatitlan|Amatitlán
+MACTID:1425 >> GT|24912|villa-canales|GT|241383|Villa Canales
+MACTID:1426 >> GT|24949|puerto-barrios|GT|364355|Puerto Barrios
+MACTID:1427 >> GT|24950|livingston|GT|348799|Livingston
+MACTID:1428 >> GT|24951|el-estor|GT|437250|El Estor
+MACTID:1429 >> GT|24952|morales|GT|33580|Morales
+MACTID:1430 >> GT|24973|moyuta|GT|33724|Moyuta
+MACTID:1431 >> GT|24981|dolores|GT|25754|Dolores
+MACTNAMEES:1432 >> GT|24982|flores-24982|Flores
+MACTID:1433 >> GT|24984|melchor-de-mencos|GT|236333|Melchor de Mencos
+MACTNAMEES:1434 >> GT|24985|poptun|Poptún
+MACTNAMEES:1435 >> GT|24986|san-andres-24986|San Andrés
+MACTID:1436 >> GT|24987|san-benito|GT|430396|San Benito
+MACTNAMEES:1437 >> GT|24993|las-cruces-24993|Las Cruces
+MACTID:1438 >> GT|24994|el-chal|GT|437251|El Chal
+MACTID:1439 >> GT|25008|olintepeque|GT|457358|Olintepeque
+MACTID:1440 >> GT|25010|quetzaltenango|GT|393446|Quetzaltenango
+MACTNAMEES:1441 >> GT|25015|san-martin-sacatepequez|San Martín Sacatepéquez
+MACTID:1442 >> GT|25022|chajul|GT|236381|Chajul
+MACTID:1443 >> GT|25025|chichicastenango|GT|383134|Chichicastenango
+MACTID:1444 >> GT|25030|nebaj|GT|457374|Nebaj
+MACTID:1445 >> GT|25033|sacapulas|GT|230367|Sacapulas
+MACTNAMEES:1446 >> GT|25039|santa-cruz-del-quiche|Santa Cruz del Quiché
+MACTID:1447 >> GT|25044|el-asintal|GT|35186|El Asintal
+MACTID:1448 >> GT|25046|retalhuleu|GT|437246|Retalhuleu
+MACTNAMEES:1449 >> GT|25051|santa-cruz-mulua|Santa Cruz Muluá
+MACTID:1450 >> GT|25053|alotenango|GT|367002|Alotenango
+MACTID:1451 >> GT|25054|antigua-guatemala|GT|340686|Antigua Guatemala
+MACTID:1452 >> GT|25055|ciudad-vieja|GT|457367|Ciudad Vieja
+MACTNAMEES:1453 >> GT|25064|santa-lucia-milpas-altas|Santa Lucía Milpas Altas
+MACTID:1454 >> GT|25072|catarina|GT|8011|Catarina
+MACTNAMEES:1455 >> GT|25095|tacana|Tacaná
+MACTID:1456 >> GT|25101|barberena|GT|34577|Barberena
+MACTID:1457 >> GT|25106|monterrico|GT|437247|Monterrico
+MACTID:1458 >> GT|25114|santa-rosa-de-lima|GT|65087|Santa Rosa de Lima
+MACTID:1459 >> GT|25115|taxisco|GT|34462|Taxisco
+MACTID:1460 >> GT|25117|solola|GT|239593|Solola
+MACTNAMEES:1461 >> GT|25118|concepcion-25118|Concepción
+MACTID:1462 >> GT|25120|panajachel|GT|341164|Panajachel
+MACTNAMEES:1463 >> GT|25122|san-antonio-palopo|San Antonio Palopó
+MACTID:1464 >> GT|25124|san-juan-la-laguna|GT|284064|San Juan La Laguna
+MACTNAMEES:1465 >> GT|25125|san-lucas-toliman|San Lucas Tolimán
+MACTID:1466 >> GT|25126|san-marcos-la-laguna|GT|241381|San Marcos La Laguna
+MACTID:1467 >> GT|25127|san-pablo-la-laguna|GT|27339|San Pablo La Laguna
+MACTID:1468 >> GT|25128|san-pedro-la-laguna|GT|393430|San Pedro La Laguna
+MACTNAMEES:1469 >> GT|25130|santa-catarina-palopo|Santa Catarina Palopó
+MACTID:1470 >> GT|25132|santa-cruz-la-laguna|GT|267588|Santa Cruz La Laguna
+MACTNAMEES:1471 >> GT|25135|santiago-atitlan|Santiago Atitlán
+MACTID:1472 >> GT|25157|zunilito|GT|35188|Zunilito
+MACTID:1473 >> GT|25169|estanzuela|GT|226931|Estanzuela
+MACTNAMEES:1474 >> GT|25173|rio-hondo-25173|Río Hondo
+MACTNAMEES:1475 >> GT|25176|teculutan|Teculután
+MACTID:1476 >> PY|25649|ciudad-del-este|PY|312752|Ciudad del Este
+MACTID:1477 >> PY|25650|presidente-franco|PY|445903|Presidente Franco
+MACTNAMEES:1478 >> PY|25652|hernandarias|Hernandarías
+MACTNAMEES:1479 >> PY|25656|doctor-juan-leon-mallorquin|Doctor Juan León Mallorquín
+MACTID:1480 >> PY|25661|los-cedrales|PY|68244|Los Cedrales
+MACTID:1481 >> PY|25668|naranjal|PY|27064|Naranjal
+MACTID:1482 >> PY|25672|pedro-juan-caballero|PY|446199|Pedro Juan Caballero
+MACTID:1483 >> PY|25679|filadelfia|PY|445848|Filadelfia
+MACTID:1484 >> PY|25718|salto-del-guaira|PY|396666|Salto del Guaira
+MACTID:1485 >> PY|25733|luque|PY|445602|Luque
+MACTNAMEES:1486 >> PY|25734|san-lorenzo-25734|San Lorenzo
+MACTNAMEES:1487 >> PY|25736|lambare|Lambaré
+MACTID:1488 >> PY|25737|fernando-de-la-mora|PY|445595|Fernando de La Mora
+MACTID:1489 >> PY|25738|limpio|PY|445599|Limpio
+MACTNAMEES:1490 >> PY|25739|nemby|Ñemby
+MACTNAMEES:1491 >> PY|25740|itaugua|Itauguá
+MACTID:1492 >> PY|25741|mariano-roque-alonso|PY|445600|Mariano Roque Alonso
+MACTNAMEES:1493 >> PY|25744|aregua|Areguá
+MACTID:1494 >> PY|25748|villeta|PY|445633|Villeta
+MACTNAMEES:1495 >> PY|25749|guarambare|Guarambaré
+MACTNAMEES:1496 >> PY|25750|ypacarai|Ypacaraí
+MACTNAMEES:1497 >> PY|25753|concepcion-25753|Concepción
+MACTNAMEES:1498 >> PY|25766|caacupe|Caacupé
+MACTID:1499 >> PY|25768|piribebuy|PY|449777|Piribebuy
+MACTID:1500 >> PY|25769|arroyos-y-esteros|PY|445627|Arroyos y Esteros
+MACTID:1501 >> PY|25772|atyra|PY|228717|Atyra
+MACTID:1502 >> PY|25773|altos|PY|280114|Altos
+MACTID:1503 >> PY|25774|caraguatay|PY|445798|Caraguatay
+MACTNAMEES:1504 >> PY|25775|san-bernardino-25775|San Bernardino
+MACTNAMEES:1505 >> PY|25776|itacurubi-de-la-cordillera|Itacurubí de la Cordillera
+MACTID:1506 >> PY|25784|nueva-colombia|PY|445631|Nueva Colombia
+MACTID:1507 >> PY|25787|villarrica|PY|255368|Villarrica
+MACTID:1508 >> PY|25788|independencia|PY|370209|Independencia
+MACTNAMEES:1509 >> PY|25806|encarnacion|Encarnación
+MACTID:1510 >> PY|25816|obligado|PY|227214|Obligado
+MACTNAMEES:1511 >> PY|25821|bella-vista-25821|Bella Vista
+MACTNAMEES:1512 >> PY|25826|san-cosme-y-damian|San Cosme y Damián
+MACTNAMEES:1513 >> PY|25828|trinidad-25828|Trinidad
+MACTNAMEES:1514 >> PY|25833|jesus|Jesús
+MACTID:1515 >> PY|25845|villa-florida|PY|236413|Villa Florida
+MACTNAMEES:1516 >> PY|25866|yaguaron|Yaguarón
+MACTNAMEES:1517 >> PY|25867|ybycui|Ybycuí
+MACTNAMEES:1518 >> PY|25868|paraguari|Paraguarí
+MACTNAMEES:1519 >> PY|25915|asuncion|Asunción
+MACTID:1520 >> UY|25552|artigas|UY|327625|Artigas
+MACTID:1521 >> UY|25555|ciudad-de-la-costa|UY|283813|Ciudad de la Costa
+MACTID:1522 >> UY|25556|las-piedras|UY|54135|Las Piedras
+MACTID:1523 >> UY|25557|barros-blancos|UY|24242|Barros Blancos
+MACTID:1524 >> UY|25558|pando|UY|259869|Pando
+MACTID:1525 >> UY|25559|la-paz|UY|259984|La Paz
+MACTID:1526 >> UY|25560|canelones|UY|259902|Canelones
+MACTNAMEES:1527 >> UY|25561|santa-lucia-25561|Santa Lucía
+MACTNAMEES:1528 >> UY|25562|progreso-25562|Progreso
+MACTID:1529 >> UY|25564|salinas|UY|24871|Salinas
+MACTID:1530 >> UY|25565|parque-del-plata|UY|259857|Parque del Plata
+MACTNAMEES:1531 >> UY|25568|atlantida|Atlántida
+MACTNAMEES:1532 >> UY|25570|san-jacinto-25570|San Jacinto
+MACTID:1533 >> UY|25571|toledo|UY|259926|Toledo
+MACTID:1534 >> UY|25577|melo|UY|329184|Melo
+MACTID:1535 >> UY|25580|colonia-del-sacramento|UY|346314|Colonia del Sacramento
+MACTID:1536 >> UY|25581|carmelo|UY|344991|Carmelo
+MACTID:1537 >> UY|25582|juan-lacaze|UY|115217|Juan Lacaze
+MACTID:1538 >> UY|25583|nueva-helvecia|UY|421538|Nueva Helvecia
+MACTNAMEES:1539 >> UY|25584|rosario-25584|Rosario
+MACTID:1540 >> UY|25585|nueva-palmira|UY|421994|Nueva Palmira
+MACTID:1541 >> UY|25586|tarariras|UY|421909|Tarariras
+MACTID:1542 >> UY|25589|colonia-valdense|UY|455302|Colonia Valdense
+MACTID:1543 >> UY|25591|durazno|UY|253056|Durazno
+MACTNAMEES:1544 >> UY|25594|trinidad-25594|Trinidad
+MACTNAMEES:1545 >> UY|25598|florida-25598|Florida
+MACTNAMEES:1546 >> UY|25600|minas-25600|Minas
+MACTNAMEES:1547 >> UY|25601|jose-pedro-varela|José Pedro Varela
+MACTID:1548 >> UY|25603|maldonado|UY|336325|Maldonado
+MACTNAMEES:1549 >> UY|25604|san-carlos-25604|San Carlos
+MACTID:1550 >> UY|25605|punta-del-este|UY|329364|Punta del Este
+MACTNAMEES:1551 >> UY|25606|piriapolis|Piriápolis
+MACTID:1552 >> UY|25608|aigua|UY|448008|Aigua
+MACTID:1553 >> UY|25610|montevideo|UY|327122|Montevideo
+MACTNAMEES:1554 >> UY|25612|paysandu|Paysandú
+MACTNAMEES:1555 >> UY|25613|guichon|Guichón
+MACTID:1556 >> UY|25615|fray-bentos|UY|296817|Fray Bentos
+MACTID:1557 >> UY|25618|rivera|UY|327020|Rivera
+MACTID:1558 >> UY|25622|chuy|UY|428948|Chuy
+MACTID:1559 >> UY|25623|lascano|UY|28280|Lascano
+MACTID:1560 >> UY|25624|castillos|UY|421534|Castillos
+MACTID:1561 >> UY|25625|la-paloma|UY|280930|La Paloma
+MACTID:1562 >> UY|25627|salto|UY|329789|Salto
+MACTNAMEES:1563 >> UY|25629|san-jose-de-mayo|San José de Mayo
+MACTID:1564 >> UY|25630|ciudad-del-plata|UY|26990|Ciudad del Plata
+MACTNAMEES:1565 >> UY|25633|mercedes-25633|Mercedes
+MACTNAMEES:1566 >> UY|25634|dolores-25634|Dolores
+MACTNAMEEN:1567 >> UY|25637|tacuarembo|Tacuarembo
+MACTID:1568 >> UY|25639|san-gregorio-de-polanco|UY|447955|San Gregorio de Polanco
+MACTID:1569 >> UY|25641|treinta-y-tres|UY|447963|Treinta y Tres

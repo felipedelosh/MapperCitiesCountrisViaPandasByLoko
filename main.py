@@ -19,6 +19,7 @@ class Software:
         self.btnADDGeoLatLngViaNetactica = Button(self.canvas, text="ADD GEO to turismoi", command=self.addGeoLatLngViaNetactica)
 
         self.btnCreateKDTreeBinFiles = Button(self.canvas, text="INIT KDTREE", command=self.serializeTree)
+        self.btnMacthTurismoiKdTree = Button(self.canvas, text="Macth Turismoi KDtree", command=self.macthTurismoiViaKdTree)
 
         self.vizualizedAndRun()
 
@@ -42,6 +43,7 @@ class Software:
         self.btnADDGeoLatLngViaNetactica.place(x=20, y=230)
 
         self.btnCreateKDTreeBinFiles.place(x=400, y=60)
+        self.btnMacthTurismoiKdTree.place(x=400, y=100)
 
         self.screem.mainloop()
 
@@ -56,7 +58,9 @@ class Software:
 
     def serializeTree(self):
         self.controller.serializeTree()
-
+    
+    def macthTurismoiViaKdTree(self):
+        self.controller.macthTurismoiViaKdTree()
 
 
 

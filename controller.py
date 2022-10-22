@@ -7,9 +7,11 @@ FelipedelosH
 import os
 from os import scandir
 from Database import *
+from Macher import Macther
 from Turismoi import *
 from Geography import *
 from serializeTree import SerializeTree
+from Macher import *
 
 class Controller:
     def __init__(self) -> None:
@@ -19,6 +21,7 @@ class Controller:
         self.dataTurimoi = TurismoiDATA()
         self.geography = Geografy()
         self.serializerTreeFromDB = SerializeTree()
+        self.macther = Macther()
         self.consoleTXT = ""
 
     def loadFiles(self):
@@ -152,6 +155,10 @@ class Controller:
 
     def updateGEOLatLngInTurismoi(self, key, geo):
         self.dataTurimoi.updateGEOviaKeyDic(key, geo)
+
+    def macthTurismoiViaKdTree(self):
+        self.macther.tryToMacthTurismoi()
+
 
     def rtnArcheveInfo(self, path):
         info = None
