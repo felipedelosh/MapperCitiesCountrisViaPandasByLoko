@@ -68,7 +68,8 @@ class Controller:
             data_geo_geography = self.rtnArcheveInfo("RESOURCES/geo_geography.csv")
             print("Se ingresarán a la base de datos geo_geography:", str(len(str(data_geo_geography).split("\n"))))
             self.database.insertInfoGeoGeography(data_geo_geography)
-        #Felipe
+        
+        # Loco
 
         
 
