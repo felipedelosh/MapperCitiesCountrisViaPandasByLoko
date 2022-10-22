@@ -9,6 +9,7 @@ from os import scandir
 from Database import *
 from Turismoi import *
 from Geography import *
+from serializeTree import SerializeTree
 
 class Controller:
     def __init__(self) -> None:
@@ -17,6 +18,7 @@ class Controller:
         self.saveMetadata("DATABASE/dbCreate.txt", self.database.metadata)
         self.dataTurimoi = TurismoiDATA()
         self.geography = Geografy()
+        self.serializerTreeFromDB = SerializeTree()
         self.consoleTXT = ""
 
     def loadFiles(self):
@@ -144,6 +146,10 @@ class Controller:
         vecPosToSearch = [9,10,11]
         return self.geography.getGeoLatLongViaName(iso_code,city_name,allRegInfo,delimiter,vecPosToSearch)
         
+    def serializeTree(self):
+        self.serializerTreeFromDB.serialize()
+
+
     def updateGEOLatLngInTurismoi(self, key, geo):
         self.dataTurimoi.updateGEOviaKeyDic(key, geo)
 
