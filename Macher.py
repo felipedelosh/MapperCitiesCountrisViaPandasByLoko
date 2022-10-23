@@ -37,7 +37,7 @@ class Macther:
 
     def tryToMacthTurismoi(self):
         self.chargeBinFiles()
-        data = self.database.getTurismoiRichInformation()[0:4]
+        data = self.database.getTurismoiRichInformation()[0:100]
         total_data = len(data)
         print("Total files turismoi para Machear: ", str(total_data))
         

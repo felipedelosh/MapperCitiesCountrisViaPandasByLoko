@@ -12,6 +12,7 @@ from Turismoi import *
 from Geography import *
 from serializeTree import SerializeTree
 from Macher import *
+from Target import *
 
 class Controller:
     def __init__(self) -> None:
@@ -19,6 +20,7 @@ class Controller:
         self.database.initDatabase()
         self.saveMetadata("DATABASE/dbCreate.txt", self.database.metadata)
         self.dataTurimoi = TurismoiDATA()
+        self.target = Target_to_macth() # With Turismoi
         self.geography = Geografy()
         self.serializerTreeFromDB = SerializeTree()
         self.macther = Macther()
@@ -94,7 +96,21 @@ class Controller:
             print("Se ingresarán a la base de datos: ", str(len(str(data_geo_polygon).split("\n"))))
             self.database.insertinfoGeoPolygon(data_geo_polygon)
 
-        
+        total_target = self.database.getTotalRowsOfTableX("target")
+        print("Total Datos en target: ", str(total_target))
+        if total_target == 0:
+            data = self.rtnArcheveInfo("DATA/target.csv")
+            print("Se ingresaran A DB en target: ", str(len(str(data).split("\n"))))
+            # 0 Code;1 Name;2 Creation date;Latitude;Longitude;Zoom;Airport IATA;Country
+            self.target.delimiter = ";"
+            self.target.id_position = -1
+            self.target.code_position = 0
+            self.target.name_place_position = 1
+            self.target.latitude_position = 3
+            self.target.longitude_position = 4
+            self.target.loadData(data)
+            self.saveMetadata("READ/target.txt", self.target.metadata)
+
 
 
         print("....Database ENDE....")
