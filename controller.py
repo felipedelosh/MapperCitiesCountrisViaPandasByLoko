@@ -134,6 +134,11 @@ class Controller:
         data = self.database.getAllTurismoiInfo()
         self.saveArrayJson("OUTPUT/DATABASE/turismoi.txt", data)
 
+        # Save target Info
+        data = self.database.getAllTargetInfo()
+        self.saveArrayJson("OUTPUT/DATABASE/target.txt",data)
+
+
         # Save MACTH turismoi via KDtree
         data = self.database.getAllMacthTurismoiInfoToCSV()
         headers = "id|iso_country|slug_place|latitude|longitude|nearest_iata_code|kdtree_dist_ns_cities_id"

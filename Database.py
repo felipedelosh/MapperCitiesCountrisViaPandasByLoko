@@ -755,6 +755,62 @@ class Database:
             pass
         return txt
 
+    def insertInfoTarget(self, info):
+        """
+        create table if not exists target(
+            id text primary key,
+            code text,
+            iso_country text,
+            name_place text,
+            latitude double,
+            longitude double
+        )
+        """
+        try:
+            id = info[0]
+            code = info[1]
+            iso_country = info[2]
+            name_place = info[3] 
+            latitude = float(info[4])
+            longitude = float(info[5])
+            self.conexion = self.getConect()
+            self.conexion.execute("insert into target (id,code,iso_country,name_place,latitude,longitude) values (?,?,?,?,?,?)",(id,code,iso_country,name_place,latitude,longitude))
+            self.conexion.commit()
+            self.conexion.close()
+        except:
+            print("Error Insert:")
+            print(info)
+
+    def getAllTargetInfo(self):
+        """
+        create table if not exists target(
+            id text primary key,
+            code text,
+            iso_country text,
+            name_place text,
+            latitude double,
+            longitude double
+        )
+        """
+        total = []
+        try:
+            self.conexion = self.getConect()
+            cursor = self.conexion.execute("select * from target")
+            fila=cursor.fetchall()
+            for i in fila:
+                id = i[0]
+                code = i[0]
+                iso_country = i[0]
+                name_place = i[0]
+                latitude = i[0]
+                longitude = i[0]
+                json = {"id":id,"code":code,"iso_country":iso_country,"name_place":name_place,"latitude":latitude,"longitude":longitude}
+                total.append(json)
+            cursor.close()
+        except:
+            pass
+        return total
+
 
     def getAllCitiesInfo(self):
         """

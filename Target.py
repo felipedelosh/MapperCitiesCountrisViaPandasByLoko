@@ -14,11 +14,16 @@ create table if not exists target(
 )
 
 """
+from Database import *
+
 class Target_to_macth():
     def __init__(self) -> None:
+        self.database = Database()
         self.data = {} # iso_code+:+city_name = all info
         self.metadata = {}
+        self.metadataStatusDb = {}
         self.count = 0
+        self.count_status_db = 0
         self.duplicated_control = 0
         self.delimiter = ""
         self.id_position = 0
@@ -56,6 +61,27 @@ class Target_to_macth():
 
                 # Save a Data in RAM
                 self.data[key] = i
+
+                # Save in DB
+                # 0 Code; 1 Name;2 Creation date;3 Latitude;4 Longitude;Zoom;Airport IATA;Country
+                id = key
+                code = data[0]
+                iso_country = iso_country
+                name_place = str(data[1]) 
+                latitude = data[3]
+                try:
+                    latitude = float(latitude)
+                except:
+                    latitude = None
+                longitude = data[4]
+                try:
+                    longitude = float(longitude)
+                except:
+                    longitude = None
+                info = [id,code,iso_country,name_place,latitude,longitude]
+                self.database.insertInfoTarget(info)
+
+
 
         self.metadata["Total_Reg_Inserted"] = str(len(self.data))
         self.metadata["Counter_not_used"] = str(self.count)
