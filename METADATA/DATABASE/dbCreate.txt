@@ -8,3 +8,4 @@
 7 >> Create Table: geo_polygon_shape
 8 >> Create Table: geo_polygon_shape
 9 >> Create Table: turismoi_macth
+10 >> Create Table: target

@@ -93,6 +93,11 @@ class Controller:
             data_geo_polygon = self.rtnArcheveInfo("RESOURCES/geo_polygon.csv")
             print("Se ingresarán a la base de datos: ", str(len(str(data_geo_polygon).split("\n"))))
             self.database.insertinfoGeoPolygon(data_geo_polygon)
+
+        
+
+
+        print("....Database ENDE....")
         
 
     def saveFiles(self):

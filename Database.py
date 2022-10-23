@@ -226,6 +226,25 @@ class Database:
         except:
             self.metadata[str(self.counter)] = "Error creating Table: turismoi_macth"
         self.counter = self.counter + 1
+        try:
+            # This is another project to macth
+            sql = """
+            create table if not exists target(
+                id text primary key,
+                code text,
+                iso_country text,
+                name_place text,
+                latitude double,
+                longitude double
+            )
+            """
+            con = self.getConect()
+            con.execute(sql)
+            con.close()
+            self.metadata[str(self.counter)] = "Create Table: target"
+        except:
+            self.metadata[str(self.counter)] = "Error creating Table: target"
+        self.counter = self.counter + 1
 
 
 
