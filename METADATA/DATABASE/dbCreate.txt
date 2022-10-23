@@ -7,3 +7,4 @@
 6 >> Create Table: geo_latitude_longitude
 7 >> Create Table: geo_polygon_shape
 8 >> Create Table: geo_polygon_shape
+9 >> Create Table: turismoi_macth

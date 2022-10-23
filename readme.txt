@@ -18,11 +18,13 @@ Example: Turismoi > Netactica > Target.csv
 
 How to RUN:
 
-Install this libraries:
+Install this libraries before to run:
 
 import pandas as pd
 from scipy import spatial
 import pickle
+from shapely.geometry import Point, Polygon
+from decimal import Decimal
 
 
 

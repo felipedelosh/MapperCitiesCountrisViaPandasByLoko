@@ -122,10 +122,14 @@ class Controller:
         self.geography.resetMetadata()
         self.dataTurimoi.resetMetadata()
         # If find in RAM:
-        if len(self.dataTurimoi.data) > 0:
-            print("Cargando datos Turismoi desde RAM....")
+        total_data = len(self.dataTurimoi.data)
+        if total_data > 0:
+            print("Cargando datos Netactica.Turismoi desde RAM....")
             # Only Update
             count = 0
+            count_percent = 0
+            current_percent = 0
+            top_percent = 0
             for i in self.dataTurimoi.data:
                 GEO = self.dataTurimoi.getGeoLatLngViaKeyDic(i)
 
@@ -134,6 +138,14 @@ class Controller:
                     if newGEO != "NULL|NULL":
                         self.updateGEOLatLngInTurismoi(i, newGEO)
                         count = count + 1
+
+                current_percent = (count_percent / total_data) * 100
+                if current_percent >= top_percent:
+                    print(current_percent, " % ")
+                    top_percent = top_percent + 10
+                count_percent = count_percent + 1
+
+
 
 
         total_reg_turismoi = self.database.getTotalRowsOfTableX("turismoi")

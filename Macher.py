@@ -8,7 +8,6 @@ BIN/geography.tree
 BIN/nscities.pandas
 BIN/nscities.tree
 """
-from mmap import PROT_READ
 from Database import *
 import pickle
 import pandas as pd
@@ -39,20 +38,21 @@ class Macther:
     def tryToMacthTurismoi(self):
         self.chargeBinFiles()
         data = self.database.getTurismoiRichInformation()
+        print("Total files turismoi para Machear: ", str(len(data)))
         
         for i in data:
-            print("Buscando... : ", str(i['id']))
-            polygons = self.GetNearPolygons(i, polygonsCount=40) # Get ALL
-            polygons = self.ChooseContainerPolygons(i, polygons) # GET GEO eqls?
+            #print("Buscando... >> ", str(i['id']))
+            polygons = self.GetNearPolygons(i, polygonsCount=40) # Get ALL GEO
+            polygons = self.ChooseContainerPolygons(i, polygons) #  if GEO eqls?
             geoIdList = None
             if polygons is not None:
-                geoIdList = self.GetRelatedGeoIdsFromPolygon(polygons) # ?
-            print("Tratando de machear: ...", str(i['id']))
+                geoIdList = self.GetRelatedGeoIdsFromPolygon(polygons) # No idea ?
             self.GetNearCityFromNs(i)
-            self.Upsertarget_placeIntoGeoDatabase(i, geoIdList)
+            print(str(i['id']), "macheado con >> ", str(i['nearest_iata_code']), " Dist: ", str(i['kdtree_dist_ns_cities_id']))
+            self.saveMacthInDatabaseTurismoi(i) # Save a Macth In database
 
 
-        print("Total files turismoi para Machear: ", str(len(data)))
+        
 
 
     def GetNearPolygons(self, target_place, polygonsCount=40):
@@ -141,34 +141,16 @@ class Macther:
         cityMapped = nsCitiesTree.query([target_place['lat'], target_place['lng']])
         if cityMapped is None:
             return None
-        target_place['nearest_iata_code'] = nsCitiesDataFrame.iloc[cityMapped[1]]['CityCode']
-        target_place['kdtree_dist_ns_cities_id'] = cityMapped[0]
+        target_place['nearest_iata_code'] = nsCitiesDataFrame.iloc[cityMapped[1]]['CityCode'] # Here you macth RESOURCES/Cities.csv[CityCode]
+        target_place['kdtree_dist_ns_cities_id'] = cityMapped[0] # Here you calculate a distance
 
 
-    def Upsertarget_placeIntoGeoDatabase(self, target_place, geoIdList):
-        try:
-            provider_target_placecode = target_place['target_placecode']
-            provider_name = target_place['provider']
-            # Borrar el target_place de la tabla: turismoi_target_place
-        except:
-            print("Error borrando el target_place: ")
-            print(target_place)
-            return None
+    def saveMacthInDatabaseTurismoi(self, target_place):
+        """
+        Only update a record
+        """
+        # Delete a before Macth
+        self.database.deleteTurismoiMacthReg(target_place['id'])
 
-        statusMsj = "no_polygon" if geoIdList is None else "ok"
-        if 'us' not in target_place:
-            target_place['us'] = 'default'
-        userService = target_place['us'] if target_place['us'] is not "" else 'default'
-
-        if 'ns_id' not in target_place:
-            target_place['ns_id'] = '0'
-
-        print("Macheo es: ")
-        print(target_place)
-        geotarget_placeId = "?"
-
-        if geoIdList is None:
-            return None
-
-        #for geoIdItem in geoIdList:
-        #    self.database.insertinfoGeotarget_placePolygon(geotarget_placeId, geoIdItem, "FelipedelosH")
+        # Save a new Macth
+        self.database.insertInfoTurismoiMacth(target_place)

@@ -206,6 +206,26 @@ class Database:
         except:
             self.metadata[str(self.counter)] = "Error creating Table: geo_polygon_shape"
         self.counter = self.counter + 1
+        # This is to machted result of turismoi
+        try:
+            sql = """
+            create table if not exists turismoi_macth(
+                id text primary key,
+                iso_country text,
+                slug_place text,
+                lat double,
+                lng double,
+                nearest_iata_code text,
+                kdtree_dist_ns_cities_id double
+            )
+            """
+            con = self.getConect()
+            con.execute(sql)
+            con.close()
+            self.metadata[str(self.counter)] = "Create Table: turismoi_macth"
+        except:
+            self.metadata[str(self.counter)] = "Error creating Table: turismoi_macth"
+        self.counter = self.counter + 1
 
 
 
@@ -570,8 +590,45 @@ class Database:
 
 
 
+    def insertInfoTurismoiMacth(self, macth):
+        """
+        create table if not exists turismoi_macth(
+            id text primary key,
+            iso_country text,
+            slug_place text,
+            lat double,
+            lng double,
+            nearest_iata_code text,
+            kdtree_dist_ns_cities_id double
+        )
+        """
+        try:
+            id = macth['id']
+            iso_country = macth['iso_country']
+            slug_place = macth['slug_place']
+            lat = float(macth['lat'])
+            lng = float(macth['lng'])
+            nearest_iata_code = macth['nearest_iata_code']
+            kdtree_dist_ns_cities_id = float(macth['kdtree_dist_ns_cities_id'])
+            self.conexion.execute("insert into turismoi_macth (id,iso_country,slug_place,lat,lng,nearest_iata_code,kdtree_dist_ns_cities_id) values (?,?,?,?,?,?,?)", (id,iso_country,slug_place,lat,lng,nearest_iata_code,kdtree_dist_ns_cities_id))
+            self.conexion.commit()
+            self.conexion.close()
+            print("Metido en Database", id)
+        except:
+            print("Error ingresando: ", str(macth['id']))
 
 
+
+
+    def deleteTurismoiMacthReg(self, id):
+        try:
+            con = self.getConect()
+            cur = con.cursor()
+            sql = "DELETE FROM turismoi_macth WHERE id=?"
+            cur.execute(sql, (id,))
+            con.commit()
+        except:
+            print("Error tratando de deletear: ", str(id))
 
 
 
@@ -760,7 +817,7 @@ class Database:
             fila=cursor.fetchall()
             for i in fila:
                 id = i[0]
-                iso_country = i[1]
+                iso_country = i[2]
                 slug_place = i[12]
                 lat = i[16]
                 lng = i[17]
@@ -768,6 +825,7 @@ class Database:
                 total.append(json)
             cursor.close()
         except:
+            print("Error")
             pass
 
         return total
