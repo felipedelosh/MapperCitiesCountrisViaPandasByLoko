@@ -20,6 +20,7 @@ class Software:
 
         self.btnCreateKDTreeBinFiles = Button(self.canvas, text="INIT KDTREE", command=self.serializeTree)
         self.btnMacthTurismoiKdTree = Button(self.canvas, text="Macth Turismoi KDtree", command=self.macthTurismoiViaKdTree)
+        self.btnMacthTargetKdTree = Button(self.canvas, text="Macth Target KDtree", command=self.macthTargetViaKdTree)
 
         self.vizualizedAndRun()
 
@@ -44,6 +45,7 @@ class Software:
 
         self.btnCreateKDTreeBinFiles.place(x=400, y=60)
         self.btnMacthTurismoiKdTree.place(x=400, y=100)
+        self.btnMacthTargetKdTree.place(x=400,y=140)
 
         self.screem.mainloop()
 
@@ -61,6 +63,9 @@ class Software:
     
     def macthTurismoiViaKdTree(self):
         self.controller.macthTurismoiViaKdTree()
+
+    def macthTargetViaKdTree(self):
+        self.controller.macthTargetViaKdTree()
 
 
 

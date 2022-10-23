@@ -226,6 +226,26 @@ class Database:
         except:
             self.metadata[str(self.counter)] = "Error creating Table: turismoi_macth"
         self.counter = self.counter + 1
+        # This is to machted result of target
+        try:
+            sql = """
+            create table if not exists target_macth(
+                id text primary key,
+                iso_country text,
+                slug_place text,
+                lat double,
+                lng double,
+                nearest_iata_code text,
+                kdtree_dist_ns_cities_id double
+            )
+            """
+            con = self.getConect()
+            con.execute(sql)
+            con.close()
+            self.metadata[str(self.counter)] = "Create Table: target_macth"
+        except:
+            self.metadata[str(self.counter)] = "Error creating Table: target_macth"
+        self.counter = self.counter + 1
         try:
             # This is another project to macth
             sql = """
@@ -929,16 +949,104 @@ class Database:
             cursor.close()
         except:
             print("Error")
-            pass
+
 
         return total
 
 
+    def getTargetRichInformation(self):
+        """
+        0 > id
+        2 > ISO_country
+        3 > slug_place
+        4 > latitude
+        5 > longitude
+        """
+        total = []
+        try:
+            self.conexion = self.getConect()
+            cursor = self.conexion.execute("select * from target where latitude is not null and longitude is not null")
+            fila=cursor.fetchall()
+            for i in fila:
+                id = i[0]
+                iso_country = i[2]
+                slug_place = i[3]
+                lat = i[4]
+                lng = i[5]
+                json = {"id":id,"iso_country":iso_country,"slug_place":slug_place,"lat":lat,"lng":lng}
+                total.append(json)
+            cursor.close()
+        except:
+            print("Error")
+        return total
+
+
+    def insertInfoTargetMacth(self, macth):
+        """
+        create table if not exists target_macth(
+            id text primary key,
+            iso_country text,
+            slug_place text,
+            lat double,
+            lng double,
+            nearest_iata_code text,
+            kdtree_dist_ns_cities_id double
+        )
+        """
+        try:
+            self.conexion = self.getConect()
+            id = macth['id']
+            iso_country = macth['iso_country']
+            slug_place = macth['slug_place']
+            lat = float(macth['lat'])
+            lng = float(macth['lng'])
+            nearest_iata_code = macth['nearest_iata_code']
+            kdtree_dist_ns_cities_id = float(macth['kdtree_dist_ns_cities_id'])
+            self.conexion.execute("insert into target_macth (id,iso_country,slug_place,lat,lng,nearest_iata_code,kdtree_dist_ns_cities_id) values (?,?,?,?,?,?,?)", (id,iso_country,slug_place,lat,lng,nearest_iata_code,kdtree_dist_ns_cities_id))
+            self.conexion.commit()
+            self.conexion.close()
+            #print("Metido en Database", id)
+        except:
+            print("Error ingresando: ")
+            print(macth)
+
+
+    def deleteTargetMacthReg(self, id):
+        try:
+            con = self.getConect()
+            cur = con.cursor()
+            sql = "DELETE FROM target_macth WHERE id=?"
+            cur.execute(sql, (id,))
+            con.commit()
+        except:
+            print("Error tratando de deletear: ", str(id))
 
 
 
+    def getAllMacthTargetInfoToCSV(self):
+        """
+        create table if not exists target_macth(
+            0 -> id text primary key,
+            1 -> iso_country text,
+            2 -> slug_place text,
+            3 -> lat double,
+            4 -> lng double,
+            5 -> nearest_iata_code text,
+            6 -> kdtree_dist_ns_cities_id double
+        )
+        """
+        txt = ""
+        try:
+            self.conexion = self.getConect()
+            cursor = self.conexion.execute("select * from turismoi_macth")
+            fila=cursor.fetchall()
+            for i in fila:
+                txt = txt + i[0] + "|" + i[1] + "|" + i[2] + "|" + str(i[3]) + "|" + str(i[4]) + "|" + i[5] + "|" + str(i[6]) + "|" "\n"
 
-
+            cursor.close()
+        except:
+            pass
+        return txt
 
 
 

@@ -143,6 +143,11 @@ class Controller:
         data = self.database.getAllMacthTurismoiInfoToCSV()
         headers = "id|iso_country|slug_place|latitude|longitude|nearest_iata_code|kdtree_dist_ns_cities_id"
         self.saveCSV("OUTPUT/turismoiMACTH.csv", data, headers)
+
+        # Sace MACTH target via KDtree
+        data = self.database.getAllMacthTargetInfoToCSV()
+        self.saveCSV("OUTPUT/targetMACTH.csv", data, headers)
+
         
 
 
@@ -202,6 +207,9 @@ class Controller:
 
     def macthTurismoiViaKdTree(self):
         self.macther.tryToMacthTurismoi()
+
+    def macthTargetViaKdTree(self):
+        self.macther.tryToMacthTarget()
 
 
     def rtnArcheveInfo(self, path):

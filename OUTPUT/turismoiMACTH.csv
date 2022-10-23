@@ -1,1 +1,5 @@
 id|iso_country|slug_place|latitude|longitude|nearest_iata_code|kdtree_dist_ns_cities_id
+kw:kuwait city|kw|Kuwait City|29.37|47.97|KWI|0.008305419917136842|
+np:stok kangri|np|Stok Kangri|33.98674704129333|77.44266978073479|KUU|2.057454348141503|
+ca:toronto|ca|Toronto|43.658298088536384|-79.38866819791912|YTO|0.05216062922698758|
+ca:ottawa|ca|Ottawa|45.40482540143995|-75.68128619901216|YOW|0.02216331289258825|

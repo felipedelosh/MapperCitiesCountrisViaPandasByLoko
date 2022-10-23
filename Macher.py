@@ -8,6 +8,7 @@ BIN/geography.tree
 BIN/nscities.pandas
 BIN/nscities.tree
 """
+from lib2to3.pgen2.token import RPAR
 from Database import *
 import pickle
 import pandas as pd
@@ -37,7 +38,7 @@ class Macther:
 
     def tryToMacthTurismoi(self):
         self.chargeBinFiles()
-        data = self.database.getTurismoiRichInformation()[0:100]
+        data = self.database.getTurismoiRichInformation()
         total_data = len(data)
         print("Total files turismoi para Machear: ", str(total_data))
         
@@ -61,6 +62,33 @@ class Macther:
                 print(current_percent, " % ")
                 top_percent = top_percent + 5
             count_percent = count_percent + 1
+
+    
+    def tryToMacthTarget(self):
+        self.chargeBinFiles()
+        data = self.database.getTargetRichInformation()
+        total_data = len(data)
+        print("Total files turismoi para Machear: ", str(total_data))
+        
+        count_percent = 0
+        current_percent = 0
+        top_percent = 0
+        
+        for i in data:
+            polygons = self.GetNearPolygons(i, polygonsCount=40) # Get ALL GEO
+            polygons = self.ChooseContainerPolygons(i, polygons) #  if GEO eqls?
+            geoIdList = None
+            if polygons is not None:
+                geoIdList = self.GetRelatedGeoIdsFromPolygon(polygons) # No idea ?
+            self.GetNearCityFromNs(i)
+            self.saveMacthInDatabaseTarget(i) # Save a Macth In database
+            
+            current_percent = (count_percent/total_data)*100
+            if current_percent >= top_percent:
+                print(current_percent, " % ")
+                top_percent = top_percent + 5
+            count_percent = count_percent + 1
+
 
 
         
@@ -165,3 +193,7 @@ class Macther:
 
         # Save a new Macth
         self.database.insertInfoTurismoiMacth(target_place)
+
+    def saveMacthInDatabaseTarget(self, target_place):
+        self.database.deleteTargetMacthReg(target_place['id'])
+        self.database.insertInfoTargetMacth(target_place)
