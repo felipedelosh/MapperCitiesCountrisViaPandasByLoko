@@ -37,8 +37,13 @@ class Macther:
 
     def tryToMacthTurismoi(self):
         self.chargeBinFiles()
-        data = self.database.getTurismoiRichInformation()
-        print("Total files turismoi para Machear: ", str(len(data)))
+        data = self.database.getTurismoiRichInformation()[0:4]
+        total_data = len(data)
+        print("Total files turismoi para Machear: ", str(total_data))
+        
+        count_percent = 0
+        current_percent = 0
+        top_percent = 0
         
         for i in data:
             #print("Buscando... >> ", str(i['id']))
@@ -48,8 +53,14 @@ class Macther:
             if polygons is not None:
                 geoIdList = self.GetRelatedGeoIdsFromPolygon(polygons) # No idea ?
             self.GetNearCityFromNs(i)
-            print(str(i['id']), "macheado con >> ", str(i['nearest_iata_code']), " Dist: ", str(i['kdtree_dist_ns_cities_id']))
+            #print(str(i['id']), "macheado con >> ", str(i['nearest_iata_code']), " Dist: ", str(i['kdtree_dist_ns_cities_id']))
             self.saveMacthInDatabaseTurismoi(i) # Save a Macth In database
+
+            current_percent = (count_percent/total_data)*100
+            if current_percent >= top_percent:
+                print(current_percent, " % ")
+                top_percent = top_percent + 5
+            count_percent = count_percent + 1
 
 
         

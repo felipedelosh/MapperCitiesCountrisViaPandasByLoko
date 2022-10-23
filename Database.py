@@ -603,6 +603,7 @@ class Database:
         )
         """
         try:
+            self.conexion = self.getConect()
             id = macth['id']
             iso_country = macth['iso_country']
             slug_place = macth['slug_place']
@@ -613,9 +614,11 @@ class Database:
             self.conexion.execute("insert into turismoi_macth (id,iso_country,slug_place,lat,lng,nearest_iata_code,kdtree_dist_ns_cities_id) values (?,?,?,?,?,?,?)", (id,iso_country,slug_place,lat,lng,nearest_iata_code,kdtree_dist_ns_cities_id))
             self.conexion.commit()
             self.conexion.close()
-            print("Metido en Database", id)
+            #print("Metido en Database", id)
         except:
-            print("Error ingresando: ", str(macth['id']))
+            print("Error ingresando: ")
+            print(macth)
+
 
 
 
@@ -707,6 +710,31 @@ class Database:
 
         return total
 
+
+    def getAllMacthTurismoiInfoToCSV(self):
+        """
+        create table if not exists turismoi_macth(
+            0 id text primary key,
+            1 iso_country text,
+            2 slug_place text,
+            3 lat double,
+            4 lng double,
+            5 nearest_iata_code text,
+            6 kdtree_dist_ns_cities_id double
+        )
+        """
+        txt = ""
+        try:
+            self.conexion = self.getConect()
+            cursor = self.conexion.execute("select * from turismoi_macth")
+            fila=cursor.fetchall()
+            for i in fila:
+                txt = txt + i[0] + "|" + i[1] + "|" + i[2] + "|" + str(i[3]) + "|" + str(i[4]) + "|" + i[5] + "|" + str(i[6]) + "|" "\n"
+
+            cursor.close()
+        except:
+            pass
+        return txt
 
 
     def getAllCitiesInfo(self):

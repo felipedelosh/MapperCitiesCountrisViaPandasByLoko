@@ -113,6 +113,12 @@ class Controller:
         data = self.database.getAllTurismoiInfo()
         self.saveArrayJson("OUTPUT/DATABASE/turismoi.txt", data)
 
+        # Save MACTH turismoi via KDtree
+        data = self.database.getAllMacthTurismoiInfoToCSV()
+        headers = "id|iso_country|slug_place|latitude|longitude|nearest_iata_code|kdtree_dist_ns_cities_id"
+        self.saveCSV("OUTPUT/turismoiMACTH.csv", data, headers)
+        
+
 
 
     def _saveRAMfiles(self):
@@ -241,4 +247,18 @@ class Controller:
             print("Archivo creado: ", title)
         except:
             print("Error creando el json")
+
+    def saveCSV(self, path, info, headers):
+        """
+        path: path/filename.csv
+        info: all data
+        headers = h1|h2|h3|
+        """
+        try:
+            f = open(path, 'w', encoding="UTF-8")
+            f.write(headers+"\n"+info)
+            f.close()
+            print("Creado el archivo: ", path)
+        except:
+            print("Error creando CSV")
 
