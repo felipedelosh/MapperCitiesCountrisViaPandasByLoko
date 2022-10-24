@@ -41,9 +41,7 @@ Steps to macth:
 
 3.0 -> Init Tree Files.
 
-3.1 -> Macth Turismoi via KdTree
-
-     
-
+3.1 -> Macth Turismoi via KdTree // Several Hours
+3.2 -> Macth Target via KdTree // Several Hours
 
 

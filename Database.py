@@ -921,6 +921,27 @@ class Database:
 
 
 
+    def getAllTurismoiIsoCountriesCodes(self):
+        """
+        return all exists iso codes in turismoi DB
+        """
+        iso_codes = []
+        try:
+            self.conexion = self.getConect()
+            cursor = self.conexion.execute("select * from turismoi")
+            fila=cursor.fetchall()
+            for i in fila:
+                data = str(i[0]).split(":")
+                iso = data[0]
+                city_name = data[1]
+                
+                if iso not in iso_codes and city_name != "null":
+                    iso_codes.append(iso)
+        except:
+            pass
+
+        return iso_codes
+
 
 
 
@@ -1038,7 +1059,7 @@ class Database:
         txt = ""
         try:
             self.conexion = self.getConect()
-            cursor = self.conexion.execute("select * from turismoi_macth")
+            cursor = self.conexion.execute("select * from target_macth")
             fila=cursor.fetchall()
             for i in fila:
                 txt = txt + i[0] + "|" + i[1] + "|" + i[2] + "|" + str(i[3]) + "|" + str(i[4]) + "|" + i[5] + "|" + str(i[6]) + "|" "\n"
