@@ -8,8 +8,6 @@ BIN/geography.tree
 BIN/nscities.pandas
 BIN/nscities.tree
 """
-from lib2to3.pgen2.token import RPAR
-from traceback import print_tb
 from Database import *
 import pickle
 import pandas as pd
@@ -81,8 +79,8 @@ class Macther:
                 polygons = self.GetNearPolygons(i, polygonsCount=40) # Get ALL GEO
                 polygons = self.ChooseContainerPolygons(i, polygons) #  if GEO eqls?
                 geoIdList = None
-                if polygons is not None:
-                    geoIdList = self.GetRelatedGeoIdsFromPolygon(polygons) # No idea ? No retorna nada?
+                #if polygons is not None:
+                #    geoIdList = self.GetRelatedGeoIdsFromPolygon(polygons) # No idea ? No retorna nada?
                 self.GetNearCityFromNs(i)
                 self.saveMacthInDatabaseTarget(i) # Save a Macth In database
             
@@ -95,8 +93,40 @@ class Macther:
             count_percent = count_percent + 1
 
 
+    def continueTryToMacthTarget(self):
+        self.chargeBinFiles()
+        data = self.database.getTargetRichInformation()
+        total_data = len(data)
+        print("Total files turismoi para Machear: ", str(total_data))
+        # Only Macth Cities With information in turismoi
+        iso_codes = self.database.getAllTurismoiIsoCountriesCodes()
+        count_percent = 0
+        current_percent = 0
+        top_percent = 0
 
-        
+        # No Macth a places Macth Before in DB
+        previus_macth_keys = self.database.getAllTargetKeysMatched()
+        for i in data:
+            if i['iso_country'] in iso_codes and i['id'] not in previus_macth_keys:
+                polygons = self.GetNearPolygons(i, polygonsCount=40) # Get ALL GEO
+                polygons = self.ChooseContainerPolygons(i, polygons) #  if GEO eqls?
+                geoIdList = None
+                #if polygons is not None:
+                #    geoIdList = self.GetRelatedGeoIdsFromPolygon(polygons) # No idea ? No retorna nada?
+                self.GetNearCityFromNs(i)
+                self.saveMacthInDatabaseTarget(i) # Save a Macth In database
+                
+
+
+            # Update Statitics
+            current_percent = (count_percent/total_data)*100
+            if current_percent >= top_percent:
+                print(current_percent, " % ")
+                #print(">>"+str(count_percent)+" of "+str(total_data))
+                top_percent = top_percent + 5
+            count_percent = count_percent + 1
+
+
 
 
     def GetNearPolygons(self, target_place, polygonsCount=40):

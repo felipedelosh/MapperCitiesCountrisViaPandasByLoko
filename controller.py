@@ -211,6 +211,9 @@ class Controller:
     def macthTargetViaKdTree(self):
         self.macther.tryToMacthTarget()
 
+    def continueMacthTargetViaKdTree(self):
+        self.macther.continueTryToMacthTarget()
+
 
     def rtnArcheveInfo(self, path):
         info = None

@@ -1070,6 +1070,23 @@ class Database:
         return txt
 
 
+    def getAllTargetKeysMatched(self):
+        """
+        return all exists keys/id target macthed
+        """
+        keys = []
+        try:
+            self.conexion = self.getConect()
+            cursor = self.conexion.execute("select * from target_macth")
+            fila=cursor.fetchall()
+            for i in fila:
+                data = str(i[0])
+                keys.append(data)
+                
+        except:
+            pass
+
+        return keys
 
 
 
