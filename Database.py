@@ -1036,7 +1036,11 @@ class Database:
             cursor = self.conexion.execute("select * from turismoi where id = ?", (id,))
             fila=cursor.fetchone()
             for i in fila[1:]: # [1:] >> NO need a ID becos need exac like a .csv
-                data = data + str(i) + "|"
+                row = i
+                if row == None:
+                    row = "NULL"
+
+                data = data + str(row) + "|"
         except:
             print("Error Buscado turismoi.id ", str(id))
 
@@ -1245,5 +1249,81 @@ class Database:
         except:
             self.metadata[str(self.counter)] = "Error in info in turismoi_geo_add:" + str(data[0])
         self.counter = self.counter + 1
+
+
+    def getAllTurismoiGeoADDInfo(self):
+        """
+        create table if not exists turismoi_geo_add(
+            id text primary key,
+            ID_country text,
+            ISO_country text,
+            NAME_country text,
+            NAME_PRINT_country text,
+            ISO3_country text,
+            CODE_country text,
+            NAME_ESP_country text,
+            id_city text,
+            region_id text,
+            name_place text,
+            short_name_place text,
+            slug_place text,
+            group_id_place text,
+            province_id_place text,
+            group_slug_place text,
+            latitude double,
+            longitude double,
+            country_host_id_place text
+        )  
+        """
+        total = []
+        try:
+            self.conexion = self.getConect()
+            cursor = self.conexion.execute("select * from turismoi_geo_add")
+            fila=cursor.fetchall()
+            for i in fila:
+                id = i[0]
+                ID_country = i[1]
+                ISO_country = i[2]
+                NAME_country = i[3]
+                NAME_PRINT_country = i[4]
+                ISO3_country = i[5]
+                CODE_country = i[6]
+                NAME_ESP_country = i[7]
+                id_city = i[8]
+                region_id = i[9]
+                name_place = i[10]
+                short_name_place = i[11]
+                slug_place = i[12]
+                group_id_place = i[13]
+                province_id_place = i[14]
+                group_slug_place = i[15]
+                latitude = i[16]
+                longitude = i[17]
+                country_host_id_place = i[18]
+                json = {"id":id,
+                "ID_country":ID_country,
+                "ISO_country":ISO_country,
+                "NAME_country":NAME_country,
+                "NAME_PRINT_country":NAME_PRINT_country,
+                "ISO3_country":ISO3_country,
+                "CODE_country":CODE_country,
+                "NAME_ESP_country":NAME_ESP_country,
+                "id_city":id_city,
+                "region_id":region_id,
+                "name_place":name_place,
+                "short_name_place":short_name_place,
+                "slug_place":slug_place,
+                "group_id_place":group_id_place,
+                "province_id_place":province_id_place,
+                "group_slug_place":group_slug_place,
+                "latitude":latitude,
+                "longitude":longitude,
+                "country_host_id_place":country_host_id_place}
+                total.append(json)
+            cursor.close()
+        except:
+            pass
+
+        return total
 
 

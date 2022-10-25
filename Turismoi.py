@@ -140,7 +140,19 @@ class TurismoiDATA:
         return info
 
     def updateGEOviaKeyDic(self, key, geo):
-        # Update in RAM
-        print("Actualizando...", key)
+        # Update in DATABASE.copy
+        #dataToEdit = self.database.getRowTurismoiInfo(key)
+        #dataToEdit = dataToEdit.split("|")
+        new_latude = geo.split("|")[0]
+        new_longitude =  geo.split("|")[1]
+        #print("Antes: ", dataToEdit[15], ",", dataToEdit[16])
+        #dataToEdit[15] = new_latude
+        #dataToEdit[16] = new_longitude
+        #print("Despues: ", str(geo))
+
+        self.database.updateGEOLatLngInTurismoi(key, new_latude, new_longitude)
+
+        self.metadata["dbUPDATE:"+str(self.count)] = "UPDATE GEO >> " + key + " : " + geo
+        self.count = self.count + 1   
 
         

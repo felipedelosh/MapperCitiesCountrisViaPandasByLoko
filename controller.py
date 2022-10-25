@@ -4,6 +4,7 @@ FelipedelosH
 
 
 """
+from operator import iadd
 import os
 from os import scandir
 from Database import *
@@ -140,6 +141,10 @@ class Controller:
         data = self.database.getAllTurismoiInfo()
         self.saveArrayJson("OUTPUT/DATABASE/turismoi.txt", data)
 
+        # SAve a turismoi_geo_add info:
+        data = self.database.getAllTurismoiGeoADDInfo()
+        self.saveArrayJson("OUTPUT/DATABASE/turismoi_geo_add.txt", data)
+
         # Save target Info
         data = self.database.getAllTargetInfo()
         self.saveArrayJson("OUTPUT/DATABASE/target.txt",data)
@@ -164,8 +169,9 @@ class Controller:
     def addGeoLatLngViaNetactica(self):
         self.geography.resetMetadata()
         self.dataTurimoi.resetMetadata()
-        data = self.database.getAllTurismoiInfo()
+        data = self.database.getAllTurismoiGeoADDInfo()
         total_data = len(data)
+        count = 0
         if total_data > 0:
             total_data_netactica = len(self.geography.data)
             if total_data_netactica > 0:
@@ -174,22 +180,15 @@ class Controller:
                 top_percent = 0
                 for x in data:
                     i = x['id']
+                    if ":null" not in i:
+                        GEO = self.dataTurimoi.getGeoLatLngViaKeyDic(i)
+
+                        if GEO == "NULL|NULL":
+                            newGEO = self._addGeoLatLngViaNetactica(i)
+                            if newGEO != "NULL|NULL":
+                                self.updateGEOLatLngInTurismoi(i, newGEO)
+                                count = count + 1
                     
-                    GEO = self.dataTurimoi.getGeoLatLngViaKeyDic(i)
-
-                    if GEO != "NULL|NULL":
-                        newGEO = self._addGeoLatLngViaNetactica(i)
-                        if newGEO != "NULL|NULL":
-                            print(newGEO)
-                    else:
-                        self.updateGEOLatLngInTurismoi(i, newGEO)
-
-                    
-
-
-                        
-
-
 
 
                     # Update statics
