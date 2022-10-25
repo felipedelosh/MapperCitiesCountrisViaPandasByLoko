@@ -52,9 +52,12 @@ class Controller:
             self.saveMetadata("DATABASE/dbInsertTurismoi.txt", self.dataTurimoi.metadata)
             self.saveMetadata("READ/turismoi.txt", self.dataTurimoi.metadataReading)
 
-        total_netactica = self.database.getTotalRowsOfTableX("netactica")
-        print("Total datos Netactica: ", str(total_netactica))
-        if total_netactica == 0:
+        total_netactica_db = self.database.getTotalRowsOfTableX("netactica")
+        print("Total datos Netactica DB: ", str(total_netactica_db))
+        total_netactica_ram = len(self.geography.data)
+        print("Total datos Netactica RAM: ", str(total_netactica_ram))
+
+        if total_netactica_db == 0:
             data_netactica = self.rtnArcheveInfo("RESOURCES/netactica.csv")
             print("Se ingresarán un total de datos de Netactica: ", str(len(str(data_netactica).split("\n"))))
             self.geography.chargeNetacticaData(data_netactica)
@@ -169,6 +172,7 @@ class Controller:
             top_percent = 0
             for i in self.dataTurimoi.data:
                 GEO = self.dataTurimoi.getGeoLatLngViaKeyDic(i)
+                
 
                 if GEO == "NULL|NULL":
                     newGEO = self._addGeoLatLngViaNetactica(i)
@@ -181,8 +185,7 @@ class Controller:
                     print(current_percent, " % ")
                     top_percent = top_percent + 10
                 count_percent = count_percent + 1
-
-
+            
 
 
         total_reg_turismoi = self.database.getTotalRowsOfTableX("turismoi")
@@ -213,6 +216,9 @@ class Controller:
 
     def continueMacthTargetViaKdTree(self):
         self.macther.continueTryToMacthTarget()
+
+    def deleteAllFromTurismoi(self):
+        self.database.deleteAllFromTurismoi()
 
 
     def rtnArcheveInfo(self, path):

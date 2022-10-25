@@ -47,6 +47,7 @@ class Geografy:
     def chargeNetacticaData(self, txt):
         count = 0
         duplicated_control = 0
+        self.data = {}
         for i in txt.split("\n")[1:-1]:
             data = i.split("|")
             iso_code = data[1].strip().lower()

@@ -23,7 +23,7 @@ class Software:
         self.btnMacthTargetKdTree = Button(self.canvas, text="Macth Target KDtree", command=self.macthTargetViaKdTree)
         self.btnContinueMacthTargetKdTree = Button(self.canvas, text="Continue Macth", command=self.continueMacthTargetViaKdTree)
         
-        
+        self.btnHELP = Button(self.canvas, text="?", command=self.showHelpInterface)
         
         
         self.vizualizedAndRun()
@@ -52,6 +52,8 @@ class Software:
         self.btnMacthTargetKdTree.place(x=400,y=140)
         self.btnContinueMacthTargetKdTree.place(x=580, y=140)
 
+        self.btnHELP.place(x=680, y=20)
+
         self.screem.mainloop()
 
     def loadFiles(self):
@@ -74,6 +76,19 @@ class Software:
 
     def continueMacthTargetViaKdTree(self):
         self.controller.continueMacthTargetViaKdTree()
+
+    def showHelpInterface(self):
+        t = Toplevel()
+        t.title("HELP")
+        t.geometry("400x300")
+        canvas = Canvas(t, width=400, height=300)
+        canvas.place(x=0, y=0)
+        btnDeleteTurismoi = Button(canvas, text="Delete * from turismoi", command=self.deleteAllFrontTurismoi)
+        btnDeleteTurismoi.place(x=20, y=260)
+
+
+    def deleteAllFrontTurismoi(self):
+        self.controller.deleteAllFromTurismoi()
 
 
 

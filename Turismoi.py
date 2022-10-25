@@ -146,7 +146,7 @@ class TurismoiDATA:
             final_data = final_data.replace('|||', '||')
 
             # Update in DB
-            self.database.updateGEOLatLngInTurismoi(key, new_latude, new_longitude)
+            #self.database.updateGEOLatLngInTurismoi(key, new_latude, new_longitude)
 
             self.data[key] = final_data
             self.metadata["dbUPDATE:"+str(self.count)] = "UPDATE GEO >> " + key + " : " + geo
