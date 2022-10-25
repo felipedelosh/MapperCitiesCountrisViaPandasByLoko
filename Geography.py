@@ -138,9 +138,8 @@ class Geografy:
 
 
         return data
-
-
-
+        
+        
     def _getGeoLatLngViaKeyDic(self, key):
         info = "NULL|NULL"
 

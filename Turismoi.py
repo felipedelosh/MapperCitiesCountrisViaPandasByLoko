@@ -108,7 +108,10 @@ class TurismoiDATA:
             country_host_id_place
             )
 
+            # Original table
             self.database.insertInfoInTurismoi(info)
+            # Copy table (For operations)
+            self.database.insertInfoInTurismoiGeoADD(info)
 
         self.metadata = self.database.metadata
 
@@ -119,6 +122,7 @@ class TurismoiDATA:
     def getGeoLatLngViaKeyDic(self, key):
         info = "NULL|NULL"
 
+        # Search in RAM
         if key in self.data:
             data = self.data[key].split("|")
             latitude = data[15]
@@ -126,37 +130,17 @@ class TurismoiDATA:
 
             if self.geoLatLngValidator.validates(latitude, longitude):
                 info = latitude + "|" + longitude
+                return info
+
+        # Serach in DB
+        info = self.database.getTurismoiGEOatLngViaKEyId(key)
+        
+
 
         return info
 
     def updateGEOviaKeyDic(self, key, geo):
-        if key in self.data.keys():
-            # Update in RAM
-            dataToEdit = self.data[key]
-            dataToEdit = dataToEdit.split("|")
-            new_latude = geo.split("|")[0]
-            new_longitude =  geo.split("|")[1]
-            dataToEdit[15] = new_latude
-            dataToEdit[16] = new_longitude
-            # ReStruct the data
-            final_data = ""
-            for i in dataToEdit:
-                final_data = final_data + i + "|"
+        # Update in RAM
+        print("Actualizando...", key)
 
-            final_data = final_data.replace('|||', '||')
-
-            # Update in DB
-            #self.database.updateGEOLatLngInTurismoi(key, new_latude, new_longitude)
-
-            self.data[key] = final_data
-            self.metadata["dbUPDATE:"+str(self.count)] = "UPDATE GEO >> " + key + " : " + geo
-            self.count = self.count + 1    
         
-
-
-
-
-
-
-
-

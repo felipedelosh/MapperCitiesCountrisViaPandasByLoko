@@ -52,6 +52,9 @@ class Controller:
             self.saveMetadata("DATABASE/dbInsertTurismoi.txt", self.dataTurimoi.metadata)
             self.saveMetadata("READ/turismoi.txt", self.dataTurimoi.metadataReading)
 
+        total_turismoi_geo_add = self.database.getTotalRowsOfTableX("turismoi_geo_add")
+        print("Total datos de turismoi_geo_add: ", str(total_turismoi_geo_add))
+
         total_netactica_db = self.database.getTotalRowsOfTableX("netactica")
         print("Total datos Netactica DB: ", str(total_netactica_db))
         total_netactica_ram = len(self.geography.data)
@@ -161,30 +164,49 @@ class Controller:
     def addGeoLatLngViaNetactica(self):
         self.geography.resetMetadata()
         self.dataTurimoi.resetMetadata()
-        # If find in RAM:
-        total_data = len(self.dataTurimoi.data)
+        data = self.database.getAllTurismoiInfo()
+        total_data = len(data)
         if total_data > 0:
-            print("Cargando datos Netactica.Turismoi desde RAM....")
-            # Only Update
-            count = 0
-            count_percent = 0
-            current_percent = 0
-            top_percent = 0
-            for i in self.dataTurimoi.data:
-                GEO = self.dataTurimoi.getGeoLatLngViaKeyDic(i)
-                
+            total_data_netactica = len(self.geography.data)
+            if total_data_netactica > 0:
+                count_percent = 0
+                current_percent = 0
+                top_percent = 0
+                for x in data:
+                    i = x['id']
+                    
+                    GEO = self.dataTurimoi.getGeoLatLngViaKeyDic(i)
 
-                if GEO == "NULL|NULL":
-                    newGEO = self._addGeoLatLngViaNetactica(i)
-                    if newGEO != "NULL|NULL":
+                    if GEO != "NULL|NULL":
+                        newGEO = self._addGeoLatLngViaNetactica(i)
+                        if newGEO != "NULL|NULL":
+                            print(newGEO)
+                    else:
                         self.updateGEOLatLngInTurismoi(i, newGEO)
-                        count = count + 1
 
-                current_percent = (count_percent / total_data) * 100
-                if current_percent >= top_percent:
-                    print(current_percent, " % ")
-                    top_percent = top_percent + 10
-                count_percent = count_percent + 1
+                    
+
+
+                        
+
+
+
+
+                    # Update statics
+                    current_percent = (count_percent / total_data) * 100
+                    if current_percent >= top_percent:
+                        print(current_percent, " % ")
+                        top_percent = top_percent + 10
+                    count_percent = count_percent + 1
+                    
+                    
+
+            else:
+                print("No hay datos de geo.netactica press LOAD DATA")
+
+        else:
+            print("No se encontrarón datos en DB.turismoi")
+
             
 
 
@@ -196,9 +218,14 @@ class Controller:
     def _addGeoLatLngViaNetactica(self, keyTurismoi):
         iso_code = keyTurismoi.split(":")[0]
         city_name = keyTurismoi.split(":")[1]
-        allRegInfo = self.dataTurimoi.data[keyTurismoi]
+        allRegInfo = self.database.getRowTurismoiInfo(keyTurismoi)
         delimiter = "|"
         vecPosToSearch = [9,10,11]
+        #print("Names...")
+        #a = allRegInfo.split("|")[9]
+        #b = allRegInfo.split("|")[10]
+        #c = allRegInfo.split("|")[11]
+        #print(a, "  ", b ,"  ", c)
         return self.geography.getGeoLatLongViaName(iso_code,city_name,allRegInfo,delimiter,vecPosToSearch)
         
     def serializeTree(self):
