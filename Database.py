@@ -1005,6 +1005,35 @@ class Database:
 
         return total
 
+
+    def getTurismoiGeoADDRichInformation(self):
+        """
+        0 > id
+        1 > ISO_country
+        12 > slug_place
+        16 > latitude
+        17 > longitude
+        """
+        total = []
+        try:
+            self.conexion = self.getConect()
+            cursor = self.conexion.execute("select * from turismoi_geo_add where latitude is not null and longitude is not null")
+            fila=cursor.fetchall()
+            for i in fila:
+                id = i[0]
+                iso_country = i[2]
+                slug_place = i[12]
+                lat = i[16]
+                lng = i[17]
+                json = {"id":id,"iso_country":iso_country,"slug_place":slug_place,"lat":lat,"lng":lng}
+                total.append(json)
+            cursor.close()
+        except:
+            print("Error")
+
+
+        return total
+
     def getTurismoiGEOatLngViaKEyId(self, id):
         """
         16 > latitude

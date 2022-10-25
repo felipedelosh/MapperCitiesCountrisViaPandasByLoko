@@ -1,1 +1,11 @@
 id|iso_country|slug_place|latitude|longitude|nearest_iata_code|kdtree_dist_ns_cities_id
+co:bogota d c|CO|bogota-d-c|4.59889|-74.0808|BOG|0.003528469923350352|
+co:charta|CO|charta|7.2811|-72.9682|CO_0641|0.17345849647682315|
+co:el playon|CO|el-playon|7.4704|-73.2032|BGA|0.34896902441334116|
+co:giron|CO|giron|7.074|-73.1693|BGA|0.07092792115944505|
+co:lebrija|CO|lebrija|7.1063|-73.215|BGA|0.09222391230044585|
+co:los santos|CO|los-santos|6.7557|-73.1023|CO_0762|0.17005954839408957|
+co:matanza|CO|matanza|7.3211|-73.0172|CO_0641|0.1920834454084984|
+co:rionegro 23700|CO|rionegro-23700|7.1535|-73.1534|BGA|0.036108309293017476|
+co:santa barbara 23701|CO|santa-barbara-23701|6.9905|-72.9066|CO_0641|0.20977399743533384|
+co:surata|CO|surata|7.3665|-72.9839|CO_0641|0.24476539788131543|

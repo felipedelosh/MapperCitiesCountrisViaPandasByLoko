@@ -36,10 +36,17 @@ class Macther:
             self.nsCitiesDataFrame = pickle.load(file)
 
     def tryToMacthTurismoi(self):
+        print("Stepp 1 Of 2")
+        self._tryToMacthOriginalTurismoi()
+        print("Step 2 of 2")
+        #self._tryToMacthGeoADDTurismoi()
+
+
+    def _tryToMacthOriginalTurismoi(self):
         self.chargeBinFiles()
-        data = self.database.getTurismoiRichInformation()
+        data = self.database.getTurismoiRichInformation()[0:10]
         total_data = len(data)
-        print("Total files turismoi para Machear: ", str(total_data))
+        print("Total files turismoi Original para Machear: ", str(total_data))
         
         count_percent = 0
         current_percent = 0
@@ -62,12 +69,19 @@ class Macther:
                 top_percent = top_percent + 5
             count_percent = count_percent + 1
 
+    def _tryToMacthGeoADDTurismoi(self):
+        self.chargeBinFiles()
+        data = self.database.getTurismoiGeoADDRichInformation()
+        total_data = len(data)
+        print("Total files turismoi geo ADD para Machear: ", str(total_data))
+
+
     
     def tryToMacthTarget(self):
         self.chargeBinFiles()
         data = self.database.getTargetRichInformation()
         total_data = len(data)
-        print("Total files turismoi para Machear: ", str(total_data))
+        print("Total files target para Machear: ", str(total_data))
         # Only Macth Cities With information in turismoi
         iso_codes = self.database.getAllTurismoiIsoCountriesCodes()
         count_percent = 0
