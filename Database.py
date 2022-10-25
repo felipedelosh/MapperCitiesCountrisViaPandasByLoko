@@ -257,6 +257,26 @@ class Database:
         except:
             self.metadata[str(self.counter)] = "Error creating Table: turismoi_macth"
         self.counter = self.counter + 1
+        # This is to machted result of turismoi_geo_add //The copy modify via netactica
+        try:
+            sql = """
+            create table if not exists turismoi_geo_add_macth(
+                id text primary key,
+                iso_country text,
+                slug_place text,
+                lat double,
+                lng double,
+                nearest_iata_code text,
+                kdtree_dist_ns_cities_id double
+            )
+            """
+            con = self.getConect()
+            con.execute(sql)
+            con.close()
+            self.metadata[str(self.counter)] = "Create Table: turismoi_geo_add_macth"
+        except:
+            self.metadata[str(self.counter)] = "Error creating Table: turismoi_geo_add_macth"
+        self.counter = self.counter + 1
         # This is to machted result of target
         try:
             sql = """

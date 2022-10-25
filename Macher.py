@@ -36,10 +36,14 @@ class Macther:
             self.nsCitiesDataFrame = pickle.load(file)
 
     def tryToMacthTurismoi(self):
-        print("Stepp 1 Of 2")
-        self._tryToMacthOriginalTurismoi()
+        #print("Stepp 1 Of 2")
+        #self._tryToMacthOriginalTurismoi()
         print("Step 2 of 2")
-        #self._tryToMacthGeoADDTurismoi()
+        self._tryToMacthGeoADDTurismoi()
+
+    def continueTryToMacthTurismoi(self):
+        print("Continue With Step 1 of 2")
+
 
 
     def _tryToMacthOriginalTurismoi(self):
@@ -74,6 +78,7 @@ class Macther:
         data = self.database.getTurismoiGeoADDRichInformation()
         total_data = len(data)
         print("Total files turismoi geo ADD para Machear: ", str(total_data))
+
 
 
     
@@ -243,6 +248,10 @@ class Macther:
         # Save a new Macth
         self.database.insertInfoTurismoiMacth(target_place)
 
+    def saveMacthInTurismoiGeoADDMacth(self, target_place):
+        pass
+
     def saveMacthInDatabaseTarget(self, target_place):
         self.database.deleteTargetMacthReg(target_place['id'])
         self.database.insertInfoTargetMacth(target_place)
+

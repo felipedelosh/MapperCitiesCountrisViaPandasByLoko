@@ -236,6 +236,9 @@ class Controller:
 
     def macthTurismoiViaKdTree(self):
         self.macther.tryToMacthTurismoi()
+    
+    def continueMacthTurismoiViaKdTree(self):
+        self.macther.continueTryToMacthTurismoi()
 
     def macthTargetViaKdTree(self):
         self.macther.tryToMacthTarget()

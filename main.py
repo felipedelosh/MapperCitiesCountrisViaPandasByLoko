@@ -20,8 +20,9 @@ class Software:
 
         self.btnCreateKDTreeBinFiles = Button(self.canvas, text="INIT KDTREE", command=self.serializeTree)
         self.btnMacthTurismoiKdTree = Button(self.canvas, text="Macth Turismoi KDtree", command=self.macthTurismoiViaKdTree)
+        self.btnContinueMacthTurismoiKdTree = Button(self.canvas, text="Continue Macth Tu", command=self.continueMacthTurismoiViaKdTree)
         self.btnMacthTargetKdTree = Button(self.canvas, text="Macth Target KDtree", command=self.macthTargetViaKdTree)
-        self.btnContinueMacthTargetKdTree = Button(self.canvas, text="Continue Macth", command=self.continueMacthTargetViaKdTree)
+        self.btnContinueMacthTargetKdTree = Button(self.canvas, text="Continue Macth TC", command=self.continueMacthTargetViaKdTree)
         
         self.btnHELP = Button(self.canvas, text="?", command=self.showHelpInterface)
         
@@ -49,6 +50,7 @@ class Software:
 
         self.btnCreateKDTreeBinFiles.place(x=400, y=60)
         self.btnMacthTurismoiKdTree.place(x=400, y=100)
+        self.btnContinueMacthTurismoiKdTree.place(x=580, y=100)
         self.btnMacthTargetKdTree.place(x=400,y=140)
         self.btnContinueMacthTargetKdTree.place(x=580, y=140)
 
@@ -70,6 +72,9 @@ class Software:
     
     def macthTurismoiViaKdTree(self):
         self.controller.macthTurismoiViaKdTree()
+
+    def continueMacthTurismoiViaKdTree(self):
+        self.controller.continueMacthTurismoiViaKdTree()
 
     def macthTargetViaKdTree(self):
         self.controller.macthTargetViaKdTree()
